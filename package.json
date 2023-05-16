@@ -1,0 +1,25 @@
+{
+  "name": "camping-des-speakers-app",
+  "version": "0.0.0",
+  "description": "L'app Lenra du camping des speakers",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "app-lenra",
+    "index": "app-lenra index",
+    "generate": "node generate.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Lenra",
+  "license": "MIT",
+  "dependencies": {
+    "@lenra/app-server": "^1.0.0-beta.2",
+    "@lenra/components": "^1.0.0-beta.7"
+  },
+  "devDependencies": {
+    "@moox/markdown-to-json": "^1.0.0",
+    "camping-des-speakers": "github:RdvSpeakers/camping-des-speakers-website",
+    "front-matter": "^4.0.2"
+  }
+}

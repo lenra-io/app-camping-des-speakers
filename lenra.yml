@@ -1,0 +1,33 @@
+componentsApi: "1.0"
+generator:
+  dofigen:
+    builders:
+      - from: "docker.io/bitnami/node:18"
+        workdir: /app
+        root:
+          script:
+            - chown -R 1000 /app
+        adds:
+          - "*.json"
+        script:
+          - npm ci
+    from: builder-0
+    adds:
+      - .
+    cmd:
+      - npm
+      - start
+    ports:
+      - 3000
+    healthcheck:
+      cmd: curl --fail http://localhost:8080/_/health
+      start: 3s
+      interval: 3s
+      timeout: 1s
+    ignores:
+      - "**"
+      - "!/*.json"
+      - "!/src/"
+dev:
+  devtool:
+    tag: alpha
