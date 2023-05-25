@@ -1,0 +1,19 @@
+name: Rapport de bug
+description: Envoyer un rapport de bug
+title: "[Bug] "
+labels: ["bug", "triage"]
+assignees:
+  - taorepoara
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de remplir ce rapport de bug !
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Qu'est-ce qui s'est passé ?
+      description: Dites-nous aussi ce que vous attendiez qu'il se passe.
+      placeholder: Dites-nous ce que vous voyez !
+    validations:
+      required: true
