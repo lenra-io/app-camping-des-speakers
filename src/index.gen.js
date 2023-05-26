@@ -1,16 +1,11 @@
 export const views = {
-	"counter": "counter",
-	"home": "home",
 	"layout": "layout",
 	"menu": "menu",
 	"navbar": "navbar",
 	"pages": {
-		"agenda": {
-			...{
-				"speaker": "pages.agenda::speaker"
-				,
-			}, toJSON: () => "pages.agenda"
-		},
+		"agenda": {...{
+			"speaker": "pages.agenda::speaker"
+		}, toJSON: () => "pages.agenda"},
 		"map": "pages.map",
 		"speakers": "pages.speakers"
 	}
