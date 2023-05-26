@@ -11,7 +11,6 @@ export const views = {
 	}
 };
 export const listeners = {
-	"increment": "increment",
 	"onEnvStart": "onEnvStart",
 	"onSessionStart": "onSessionStart",
 	"onUserFirstJoin": "onUserFirstJoin"
