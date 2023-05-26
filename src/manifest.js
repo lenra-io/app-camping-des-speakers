@@ -7,8 +7,14 @@ export const lenraRoutes = [
         view: View(views.layout).props({ page: views.pages.agenda }),
     },
     {
-        path: "/sessions/:id",
-        view: View(views.layout).props({ page: views.pages.session }),
+        path: "/sessions/:key",
+        view: View(views.layout)
+            .props({ page: views.pages.session })
+            .context({
+                "pathParams": {
+                    "key": true
+                }
+            }),
     },
     {
         path: "/speakers",
