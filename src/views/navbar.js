@@ -39,7 +39,6 @@ export default function (_data, { page }) {
         .onPressed("@lenra:navTo", { path })
       )
     )
-      .fillParent(true)
       .mainAxisAlignment("center")
   )
     .color(colors.Colors.black)

@@ -1,15 +1,14 @@
 import { Container, Flex, colors, padding, Image, Flexible, Text } from "@lenra/components";
 
-export default function(_data, _props) {
+export default function (_data, _props) {
   return Container(
     Flex([
       Container(
         Image("logo-characters.png")
       )
         .height(60),
-      
+
     ])
-      .fillParent(true)
       .mainAxisAlignment("center")
       .crossAxisAlignment("center")
       .padding({ bottom: 4 })

@@ -16,8 +16,7 @@ export default function (_data, _props) {
     });
     let currentDay = null;
     let currentTime = null;
-    return Container(
-        Flex(
+    return Flex(
             sortedSessions.flatMap((session) => {
                 const elements = [];
                 if (session.attributes.day !== currentDay) {
@@ -66,12 +65,8 @@ export default function (_data, _props) {
             })
         )
             .direction("vertical")
-            .scroll(true)
             .crossAxisAlignment("stretch")
             .spacing(16)
-    )
-        .padding(padding.symmetric(16, 0))
-        .maxWidth(800)
 }
 
 export function speaker(_data, props) {
