@@ -1,6 +1,6 @@
-import { Container, Flex, Flexible, Image, padding, Text, View } from "@lenra/components";
+import { Actionable, Container, Flex, Flexible, Image, padding, Text, View } from "@lenra/components";
 import { sessions, speakers } from "../../camping-data.js";
-import { views } from "../../index.gen.js";
+import { listeners, views } from "../../index.gen.js";
 
 const days = ["Jeudi, 15 juin 2023", "Vendredi, 16 juin 2023"];
 
@@ -38,28 +38,30 @@ export default function (_data, _props) {
                     );
                 }
                 elements.push(
-                    Container.card(
-                        Flex([
-                            Text(session.attributes.title)
-                                .style({
-                                    fontSize: 24,
-                                    fontWeight: "bold",
-                                }),
-                            Flex(
-                                session.attributes.speakers
-                                    .filter(speaker => speaker in speakers || console.log(speaker))
-                                    .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
-                            )
-                                .direction("vertical"),
+                    Actionable(
+                        Container.card(
                             Flex([
-                                Text(`${session.attributes.time} - ${session.attributes.duration}`),
-                                Text(session.attributes.room),
+                                Text(session.attributes.title)
+                                    .style({
+                                        fontSize: 24,
+                                        fontWeight: "bold",
+                                    }),
+                                Flex(
+                                    session.attributes.speakers
+                                        .filter(speaker => speaker in speakers || console.log(speaker))
+                                        .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
+                                )
+                                    .direction("vertical"),
+                                Flex([
+                                    Text(`${session.attributes.time} - ${session.attributes.duration}`),
+                                    Text(session.attributes.room),
+                                ])
+                                    .direction("vertical"),
                             ])
-                                .direction("vertical"),
-                        ])
-                            .direction("vertical")
-                            .spacing(16)
-                    )
+                                .direction("vertical")
+                                .spacing(16)
+                        )
+                    ).onPressed("@lenra:navTo", { path: `/sessions/${session.attributes.key}` })
                 );
                 return elements;
             })
