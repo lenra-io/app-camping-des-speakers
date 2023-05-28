@@ -1,5 +1,6 @@
-import { Actionable, Flex, Flexible, Text, Wrap } from "@lenra/components";
-import { sessions } from "../../camping-data.js";
+import { Actionable, Flex, Flexible, Text, View, Wrap } from "@lenra/components";
+import { sessions, speakers } from "../../camping-data.js";
+import { views } from "../../index.gen.js";
 import { days } from "./agenda.js";
 
 export default function (_data, /* _props,  */{ context: { pathParams } }) {
@@ -7,7 +8,7 @@ export default function (_data, /* _props,  */{ context: { pathParams } }) {
     return Flex([
         header(session),
         ...body(session),
-        ...speakers(session),
+        ...speakerList(session),
     ])
         .direction("vertical")
         .spacing(16)
@@ -38,7 +39,7 @@ function header(session) {
 function body(session) {
     const children = buildContentChildren(session.children);
     if (children.length > 1)
-        return [Flex(children)];
+        return [Flex(children).direction("vertical").spacing(8)];
     return children;
 }
 
@@ -46,12 +47,13 @@ function body(session) {
  * @param {Session} session 
  * @returns 
  */
-function speakers(session) {
+function speakerList(session) {
+    console.log(session.attributes.speakers);
     const cards = session.attributes.speakers
         .filter(speaker => speaker in speakers)
         .map(speaker => View(views.pages.agenda.speaker).props({ speaker }));
     if (cards.length > 1)
-        return Wrap(cards);
+        return [Wrap(cards).spacing(16)];
     return cards;
 }
 
@@ -62,6 +64,7 @@ function speakers(session) {
 function buildContentChildren(children) {
     return children.map(child => {
         if (typeof child === "string") {
+            if (child === '\n') return null;
             return Text(child);
         }
         switch (child.tag) {
@@ -96,6 +99,11 @@ function buildContentChildren(children) {
             case "p":
                 return Text("")
                     .children(buildContentChildren(child.children));
+            case "span":
+                if ("children" in child)
+                    return Text("")
+                        .children(buildContentChildren(child.children));
+                return null;
             case "ul":
                 return Flex(buildContentChildren(child.children))
                     .direction("vertical")
@@ -104,14 +112,18 @@ function buildContentChildren(children) {
                 return Flex([
                     Text("•"),
                     Flexible(Flex(buildContentChildren(child.children)))
-                ]);
+                ])
+                    .spacing(8);
             case "a":
-                return Actionable(Text("")
-                    .children(buildContentChildren(child.children)))
-                    .onPress("@lenra:navTo", { path: child.props.href });
+                console.warn("Link are not supported yet", child)
+                return null;
+                // return Actionable(Text("")
+                //     .children(buildContentChildren(child.children)))
+                //     .onPressed("@lenra:navTo", { path: child.props.href });
             default:
                 console.warn("Unknown tag", child.tag);
                 return Wrap(buildContentChildren(child.children));
         }
-    });
+    })
+        .filter(child => child !== null);
 }
