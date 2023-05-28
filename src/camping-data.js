@@ -1,3 +1,6 @@
+/**
+* @type {{[key: string]: Session}}
+*/
 export const sessions = {
   "FrankenPHP": {
     "attributes": {
@@ -1518,8 +1521,8 @@ export const sessions = {
         "david_pilato"
       ],
       "type": "autour_du_feu",
-      "day": 1,
-      "time": "14h30",
+      "day": 0,
+      "time": "21h00",
       "duration": "15 minutes",
       "room": "slideless"
     },
@@ -2038,23 +2041,6 @@ export const sessions = {
       }
     ]
   },
-  "maman_mon_partenaire_financier_m_a_lache": {
-    "attributes": {
-      "key": "maman_mon_partenaire_financier_m_a_lache",
-      "title": "Maman, mon partenaire financier m’a lâché!",
-      "speakers": [
-        "sahbi_ktifa"
-      ],
-      "type": "quechua",
-      "day": 0,
-      "time": "16h30",
-      "duration": "20 minutes",
-      "room": "petite_salle"
-    },
-    "children": [
-      "Notre partenaire principal de financement sur la plateforme Malt est entré en liquidation judiciaire au début du mois de Septembre 2022. Nous l'avons appris à la mi-aout côté product. Avec les congés des uns et des décisions radicales à prendre pour maintenir des flux de paiement à hauteur de 15M par mois à trois jours pour nos freelances, je vous propose de vous relater cette aventure passé inaperçue (heureusement) pour nos utilisateurs, mais qui a su mobiliser les équipes engineering, product, legal et finance pour arriver à un happy end (pour nous en tout cas)."
-    ]
-  },
   "mini_golf_pour_une_accessibilite": {
     "attributes": {
       "key": "mini_golf_pour_une_accessibilite",
@@ -2170,7 +2156,7 @@ export const sessions = {
       ],
       "type": "bivouac",
       "day": 1,
-      "time": "11h15",
+      "time": "13h30",
       "duration": "45 minutes",
       "room": "slideless"
     },
@@ -2249,7 +2235,7 @@ export const sessions = {
       ],
       "type": "bivouac",
       "day": 1,
-      "time": "13h30",
+      "time": "11h15",
       "duration": "45 minutes",
       "room": "slideless"
     },
@@ -2266,7 +2252,7 @@ export const sessions = {
       ],
       "type": "autour_du_feu",
       "day": 0,
-      "time": "21h00",
+      "time": "17h40",
       "duration": "15 minutes",
       "room": "slideless"
     },
@@ -2738,6 +2724,9 @@ export const sessions = {
   }
 }
 
+/**
+* @type {{[key: string]: Speaker}}
+*/
 export const speakers = {
   "agnes_cardin": {
     "attributes": {
@@ -3248,69 +3237,6 @@ export const speakers = {
     },
     "children": [
       "Après plus d'une dizaine d'année de Devfront j'interviens à présent sur les projets en tant qu'expert accessibilité et qualité. Expert BBQ (Bike, Beer and QualityWeb), quand je ne bosse pas sur la qualité Web j'adore bricoler des vélos ou brasser de la bière."
-    ]
-  },
-  "glenn_feunteun": {
-    "attributes": {
-      "key": "glenn_feunteun",
-      "name": "Glenn Feunteun",
-      "company": "Zenika",
-      "photoURL": "speakers/glenn_feunteun.jpg",
-      "socials": [
-        {
-          "icon": "github",
-          "link": "https://github.com/gfeun",
-          "name": "gfeun"
-        },
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/g_feun",
-          "name": "g_feun"
-        }
-      ]
-    },
-    "children": [
-      {
-        "tag": "p",
-        "children": [
-          "Glenn est un Linuxien convaincu 🐧."
-        ]
-      },
-      "\n",
-      {
-        "tag": "p",
-        "children": [
-          "Il a travaillé 7 ans chez Orange Labs en recherche sur les Content Delivery Network, en lien avec les clouds distribués ou la 5G."
-        ]
-      },
-      "\n",
-      {
-        "tag": "p",
-        "children": [
-          "Il a rejoint Zenika en 2020 ou il intervient en tant que consultant dans le vaste domaine du DevOps, avec des affinités particulières sur l'optimisation des environnements de dev, la mise en place et l'optimisation de chaînes d’intégration et déploiement continues et la jointure avec les infrastructures, cloud ou bare metal. Il est monté à bord du train de la conteneurisation en 2015 en démarrant avec Lxc et Rkt, pour ensuite passer à Docker et Kubernetes."
-        ]
-      },
-      "\n",
-      {
-        "tag": "p",
-        "children": [
-          "Il est certifié sur Kubernetes et Google Cloud, et formateur sur Kubernetes et Gitlab CI."
-        ]
-      },
-      "\n",
-      {
-        "tag": "p",
-        "children": [
-          "Coté dev ses langages de préférence sont Go et Python."
-        ]
-      },
-      "\n",
-      {
-        "tag": "p",
-        "children": [
-          "Chaque année, il endosse la casquette d'enseignant vacataire à l'IUT de Brest ou il forme les étudiants à la programmation de microcontrôleurs."
-        ]
-      }
     ]
   },
   "gregory_bevan": {
@@ -4207,30 +4133,6 @@ export const speakers = {
       }
     ]
   },
-  "sahbi_ktifa": {
-    "attributes": {
-      "key": "sahbi_ktifa",
-      "name": "Sahbi KTIFA",
-      "company": "Malt",
-      "city": "Thoiry, France",
-      "photoURL": "speakers/sahbi_ktifa.jpg",
-      "socials": [
-        {
-          "icon": "github",
-          "link": "https://github.com/sahbi-ktifa",
-          "name": "sahbi-ktifa"
-        },
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/SahbiKtifa",
-          "name": "SahbiKtifa"
-        }
-      ]
-    },
-    "children": [
-      "Staff Software Engineer travaillant chez Malt, j'adore découvrir de nouvelles choses, que ce soit des nouvelles technos ou bien de nouveaux pays ! Lead VueJS dans la team JHipster. Heureux papa de deux enfants, j'adore le sport, les jeux vidéos et bien manger !"
-    ]
-  },
   "sebastien_viale": {
     "attributes": {
       "key": "sebastien_viale",
@@ -4997,6 +4899,9 @@ export const speakers = {
   }
 }
 
+/**
+* @type {{[key: string]: Sponsor}}
+*/
 export const sponsors = {
   "asi": {
     "attributes": {
@@ -5046,6 +4951,28 @@ export const sponsors = {
     "attributes": {
       "key": "empty",
       "title": "Vide"
+    },
+    "children": []
+  },
+  "ikobox": {
+    "attributes": {
+      "key": "ikobox",
+      "title": "IkoBox",
+      "category": 512,
+      "logoURL": "logos/512-ikobox.png",
+      "url": "http://ikodev.ovh/",
+      "socials": []
+    },
+    "children": []
+  },
+  "leboncoin": {
+    "attributes": {
+      "key": "leboncoin",
+      "title": "leboncoin",
+      "category": 512,
+      "logoURL": "logos/512-leboncoin.png",
+      "url": "https://medium.com/leboncoin-engineering-blog",
+      "socials": []
     },
     "children": []
   },

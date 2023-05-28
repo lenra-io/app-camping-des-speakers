@@ -9,11 +9,11 @@ export const lenraRoutes = [
     {
         path: "/sessions/:key",
         view: View(views.layout)
-            .props({ page: views.pages.session })
+            .props({ 
+                page: views.pages.session,
+             })
             .context({
-                "pathParams": {
-                    "key": true
-                }
+                "pathParams": true
             }),
     },
     {
