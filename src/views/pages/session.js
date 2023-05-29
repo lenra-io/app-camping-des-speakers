@@ -49,7 +49,6 @@ function body(session) {
  * @returns 
  */
 function speakerList(session) {
-    console.log(session.attributes.speakers);
     const cards = session.attributes.speakers
         .filter(speaker => speaker in speakers)
         .map(speaker => View(views.pages.agenda.speaker).props({ speaker }));

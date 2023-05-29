@@ -6,16 +6,12 @@ describe("buildContentChildren", () => {
         const children = buildContentChildren(session.children);
         expect(children).toBeDefined();
     });
-});
 
-describe("buildContentChildren", () => {
     test.each(Object.entries(speakers))("check speaker %s", (_key, session) => {
         const children = buildContentChildren(session.children);
         expect(children).toBeDefined();
     });
-});
 
-describe("buildContentChildren", () => {
     test.each(Object.entries(sponsors))("check sponsor %s", (_key, session) => {
         const children = buildContentChildren(session.children);
         expect(children).toBeDefined();
