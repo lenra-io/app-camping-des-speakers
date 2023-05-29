@@ -8,7 +8,7 @@
     "start": "app-lenra",
     "index": "app-lenra index",
     "generate": "node generate.js",
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "Lenra",
