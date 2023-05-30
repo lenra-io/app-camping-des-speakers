@@ -35,7 +35,7 @@ export default function (_data, _props) {
                         })
                 );
             }
-            elements.push(sessionCard(session));
+            elements.push(sessionCard(session, data));
             return elements;
         })
     )
@@ -44,15 +44,33 @@ export default function (_data, _props) {
         .spacing(16)
 }
 
-function sessionCard(session) {
+function sessionCard(session, favoriteSessions) {
+    console.log("favoriteSessions");
+    console.log(favoriteSessions);
+
+    let isFavorite = false;
+
+    favoriteSessions.map((favoriteSession) => {
+        if (favoriteSession.attributes.key == session.attributes.key) {
+            isFavorite = true;
+        }
+    });
+
+
     return Actionable(
         Container.card(
             Flex([
-                Text(session.attributes.title)
-                    .style({
-                        fontSize: 24,
-                        fontWeight: "bold",
-                    }),
+                Text(`favorite sessions : ${favoriteSessions}`),
+                Flex(
+                    [
+                        Text(session.attributes.title)
+                            .style({
+                                fontSize: 24,
+                                fontWeight: "bold",
+                            }),
+                        Actionable(Icon("favorite").color(isFavorite ? 0xFFFF0000 : 0xFF000000)).onPressed("addFavorite", { session: session.attributes.key }),
+                    ]
+                ).fillParent(true).mainAxisAlignment("spaceBetween"),
                 Flex(
                     session.attributes.speakers
                         .filter(speaker => speaker in speakers)

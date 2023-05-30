@@ -1,10 +1,12 @@
+import { DataApi } from "@lenra/app-server";
 import { View } from "@lenra/components";
+import { Favorite } from "./classes/Favorite.js";
 import { views } from "./index.gen.js";
 
 export const lenraRoutes = [
     {
         path: "/",
-        view: View(views.layout).props({ page: views.pages.agenda }),
+        view: View(views.layout).props({ page: views.pages.agenda }).data(DataApi.collectionName(Favorite), {}),
     },
     {
         path: "/sessions/:key",

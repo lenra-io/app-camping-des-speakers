@@ -13,6 +13,7 @@ export const views = {
 	}
 };
 export const listeners = {
+	"addFavorite": "addFavorite",
 	"onEnvStart": "onEnvStart",
 	"onSessionStart": "onSessionStart",
 	"onUserFirstJoin": "onUserFirstJoin"
