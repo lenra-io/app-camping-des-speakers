@@ -2,18 +2,25 @@ import * as fs from 'fs/promises';
 import { createRequire } from 'module';
 import path from 'path';
 import fm from 'front-matter';
-import * as mdjs from "@moox/markdown-to-json";
+import * as mdjs from '@moox/markdown-to-json';
 
 const require = createRequire(import.meta.url);
-const generatedTypes = {
-    "sessions": "Session",
-    "speakers": "Speaker",
-    "sponsors": "Sponsor"
-};
 const campingPath = path.dirname(require.resolve("camping-des-speakers/package.json"));
+await fs.mkdir('tmp/_data', { recursive: true });
+await fs.copyFile(path.join(campingPath, '_data/site.js'), path.join('tmp/_data/site.js'));
+const site = (await import('./tmp/_data/site.js')).default;
+const generatedTypes = {
+    "sessions": "{[key: string]: Session}",
+    "speakers": "{[key: string]: Speaker}",
+    "sponsors": "{[key: string]: Sponsor}",
+    "days": "Day[]",
+    "rooms": "{[key: string]: Room}",
+};
+const contentDirectories = ['sessions', 'speakers', 'sponsors'];
+const siteConsts = ['days', 'rooms'];
 
 // save the data to src/camping-data.json
-await fs.writeFile(path.join("src", "camping-data.js"), await generateDataFile(Object.keys(generatedTypes)));
+await fs.writeFile(path.join("src", "camping-data.js"), await generateDataFile(contentDirectories));
 
 // copy the camping-des-speakers/img directory recursively to src/resources
 await copyDirectoryRecursively(path.join(campingPath, "img"), path.join("src", "resources"));
@@ -27,12 +34,19 @@ await copyDirectoryRecursively(path.join(campingPath, "img"), path.join("src", "
 async function generateDataFile(directories) {
     const promises = directories.map(async directory => {
         return `/**
-* @type {{[key: string]: ${generatedTypes[directory]}}}
+* @type {${generatedTypes[directory]}}
 */
 export const ${directory} = ${JSON.stringify(await loadContentDirectoryMap(directory), null, 2)}`
     });
 
-    return (await Promise.all(promises)).join("\n\n");
+    const parts = [
+        ...siteConsts.map(constName => `/**
+* @type {${generatedTypes[constName]}}
+*/
+export const ${constName} = ${JSON.stringify(site.fr[constName], null, 2)}`),
+        ...await Promise.all(promises)
+    ]
+    return parts.join("\n\n");
 }
 
 /**

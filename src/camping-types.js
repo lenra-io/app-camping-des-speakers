@@ -63,3 +63,15 @@
  * @property {number} category Le niveau du sponsor
  * @property {Social[]} socials Les réseaux sociaux du sponsor
  */
+
+/**
+ * @typedef {Object} Day
+ * @property {string} short Le nom court du jour
+ * @property {string} long Le nom long du jour
+ */
+
+/**
+ * @typedef {Object} Room
+ * @property {number} id L'id de la salle
+ * @property {string} name Le nom de la salle
+ */
