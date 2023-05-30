@@ -1,0 +1,5949 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`session page snapshot FrankenPHP 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "FrankenPHP, un serveur d'application moderne pour PHP écrit en Go",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 13h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "PHP, ça peut sembler ringard, mais pourtant - grâce à WordPress, Laravel et Symfony - c'est toujours le langage incontournable pour créer des applications web et des API . Il faut aussi dire que PHP s'est énormément amélioré ces dernières années, et en devient même agréable à utiliser.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Cependant, déployer du PHP en production, et en particulier dans des environnements "Cloud Native", ça reste relativement complexe. Contrairement à la plupart des autres outils similaires, PHP ne dispose pas nativement d'un serveur web. On expose généralement les apps via un serveur web tiers (NGINX, Apache), qui délègue l’exécution des scripts à PHP-FPM, via le vénérable protocole FastCGI. Avec Docker, ça fait beaucoup de services et de complexité juste pour exposer un site web.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Mais ça c'était avant. Avant FrankenPHP.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "FrankenPHP, c'est un serveur d'application moderne pour PHP qui est écrit en Go. Il est bâti sur Caddy, le serveur web qui monte malgré le silence des médias, et embarque directement un interpréteur PHP (qui est lui même écrit en C) grâce à une bibliothèque ad-hoc écrite en cgo.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "FrankenPHP donné également à PHP des fonctionnalités qui vont faire rougir les autres langages :",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "support natif de HTTP/2 et de HTTP/3",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "génération et renouvèlement automatique des certificats TLS grâce à Let's Encrypt ou à ZeroSSL",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "support des Early Hints (qui viennent également d'être implémentés par Chrome)",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "mode "worker" qui permet de court-circuiter l'architecture ",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "share nothing",
+                          },
+                        ],
+                        "style": {
+                          "fontStyle": "italic",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                      {
+                        "type": "text",
+                        "value": " de PHP et de diviser par trois (ou plus) les temps de réponse comparé à PHP-FPM",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "support du temps réel avec support natif du protocole ",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Mercure",
+                          },
+                        ],
+                        "style": {
+                          "color": 4279872746,
+                          "decoration": "underline",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                      {
+                        "type": "text",
+                        "value": ", une alternative aux WebSockets basée sur les SSE",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "images Docker légères, simples d'utilisation et faites pour la prod (compatibles avec Kubernetes)",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Venez découvrir les fonctionnalités et les entrailles de FrankenPHP !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "kevin_dunglas",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot a_la_decouverte_du_developpement_mobile 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "À la découverte du développement mobile, sans les maux de tête",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 17h10 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Vous êtes un développeur souhaitant explorer les possibilités offertes par le développement mobile, mais vous êtes confronté à diverses incertitudes. ",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Comment déployer son code sur un téléphone ?",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Comment distribuer son application sur un magasin ?",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Combien ça coûte ?",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Combien de temps ça prend ?",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "etc",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Au cours de ce talk, nous vous présenterons le parcours de Cyril, développeur web s’étant lancé dans le développement d’une application mobile. Nous partagerons, entre autres, les problématiques qu'il a rencontré et les solutions qu'il a utilisées pour les résoudre.
+Avec l'aide de Robin, expert en développement mobile, nous aborderons les bonnes pratiques et des astuces pour développer, déployer et maintenir une application mobile.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Ce talk est destiné à tous les curieux intéressés par cet écosystème particulier.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "robin_caroff",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "cyril_hue",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot apprenons_ensemble 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Apprenons ensemble grâce aux bookclubs",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 17h10 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Tu aimerais lire plus de dix pages d'un livre pro sans lâcher l'affaire ? Tu as lu le même livre que tes collègues mais vous n’avez pas compris la même chose ? Et pourtant la lecture est un super moyen d’échanger et de progresser dans ton métier !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Marion et Yvonnick n'en lisaient pas jusqu’à l’année dernière. Mais cette année, ils ont lu cinq livres grâce aux bookclubs ! Bookclub ? Non, on ne parle pas de club de lecture pour le troisième âge…",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "En participant et en animant ces clubs de lecture, ils ont élargi leurs connaissances professionnelles. La lecture de “The manager’s path” les a par exemple aidés à devenir plus proactifs dans leur rôle de manageur et dans l’accompagnement de leurs équipes.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Après avoir découvert le fonctionnement des bookclubs, il y a fort à parier que vous serez prêts à embarquer vos collègues dans la lecture de ce livre qui traîne sur votre bureau. Et vous serez même capable d'animer des conversations constructives et passionnantes autour de vos lectures. Qui sait, peut être que vous arriverez comme nous à convaincre votre CTO de participer à votre premier bookclub ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "marion_valentin",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "yvonnick_frin",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot astuces_pour_parler 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "🗣️ Zut ! J'aurais du dire ça ! 🙊 Astuces pour parler avec aisance en public 🎙️",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 14h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "" La peur de parler en public est une des peurs les plus partagées au monde. Devant la pauvreté, devant la maladie, devant la mort" ... (Nable Léviste)",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Qui ne s'est jamais dit, après une prise de parole en public "Zut ! J'aurais du dire ça !" ? Qui n'a jamais perdu ses moyens au moment de s'adresser à un public, même restreint? Qui n'a jamais senti sa voix se faire tremblotante, son regard devenir fuyant et les mains être de plus en plus moites?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Rassurez-vous, tout ceci est normal et naturel et on va vous donner des astuces pour progresser, avec cet atelier/conférence de prise de parole. Centré sur la voix et la posture, le contact avec le public et la gestion de l'intention, ce mini-workshop propose des exercices mêlant pratique et observation permettant de travailler sur les difficultés de base de toute prise de parole en public.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "On ne promet pas de faire de vous des orateurs hors-pair en moins d'une heure, mais cet atelier vous permettra de prendre conscience de vos marges de progression et des leviers dont vous disposez pour évoluer, positivement, vers une aisance absolue dans la prise de parole en public.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "willy_malvault",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "sylvain_coudert",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot avant_je_supprimai_des_bugs 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Avant, je supprimai des bugs, maintenant j'élève des abeilles",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 10h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Un jour, je plaquerai tout pour aller élever des chèvres dans le Larzac !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Qu'est-ce qu'on a pu l’entendre cette phrase lorsqu'on en avait marre du projet sur lequel on bossait ! Eh bien, un jour, j'ai sauté le pas de l'élevage, ou presque : je n'élève pas des ovins, mais des abeilles mellifères.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Avez-vous déjà ouvert une ruche ? Savez-vous comment est organisée une colonie d'abeilles ? Comment s'occuper de ses colonies, les soigner, les protèger, les faire grossir, les dupliquer, jusqu'au moment tant attendu de la récolte ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Il y a un peu plus d'un an, je me suis inscrit à l'initiative d'un ami apiculteur de mon village : le lancement d'un rucher communal. Entre les cours théoriques et la mise en pratique, du premier essayage de la combinaison à la mise en pot du miel, je viens vous raconter cette aventure d'une pratique aussi vieille que l'Humanité.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Si vous avez du pot 🍯, on fera même une dégustation !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "florian_roulet",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot bienvenue_dans_ma_zone_d_inconfort 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Bienvenue dans ma zone d'inconfort",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 16h00 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Bonjour à tous, je m'appelle Noémie et pour oser parler de mon sujet aujourd'hui, je sors de ma zone de confort.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "La zone de confort, vous en avez sûrement déjà entendu parler.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Peut-être vous a-t-on déjà demandé d'en sortir ? Au boulot ou même dans la vie perso. Peut-être y avez-vous déjà été confronté ? Consciemment ou inconsciemment. Vous vous doutez que si je viens vous en parler, c'est qu'à moi aussi cela m'est arrivée.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Je vous invite au cœur d'une histoire qui est la mienne mais qui raconte d'une certaine façon celle de beaucoup d'entre nous.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "noemie_delrue",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot cette_annee_retombez_amoureux_de_CSS 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Cette année, retombez amoureux de CSS ❤️",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 11h40 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Je ne vais pas vous mentir, quand j'ai commencé à faire du dev front il y a 15 ans, le CSS et moi, nous n'étions pas vraiment amis. Malgré l'arrivée des variables ou de nouveaux systèmes de layouts, je suis resté quand même distant face à cette techno, ne l'utilisant que parce qu'étant obligé.
+En 2023, j'ai décidé de me pencher sur les nouveautés de css et j'ai remarqué que comme pour le JavaScript, ce qu'il est possible de faire avait beaucoup évolué ces dernières années.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dans ce talk plein de démos, je parlerai de certains standards déjà là ou qui arrivent très bientôt et qui m'ont fait retomber amoureux de CSS. Venez découvrir des choses comme :is(), :has(), le nesting, les custom media queries, les custom properties (bien plus puissantes que je ne le pensais) et bien d'autres choses encore !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "olivier_leplus",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot comment_gerer_des_journees_de_35h 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Comment gérer des journées de 35h ?",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 14h55 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Connaissez-vous l’origine de l’expression “être réglé comme du papier à musique” ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "La présentation aurait pu également s'appeler : ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Comment être chef d'orchestre m'a permis de hacker mon cerveau ?",
+                },
+              ],
+              "style": {
+                "fontStyle": "italic",
+              },
+              "type": "text",
+              "value": "",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Toute personne passionnée mène une vie riche et variée. Dans la mienne, la passion s'exprime par ma vie de famille, la musique et le développement.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Comment jongler alors avec un emploi du temps chargé et ne pas devenir fou ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dans cette présentation, je vous parlerai des parallèles que je vois entre la direction d’orchestre et la gestion d’un agenda. Au rythme moderato donné par ma baguette de chef d'orchestre, je vous partagerai mes astuces qui vous aideront peut-être à mieux organiser votre emploi du temps et survivre à ces journées bien chargées.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "sylvain_gougouzian",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot comment_hacker_vos_applications_mobiles 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Comment hacker vos applications mobiles ?",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 10h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Nous utilisons tous des applications mobiles pour payer, s'authentifier ou consulter nos comptes bancaires. Etant donné la sensibilité de ces actions, nous faisons confiance aux éditeurs que sont les banques ou le service publique. Mais peut-on hacker de telles applications ou les données qu'elles contiennent ? Yes, we can ! Quels sont ces moyens d'attaque ? Quels sont les risques et que pouvons-nous faire pour les réduire ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "La sécurité mobile est au cœur du métier de notre équipe car nous travaillons quotidiennement à protéger les applications mobiles de nos clients. Dans cette présentation nous nous focaliserons sur le pentest (la partie offensive de notre activité) en alliant explications et démonstrations. Cette conférence s’adresse donc à un public technique assez large : des personnes intéressées par la sécurité des applications mobiles, que ce soit simplement pour se rendre compte des attaques possibles ou bien pour les mettre en pratique.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Nous allons utiliser un téléphone rooté, pour analyser une application Android et la modifier grâce au reverse engineering. Ensuite, nous approfondirons l’analyse avec l'utilisation d'outils permettant de modifier dynamiquement le comportement de l'application lors de son exécution. Enfin nous évoquerons les protections à mettre en place pour éviter ces attaques.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "A l'issu de notre présentation, vous aurez une meilleure vision du pentest mobile et les bases nécessaires pour utiliser les outils élémentaires de ce domaine.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "julien_jimenez",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "amelie_avignon",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot construire_soi_meme_son_clavier_mecanique 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Construire soi-même son clavier mécanique, idée bizarre ou idée de génie ?",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 10h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Après avoir longtemps voulu un clavier "ergonomique", j'ai décidé de me lancer moi-même dans sa construction",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Ce que je ne savais pas, c'est que j'allais plonger dans le monde merveilleux des claviers mécaniques et du "do it yourself"",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "On sait tous utiliser le clavier standard AZERTY dit 100%, mais est-ce que cette disposition est toujours pertinente en 2023 ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "En quoi faire son propre clavier peut il être intéressant pour les développeurs et développeuses que nous sommes ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Survolons ensemble les différentes options qui s'offrent à nous aujourd'hui.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "benjamin_legrand",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot corn_hole_2_turbo 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Corn Hole 2 Turbo : De l'arduino pour l'apéro !",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 11h15 - 45 minute",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Le Corn Hole est un jeu d'extérieur qui nous vient des USA. Aussi connu là-bas que notre pétanque nationale, il consiste à lancer de petits sacs remplis de grains de maïs sur une planche située à 8,20m. Si possible il faut viser le trou situé en haut de la planche ! Tout ça, traditionnellement, à l'heure de l'apéro !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Avec Nico on voulait "bidouiller". De l'électronique, du travail du bois, de la découpe laser, de l'impression 3D.. on voulait bricoler. Pour le Corn Hole nous avions un besoin : rendre le score disponible à tout le monde : aux joueurs, mais aussi au public. Et soyons honnête, on avait aussi vraiment envie de faire n'importe quoi ! Jusqu'où pourrions-nous aller ? Autour d'un verre, le défi était lancé..",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "C'est comme ça que nous nous sommes lancés à faire une planche "2.0", avec des capteurs, un affichage du score, etc.. Au menu : du travail du bois, du dev arduino et du dev android. Quelle satisfaction de mettre les mains dans le cambouis ! Tout était nouveau pour nous. A l'heure de l'artisanat logiciel, on y redécouvre les sensations grisantes de nos débuts… repartir de zéro, avec peu de ressources. Cela nous a appris à être extrêmement sobres en énergie, en code et en utilisation de ressources ! Après quelques grosses claques (spoiler : nous n'avons pas pu atteindre nos objectifs les plus fous.. !) , c'est un retour aux sources, du développement sous contrainte, et nos premiers pas dans le développement embarqué.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "paul_roye",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot creer_des_objets_3D_avec_du_code 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Créer des objets 3D avec du code, grâce à OpenSCAD",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 17h40 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "La modélisation 3D, c'est tout un art! Si vous avez déjà tenté l'expérience d'un modeleur 3D comme Blender, vous avez probablement constaté la difficulté de l'exercice. Mais comment faire alors pour créer des modèles 3D que l'on a en tête, quand on vient d'investir dans une belle imprimante 3D? Réponse de développeur: avec du code!",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Pour cela nous allons découvrir l'outil et le langage de script OpenSCAD, qui permet de créer des objets à base de primitives et fonctions géométriques simples. A travers cette courte session de live coding, vous apprendrez les bases pour créer vos propres modèles imprimables et laisser libre court à votre imagination!",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "yohan_lasorsa",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot creer_sa_propre_vm_avec_compilation_jit_pour_les_nuls 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Créer sa propre VM avec compilation JIT pour les nuls",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 10h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "La compilation « Just In Time » est une technique d'exécution très utilisée depuis de nombreuses années au sein des machines virtuelles de langages tels que Java, C#, JavaScript, etc .... Elle permet d'interpréter et d'exécuter un byte-code tout en le transformant « à la volée » vers le langage machine natif de la machine hôte nous permettant ainsi d'obtenir des performances bien plus élevées lors d'une seconde exécution du code.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Ces techniques de recompilation dynamique peuvent être complexes à appréhender lorsque l'on est néophyte sur le sujet, c'est pourquoi nous allons démystifier ensemble ce sujet",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dans ce talk nous mettrons en œuvre et en live notre propre machine virtuelle avec JIT intégrée pour une calculatrice ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "RPN",
+                },
+              ],
+              "style": {
+                "color": 4279872746,
+                "decoration": "underline",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " (Reverse Polish Notation), sans aucun framework ni infrastructure de compilation extérieure, en émettant nous même le code machine ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "x86_64",
+                },
+              ],
+              "style": {
+                "fontFamily": "monospace",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " nécessaire à l'exécution.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Puisse le dieu des « segmentation fault (core dumped) » être avec nous !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "olivier_poncet",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot d_un_orchestre_fige_a_un_joli_ballet 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "D'un orchestre figé à un joli ballet aka comment on a propulsé notre monolith dans un pas de danse endiablé 😈",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 14h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Il était une fois, dans une célèbre manufacture de pneus 🏭, une grande volonté de remplacer son orchestrateur supply chain et logistique 🚚. Le chef d'orchestre étant épuisé, il fallait le remplacer: et pourquoi pas par un joli ballet 🤔 ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Ayant choisi ses nouveaux atouts, kafka et kafka streams, plongez dans l'aventure de notre équipe, ultra motivée, pour passer d'un logiciel orchestré à des chorégraphies de micro services bien rôdées ✨. Sur un nouveau tempo 🥁, venez découvrir comment elle a pu accorder un rythme de batch quotidien voir hebdo avec des flux continus et instantanés d'une architecture event driven. Mais aussi, venez apprendre de nos fausses notes et nos pas maladroits pour passer d'un monolith figé à plusieurs centaines de micro-services survoltés 🧨.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Fort de notre histoire, vous repartirez avec la stratégie qui nous a permis :",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "la coordination harmonieuse de plus de 200 micro services kafka streams sur kubernetes tanzu,",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "l'utilisation de 250 objets kafka connects pour discuter avec nos applications legacies,",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "les points d'attention à garder en tête lors du passage d'un écosystème cadencé dans une base de données à un logiciel "event management" basé sur 1000 topics kafka",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "marie_laure_momplot",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "sebastien_viale",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "De la tablette d'argile à ChatGPT : la passionnante histoire de la diffusion du savoir",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 13h50 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Les révolutions technologiques de l'écriture ont eu un impact considérable sur la transmission et la diffusion du savoir dans l'histoire de l'humanité. Depuis l'invention de l'écriture il y a plus de 5000 ans, en passant par l'imprimerie au 15ème siècle et l'avènement d'Internet au 20ème siècle, chaque étape a permis de démocratiser l'accès à l'information et de faciliter la transmission des connaissances. L'arrivée de l'IA et de ChatGPT représente une nouvelle étape dans cette évolution technologique, offrant de nouvelles perspectives pour l'apprentissage et l'accès à l'information.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Comment partager de l'information sans avoir inventé l'écriture ?",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Est-ce que vous savez comment vous servir d'un papyrus ? ",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Qu'est-ce qu'un codex ? Et qu'est-ce que cela a révolutionné ? ",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Connaissez vous les personnes qui ont été les plus terrifiés par l'apparition de l'imprimerie ? ou d'internet ? ",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Est-ce qu'il a fallu attendre ChatGPT et l'internet pour avoir des fake news ?",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Est-ce que l'IA va finir par contrôler le monde ?",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Apportez votre couverture et votre thé, réunissez les enfants au coin du feu, nous allons vous conter la merveilleuse histoire de la transmission du savoir.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "patrice_de_saint_steban",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot dessines_moi_rust 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Dessines-moi Rust ✏🦀",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 21h00 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Rust est un langage qui peut avoir une courbe d'apprentissage assez abrupte. Tellement abrupte qu'elle peut décourager plus d'un ou d'une.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "La vulgarisation d'un concept peut prendre diverses formes. Mon canal de transmission préféré est le dessin.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Je propose ainsi, au travers de dessin et de schéma accompagné d'explications possibles et d'analogies parfois douteuses ^^' De découvrir sous un autre angle, les mécanismes spécifiques de Rust qui en font un langage qui permet de mieux coder.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "yannick_guern",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot dis_papa_c_est_quoi_impression_3D 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Dis papa, c'est quoi l'impression 3D ?",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 10h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Qui n'a jamais rêvé de pouvoir fabriquer ses propres objets, en 3D, dans le monde réel? Concevoir ses propres outils pour sa maison, réaliser des pièces de rechange pour sa voiture ou créer des jouets uniques pour ses enfants est aujourd'hui à la portée de tous. L'impression 3D a révolutionné le prototypage et la fabrication dans de nombreux domaines, mais comment ça marche? Quelles sont les différentes technologies disponibles, et leurs applications? Et surtout, comment ça s'imprime?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "A travers ce talk pratique et sans slides, nous allons vous présenter les différentes technologies d'impression 3D, et détailler les composants et le fonctionnement d'une imprimante à dépot de filament fondu (FDM). Vous aurez l'occasion d'observer l'impression d'une pièce en directe, et de réaliser vous-même votre première pièce en 3D! Ce sera aussi un moment d'échange pour poser toutes vos questions sur l'impression 3D, et évoquer les prochaines évolutions de cette technologie... et peut être donner l'envie de vous y mettre? 🙂",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "yohan_lasorsa",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "wassim_chegham",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot do_not_track_me 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "#DoNotTrackMe 📺📱",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 11h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Nous passons beaucoup de temps devant nos écrans et nous sommes la cible parfaite des publicités et du tracking en tout genre. AdBlock / UBlock vous parlent, mais ils se limitent à vos navigateurs, savez-vous que vous pouvez efficacement bloquer une grande partie des publicités qui transitent sur vos écrans, que ce soit vos ordinateurs ou téléphones ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Nous allons étudier et comprendre les mécanismes que nous pouvons mettre en place pour bloquer les publicités mais également les marqueurs qui permettent de vous pister sur internet.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "cedric_gatay",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot escape_camp_part_1 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Escape Camp 🏃🏕️",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 13h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "Rejoignez-nous pour une série d'énigmes qui mettront vos neurones à rude épreuve, vous amèneront à découvrir différents lieux du camping et vous inviteront à deviner le thème de notre talk ! Saurez-vous découvrir avant les autres et en moins de 45min le mystérieux sujet technique que nous vous présenteront dans la 2e partie ? Rien n’est moins sûr !",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "gregory_bevan",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "william_bartlett",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot escape_camp_part_2 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Escape Camp 🏃🏕️",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 14h30 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "The mysterious Conf ! Rejoignez-nous pour le making of technique de l'escape game. Les technologies et concepts employés n'auront plus de secrets pour vous.",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "gregory_bevan",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "william_bartlett",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot esprit_de_famille 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Esprit de famille, méthodes, rapport à l'argent, ambitions - l'héritage d'une famille d'entrepreneurs depuis 100 ans",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 17h40 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "L'impact et l'influence de notre entourage sur nos vies (pro ou perso) peut être grand. L'éducation que l'on reçoit, l'exemple familial, certains évènements marquants, nos expériences... tout ceci prend part dans ce que nous sommes.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "En 1907, mon arrière arrière grand père a créé l'entreprise Passenaud spécialisée dans la récupération de peaux, chiffons et plumes. 100 ans plus tard le groupe Passenaud est devenu un des leaders de la collecte et du tri de déchets et brasse plus de 600 000 tonnes de marchandises par an.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Comment cette histoire et ce contexte familial ont impacté ma vie professionnelle pourtant dans un secteur très éloigné de ce que je pratique aujourd'hui.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "mathieu_passenaud",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot et_si_on_arretait_de_basher_les_esn 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Et si on arrêtait de basher les ESN ?",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 11h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "Les ESN, des marchands de viande qui n'ont aucune considération pour leurs collaborateurs et arnaquent leurs clients ? C'est en tout cas l'image que véhiculent souvent les sociétés de service dans le milieu des développeurs. Pourtant ça fait 25 ans que je bosse dans une ESN et je n'ai jamais eu ce ressenti. Même s'il n y a pas de fumée sans feu, est-ce qu'on peut faire de ces clichés une généralité ? Ai-je eu de la chance ? Ou alors le milieu des ESN n'est pas aussi pourri qu'on le dit ? Je vous propose mon retour d'expérience sur mes années d'ESN, les difficultés qu'on peut vivre dans une ESN, mais aussi les opportunités qu'elles offrent, en particulier en début de carrière.",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "olivier_thierry",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot event_driven_qu_est_ce_donc 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Event Driven, qu'est-ce donc ?! Un nouveau buzzword ?",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 13h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "On entend, de plus en plus, parler d'Event Driven Systems. C'est un peu le nouveau truc à la mode, mais en quoi ça consiste réellement ? Pour le comprendre, nous repartirons des fondamentaux, pour progressivement voir ce que peut nous apporter le modèle événementiel publisher / subscriber, ses avantages et ses inconvénients. Nous verrons aussi comment l'utiliser dans certains cas fréquents.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "De plus, nous prendrons un SI typique que nous chercherons à améliorer, de façon à rendre les services plus performants et moins interdépendants.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "celine_louvet",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot il_etait_une_fois_un_arbre_qui_parle 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Il était une fois un arbre qui parle",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 13h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Faire parler les objets, choses et être vivants autour de nous c'est l'enjeu de l'Internet des objets pour comprendre le monde qui nous entoure, le preserver.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Je vais vous compter l'histoire de l'Internet des objets, des technologies qui sont nées en 2009 et évoluent depuis, je vous emmène 45 minutes dans ce qui me passionne pour vous faire découvrir l'IoT terrestre et l'IoT satellitaire, vous expliquer leur fonctionnement, leur contraintes et ce que nous pouvons en attendre.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Pas de slide, pas de code, mais sans doute pas mal de boitiers, composants, piles pour illustrer tout cela.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "paul_pinault",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Imager, matérialiser sa pensée",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 14h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "« Moi, t’façons, j’sais pas dessiner. »",
+            },
+          ],
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Venez décomplexer votre coup de crayon en jouant à une version « maison » du Gartic Phone.",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Venez réfléchir à la façon dont vous vous représentez les choses, à travers la présentation et l’évocation de différents sujets par des biais inhabituels.",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "« Rien de tel qu’un bon schéma. » Oui, mais lequel, comment le réaliser, et avec quoi ?",
+            },
+          ],
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dans la foulée, je vous propose un temps d’échange et de partage sur les méthodes et les outils que vous préférez, qu’ils soient graphiques, ou pas !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Pour comprendre, analyser, mémoriser des concepts nouveaux,",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Pour reformuler une pensée, une idée,",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Pour communiquer sur un projet,",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Pour transmettre des informations,",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "...",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Pourquoi ?",
+            },
+          ],
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Quand on travaille dans le champ de l’informatique, du numérique, on met en œuvre beaucoup (et essentiellement !) de compétences intellectuelles. Raisonnement, abstraction, capacité à se projeter, etc.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Malgré ça, on a tous été confronté un jour à une situation où on ne saisit pas ce qui se joue. On a beau tourner le truc dans tous les sens, on sent bien qu’on a mal abordé le sujet, que quelque chose nous échappe :",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Les raisons d’une décision, d’un choix technique,",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Le mécanisme de raisonnement qui sous-tend un fonctionnement, ",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "La formulation d’une demande, ",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "...",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "En plus d’être très frustrant, ça peut grandement compliquer notre compréhension et/ou notre communication des choses, et être bloquant.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Par ailleurs, la représentation graphique y est très présente également, tout simplement parce qu’elle aide à rendre tangible idées, concepts et données.
+Schémas, graphiques, sketchnotes, cartes mentales, il existe différentes façons de mettre en forme tout ça.
+Mais ces vecteurs de réflexion, communication et compréhension semblent parfois secondaires, perçus comme « accessoires ».",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Pourtant… ",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "virginie_ferey",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot intelligence_artificielle_expliquee_en_20_minutes 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "L'intelligence artificielle expliquée en 20 minutes !",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 16h30 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "... ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Ou comment en tant que dev faire de l'IA sans être Data Scientist ?",
+                },
+              ],
+              "style": {
+                "fontStyle": "italic",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": "  ",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, ...",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Oui mais voilà, au final c'est quoi l'Intelligence Artificielle et qu'y a-t-il de caché derrière ce terme ?
+Comment expliquer simplement les notions techniques impliquées ?
+La grande IA va-t-elle gouverner le monde ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Durant ce talk je vous propose de découvrir simplement, mais de manière la plus exhaustive possible, avec ma vision de développeur, ce qu'est l'intelligence artificielle et quelles technologies sont utilisées dans ce milieu.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Et tout ça en 20 minutes !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "stephane_philippart",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot ivre_et_au_chomage 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Ivre et au chômage, elle décide d'écrire un livre sur le Scala en plein Covid",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 17h40 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "REX sur l'écriture d'un premier livre : comment s'est arrivé ? pourquoi j'ai accepté ? par quelles étapes de dépression suis-je passée ? Je vais parler des relations avec l'équipe éditoriale, des délais, des étapes de la réalisation d'un livre du jour 1 avec les premières lignes jusqu'à la livraison. Je ne m'arrête pas là, on va parler de marketing, publicité, impression, sortie officielle du livre et pourquoi je ne referai plus ça.",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "agnes_cardin",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot javascript_une_histoire 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "JavaScript : une histoire d'amour 💔",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 17h10 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Encore une fois amis campeurs, je viens vous ouvrir mon coeur. Dans ce récit versifié, je vais vous raconter, mon histoire d'amour avec JS, nos meilleurs jours et ses faiblesses. Chaque relation, parait-il nous grandit ; dans cette passion j'ai beaucoup appris !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Évidemment c'est naturel, les torts sont partagés : j'ai parfois été infidèle, avec des langages compilés : Elm, Flutter, TypeScript, Reason et aussi PureScript... J'ai maintes fois cédé à ces nouveaux venus, parfois juste typés, souvent bien mieux conçus.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Sans plus de distractions, venez donc écouter mon aventure, du début de notre liaison à bien après notre rupture !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "jordane_grenat",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot keynote_jeudi_matin 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Keynote d'ouverture et Marché aux poissons",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 09h00 - 40 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Keynote des organisateurs",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Marché aux poissons",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot keynote_vendredi_matin 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Keynote surprise et Marché aux poissons",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 09h00 - 60 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Keynote d'un.e invité.e surprise !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Marché aux poissons",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot keynote_vendredi_soir 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Keynote d'Au revoir 😢",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 16h00 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "Keynote de fin des organisateurs",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "L'art du DeeJaying par la pratique",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 21h00 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dans cet atelier, nous allons découvrir quelques techniques utilisées par les DeeJays pour vous faire bouger toute une soirée :",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "L'ajustement des BPM (Battements Par Minute)",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "L'ajustement des harmoniques",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Les égalisateurs de fréquence",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Les Cue Points",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Les boucles",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Nous tenterons à la fin de faire un mix à plusieurs mains pour mettre en pratique ce que nous avons appris.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Matériel principalement utilisé :",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "deux ",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Pioneer CDJ-3000",
+                          },
+                        ],
+                        "style": {
+                          "color": 4279872746,
+                          "decoration": "underline",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "une ",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Pioneer DJM-900 Nexus 2 White",
+                          },
+                        ],
+                        "style": {
+                          "color": 4279872746,
+                          "decoration": "underline",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                      {
+                        "type": "text",
+                        "value": " ou une ",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Pioneer DJM-V10LF",
+                          },
+                        ],
+                        "style": {
+                          "color": 4279872746,
+                          "decoration": "underline",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "une enceinte amplifiée ",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "FBT - X-Pro 112MA",
+                          },
+                        ],
+                        "style": {
+                          "color": 4279872746,
+                          "decoration": "underline",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "un enregistreur",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "une table [AmericanDJ Pro Event table II](",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "https://www.americandj.eu/fr/pro-event-table-ii-mb.html",
+                          },
+                        ],
+                        "style": {
+                          "color": 4279872746,
+                          "decoration": "underline",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Aucune connaissance en musique requise. Juste un bon moment à passer en poussant des boutons.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "david_pilato",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot la_pull_request_de_l_horreur 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "La Pull Request de l’horreur",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 21h00 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Le légendaire Necronomicon, De Vermis Mysteriis, la pull request d'un collègue nonchalant… Certaines lectures sont tellement abjectes, tellement intenses que d’après HP Lovecraft ou moi elles peuvent menacer la santé mentale de celle ou celui qui s’y aventure.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dans ce récit, vous verrez comment une simple relecture de code m’a fait me questionner. Comment elle m’a aidé à mieux comprendre le contexte du projet, m’a fait réaliser ce qui ne m’allait pas, et comment cette PR a participé à ma dépression.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Venez écouter cette histoire d’horreur au coin du feu, contée comme je le ferais pour une partie du jeu de rôle l’Appel de Cthulhu.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "jean_francois_greffier",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot le_guide_du_voyageur 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Le guide du voyageur LGBTQIA+",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 13h30 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "Vous connaissez sûrement ce sigle, mais savez-vous ce qui se cache derrière chaque lettre ? Ce n'est pas facile d'expliquer dans les détails toutes ces définitions, mais des concepts basiques acceptés dans la communauté sont souvent méconnus. Identité sexuelle, orientation sexuelle, sexe biologique, expression de l'identité sexuelle: je vous propose d'expliquer de manière générale les différentes possibilités derrière ces concepts.",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "elaine_dias_batista",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot les_7_vies_d_une_qa_analyst 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Les 7 vies d'une QA Analyst en reconversion",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 21h00 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dès notre plus jeune âge, nous sommes amenés à choisir NOTRE voie. Parfois nous la choisissons, parfois nous sommes poussés par divers éléments pour l’emprunter : des choix familiaux, des études plus attrayantes et gratifiantes etc. Ajoutons à cela la précarité de l’emploi : un enchaînement de CDD, la recherche du mouton à 7 pattes par les recruteurs, un salaire ne correspondant absolument pas à l’expertise que l’on a. A ce moment précis, on se retrouve face à l’évidence : cette vie professionnelle ne me correspond pas, je ne suis pas à ma place.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Se pose alors les questions : dois-je envisager une reconversion professionnelle ? Comment vais-je être accueillie par mes pairs ? Comment me sentir légitime dans cette nouvelle voie ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "A travers ce témoignage, vous cheminerez sur mon parcours parsemé d'embûches et de réussites afin d'obtenir des conseils qui vous permettront de mieux comprendre les profils en reconversion et éviter les "bugs".",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "audrey_moulins",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Maitrise ton apprentissage aussi bien que la cuisson de tes saucisses 🔥",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 10h15 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "C'est bien connu, ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "être développeur, c'est être un expert en veille et un étudiant permanent !",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " Les technologies et les méthodes évoluent sans cesse avec des concepts toujours plus nombreux... Se maintenir à jour est de plus en plus difficile 🤯 ",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Bien sûr, ton entreprise s’attend à ce que tu fasses ta ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "veille sur ton temps libre",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " et que tu passes tes ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "dimanches à faire des side projects",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": "… Pas de problème, puisque tu es un(e) développeur(se) “passionné(e)” 😂",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Bref, c'est l'enfer pour concilier vie pro et perso ! 🔥🔥🔥",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Bonne nouvelle 🎉 : c'est possible de ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "gagner un temps précieux",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " en ayant les bons outils, astuces et habitudes.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Je vais te partager les connaissances, ressources et outils que j’ai expérimentés ces dernières années pour ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "optimiser ton temps de veille et d’apprentissage",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": ". C’est aussi un bon point de départ pour les développeurs qui se demandent par où commencer.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": " Lors de la session, tu découvriras comment :",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "établir des ",
+                          },
+                          {
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "objectifs en lien avec tes valeurs et les atteindre",
+                              },
+                            ],
+                            "style": {
+                              "fontWeight": "bold",
+                            },
+                            "type": "text",
+                            "value": "",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "créer ta roadmap d’apprentissage",
+                              },
+                            ],
+                            "style": {
+                              "fontWeight": "bold",
+                            },
+                            "type": "text",
+                            "value": "",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "développer des ",
+                          },
+                          {
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "routines efficaces",
+                              },
+                            ],
+                            "style": {
+                              "fontWeight": "bold",
+                            },
+                            "type": "text",
+                            "value": "",
+                          },
+                          {
+                            "type": "text",
+                            "value": " ",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "automatiser les process",
+                              },
+                            ],
+                            "style": {
+                              "fontWeight": "bold",
+                            },
+                            "type": "text",
+                            "value": "",
+                          },
+                          {
+                            "type": "text",
+                            "value": " (mon côté DevOps 🤷) pour se concentrer sur l’essentiel",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "faire une ",
+                          },
+                          {
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "veille sans effort",
+                              },
+                            ],
+                            "style": {
+                              "fontWeight": "bold",
+                            },
+                            "type": "text",
+                            "value": "",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "créer un système de mémorisation et de récupération de l'information, aussi appelé ",
+                          },
+                          {
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "second cerveau",
+                              },
+                            ],
+                            "style": {
+                              "fontWeight": "bold",
+                            },
+                            "type": "text",
+                            "value": "",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "exploiter les ",
+                          },
+                          {
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "bons outils pour gagner en productivité",
+                              },
+                            ],
+                            "style": {
+                              "fontWeight": "bold",
+                            },
+                            "type": "text",
+                            "value": "",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Tout ce que je te partage, je l'ai appris au cours de ma carrière sportive en équitation et professionnelle dans le développement et l'entrepreneuriat. ",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Aujourd'hui, je m’occupe de deux associations (Cloud Nord et Cloud Alpes) et une société tout en continuant à être un développeur, et pourtant, je trouve ",
+                          },
+                          {
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "toujours le temps de m'adonner à mes passions 😍",
+                              },
+                            ],
+                            "style": {
+                              "fontWeight": "bold",
+                            },
+                            "type": "text",
+                            "value": "",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Toi aussi, gagne du temps en maîtrisant ton apprentissage aussi bien que la cuisson de tes saucisses ! 🔥",
+                          },
+                        ],
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "flex",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+          ],
+          "direction": "vertical",
+          "padding": {
+            "left": 8,
+          },
+          "type": "flex",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "maxime_deroullers",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot mini_golf_pour_une_accessibilite 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Mini golf pour une accessibilité numérique maximale",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 14h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Au travers d’une partie de mini-golf, nous allons parler ensemble d’accessibilité. Vous allez être mis en situation de handicap : par exemple, pour simuler des problèmes de vision, vous devrez porter des lunettes déformantes… Je n’en dit pas plus pour ne pas gâcher la surprise !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Ce jeu est l’occasion de parler ensemble des différents déficiences qui touchent plus de monde que nous l’imaginons (environ une personne sur cinq). Bien évidemment nous transposerons cela à notre métier d’informaticien ou d’informaticienne. Nous réfléchirons ensemble aux difficultés d’accessibilité numérique pour ces différentes déficiences et à ce que nous pouvons mettre en place pour assurer l’accessibilité de nos sites internet.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "herve_boisgontier",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot mobkky_le_mob_applique_au_molkky 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Möbkky, le mob appliqué au Mölkky 🎳",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 10h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Vous savez jouer au Mölkky ? Non ? C'est pas grave car dans cette session nous allons y jouer en utilisant les principes du mob programming.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Le mob programming (programmation en groupe) fait de plus en plus parler de lui. Il s'appuie sur les principes d'Extreme programming et du Lean software development afin de faciliter le développement et d'améliorer la qualité des logiciels. Nous allons vous faire découvrir ces principes à travers un jeu finlandais iconique en équipe.
+Cette analogie nous permettra d'appréhender les avantages et inconvénients de cette pratique, et de discuter de sa mise en application au quotidien.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "benoit_masson",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "gwendal_leclerc",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot naviguer_et_coder_comment_on_fait 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Naviguer et coder, comment on fait ?",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 16h30 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "Quand on aime passer du temps sur l'océan, et qu'on peut travailler de n'importe où, est-ce que naviguer et coder c'est compatible ?
+Quand l'électricité n'est pas au bout de la prise, mais dépend du soleil.
+Quand on est dans un milieu humide et pas stable.
+Je passe plusieur mois par an sur mon bateau, et dans ce talk je vais vous raconter comment je me suis organisée pour concilier voile et travail.",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "aleth_gueguen",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot on_vit_deja_dans_un_monde_federe 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "On vit déjà dans un monde fédéré !",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 16h00 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "On parle beaucoup de Mastodon et du modèle fédéré comme étant une nouvelle manière de fonctionner, que ça pose autant de problèmes que ça n’apporte de solution, que ça ne peut pas marcher, etc.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Je vous propose de revenir sur la base d’échange réseau en ligne, des différents modèles, des nouveaux protocoles et comment se place Mastodon dans tout ça. Vous verrez que vous utilisez déjà des systèmes fédérés voir décentralisé au quotidien sans même vous en rendre compte.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "anthony_pena",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot passez_moins_de_temps_a_attendre_la_ci 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Passez moins de temps à attendre la CI et plus de temps au bord de la piscine",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 13h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Que vous soyez développeur·se ou Ops, les pipelines de CI/CD sont de plus en plus utilisés au quotidien dans nos projets. Mais comment optimiser vos pipelines ? En les réorganisant ? En ajoutant du parallélisme ? A l’aide de toboggans, nous vous partagerons quelques astuces d’optimisation pour gagner du temps et parfois même de l’argent !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Pour parler de ce sujet assez important et “chaud”, nous vous proposons de nous retrouver autour de la piscine pour des illustrations "rafraîchissantes" 😅!",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "PS : pensez à vos maillots de bain pour ceux qui le souhaitent 😎",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "jean_phi_baconnais",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "guillaume_membre",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot pour_eviter_le_dirty_recruiting 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Pour éviter le dirty recruiting, on ne laisse pas ses valeurs dans un coin",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 14h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Retour d'expérience sur mon métier de recruteuse où j'ai pu constater que tout se négocie (salaire, remote, avantages...) sauf mes valeurs.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Cela a été un cheminement long et l'art du non compromis est une discipline qui se travaille avec le temps et quotidiennement. Cela passe inévitablement par une bonne connaissance de soi-même, une introspection et un véritable questionnement sur pourquoi on fait un métier de passion.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Mais avant cela je raconterai les choses inacceptables que j'ai tolérées en faisant le parallèle avec certaines théories en psychologie (Milgram, dynamique de groupe...) et ce qui a été pour moi un élément déclencheur...",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Evidemment, je donnerai des tips pour travailler sur sa propre valeur et son impact et j'essayerai d'aborder le sujet grave de la discrimination avec une pincée d'humour tout de même !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "shirley_almosni_chiche",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot programmons_ensemble 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Programmons ensemble... une boite de vitesses",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 11h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "Après avoir vu l’application du logiciel dans la gestion du moteur de voiture il y a quelques temps... continuons le démontage et allons explorer les antres de la boîte de vitesse automatique jusqu’à faire un prototype de boîte pilotée à variation continue avec un arduino et quelques légos ! Ce type de boite de vitesse s'applique au milieu des travaux public, agricole, mais aussi voitures hybrides Toyota ou même des vélos électriques.",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "mathieu_passenaud",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot recits_d_epouvante_mlops 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Récits d'épouvante MLOps : Oseras-tu y faire face ?",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 17h40 - 15 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Les histoires d’horreur ont souvent le même début : un voyageur intrépide se dirige vers un lieu reculé et inconnu. Les signes inquiétants commencent à s’accumuler, mais malgré ses doutes, il persévère. Ou un cadeau est laissé sur son bureau, un modèle avec une requête banale : déploie-le en production !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Les problèmes liés à la mise en production sont fréquemment les plus effrayants et exaspérants, encore avant que quelqu'un n'ose toucher la solution. C'est sans oublier la question du modèle de machine learning, qui possède son propre caractère, et de tous les défis que cela entraîne.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Cette histoire tourne au cauchemar pour l’équipe d’engineering, pendant ce temps l’équipe des data scientists fête les performances de son modèle. Les données d’inférence, qui ne respectent pas les règles du jeu et ne correspondent pas aux données d’entraînement. Ou encore, la prochaine version du modèle, qui détruit le travail déjà effectué, et nos espoirs pour la fin du projet réussie.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Et après des semaines d'efforts acharnés, l’équipe réussit à corriger les erreurs, rendre le modèle conforme aux données et commencer à respirer plus tranquillement. Tout cela pour recommencer à zéro avec le projet suivant.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Certaines batailles nous laissent des cicatrices, et si on essayait de les éviter ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "yuliana_khorolich",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot revivez_la_cryptographie_de_nos_ancetres 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Revivez la cryptographie de nos ancêtres, de Lysandre de Sparte à Blaise de Vigenère",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 11h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Aujourd'hui la ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "cryptographie est partout",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " ! Dans nos smartphones, nos TV, nos cartes de paiement, etc… On ne réfléchit même plus à comment nos échanges HTTPS fonctionnent, on les met simplement en place et les on les utilise ! Mais saviez-vous que ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "la cryptographie existe depuis plus de 400 ans avant notre ère",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dans cette session au ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "format bivouac",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": ", nous vous proposons de ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "redécouvrir les fondamentaux de la cryptographie",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": ", à travers un court voyage historique. ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "De Lysandre de Sparte à Blaise de Vigenère",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": ", revivez avec nous les méthodes de l'époque, sans outil numérique, et tentez de déchiffrer les messages que nous aurons préparés pour l'occasion.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "willy_malvault",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "virginie_casavecchia",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot sous_le_capot 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Sous le capot des navigateurs web",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 16h00 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "type": "text",
+      "value": "Hey ! Dis moi, tu sais comment ça fonctionne un navigateur web toi ? Le moteur de rendu, concrètement, il fait quoi ? Ça doit être sacrément compliqué de tout dessiner à l'écran non ? Allez, regardons ça ensemble !",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "anthony_le_goas",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot speech_to_text 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Speech To Text: une opportunité pour améliorer votre productivité ?",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 11h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Êtes-vous prêt à découvrir ce qu’est le ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Speech to Text",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " et comment il peut vous ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "faciliter la vie",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " au quotidien et ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "révolutionner votre entreprise",
+                },
+              ],
+              "style": {
+                "fontWeight": "bold",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": " ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Durant ce talk, je vous présenterai ce système ainsi que ses différents cas d’utilisation. Nous étudierons les différentes possibilités permettant de le mettre en place. Vous ne pourrez plus dire que " l'IA, c'est trop compliqué" ! En effet, nous verrons ensemble que mettre en place un tel système ne demande pas d'être un ou une spécialiste de l'IA, ni d'avoir accès à énormément de données !",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Vous découvrirez également une application de Speech to Text, réalisée avec ",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Streamlit",
+                },
+              ],
+              "style": {
+                "color": 4279872746,
+                "decoration": "underline",
+              },
+              "type": "text",
+              "value": "",
+            },
+            {
+              "type": "text",
+              "value": ", et ses nombreuses fonctionnalités, tout en comprenant l’avantage d’utiliser des ressources GPU.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "mathieu_busquet",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot the_developer_portal 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "The Developer Portal: Open the Gate to Productivity 🚀",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 17h10 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "ArgoCD, Jenkins, Buildkite, Kubernetes, Jira, SonarQube, Vault, etc., with the rapid growth of technologies, this list keeps getting larger and the company software ecosystem gets more and more complex.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "It becomes overwhelming and time-consuming for developers to configure and use these software tools especially when the tools used for developing services owned by team A are different from those owned by team B.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "To free your developers from the burden of figuring out what service to use and how, in this talk, I will present the concept of service catalog, a developer portal to improve the developer experience and speed up development cycles.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Through a demo, I will show how to build a developer portal using Backstage service catalog and how to plug your existing services into it. Real successful case studies will be presented.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Join me if you would like to know more about it 😉",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "maha_alsayasneh",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot un_scrum_master_en_or 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Un scrum master en or",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 16h00 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Sur une musique entraînante, la présentatrice s'avance, le sourire aux lèvres. Elle porte dans la main les fiches des questions qui serviront à départager les équipes : qui saura définir le "Scrum Master en or" ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Venez relever le défi en équipes : pour chaque question portant sur le Scrum Master, identifiez les réponses les plus souvent citées par un panel préalablement interrogé. Puis en équipe, dressez le portrait du Scrum Master que tout le monde rêverait d'avoir. Quelle proportion de qualités humaines et de compétences professionnelles mettrez-vous dans votre description ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Que vous soyez Scrum Master ou non, que vous en ayez un formidable dans votre équipe ou que vous les détestiez la plupart du temps, venez partager votre expérience et aider le groupe à aller au delà du descriptif de poste, pour définir enfin comment il peut être un formidable allié au quotidien.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "laurie_coquillat",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot vite_une_nouvelle_ere_de_tooling_front 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Vite, une nouvelle ère de tooling front ?",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 13h30 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "petite_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Depuis des années nous avons utilisé des tas d'outils différents pour builder nos applications JavaScript. Vous souvenez vous de Grunt ou Gulp ? Peut être avez-vous même builder vos applications avec des outils de l'écosystème Java comme Ant ou Maven.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Cette foule d'outils semblait avoir été unifiée par Webpack qui amenait de la simplification. Toutefois Webpack est il sur le point d'être détroné ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Avez vous déjà entendu parlé de Vite ? Oui Vitejs, le nouvel outil qui a déjà 3 ans.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Dans ce talk nous proposons de vous faire découvrir cet outil tout en essayant de répondre à la question, va-t'il révolutionner le tooling des développeurs front ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "yann_thomas_le_moigne",
+          },
+          "type": "view",
+        },
+        {
+          "name": "pages.agenda::speaker",
+          "props": {
+            "speaker": "christophe_jolivet",
+          },
+          "type": "view",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot vous_pouvez_venir 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Vous pouvez venir à ce talk les yeux fermés",
+        },
+        {
+          "type": "text",
+          "value": "Jeudi, 15 juin 2023 11h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "slideless",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Un talk à l'extérieur sans projecteur, cette contrainte est une superbe opportunité de se mettre dans la peau d'une personne malvoyante qui navigue sur un site internet.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "L'objectif de ce talk est de faire découvrir le navigation sur les sites internet à l'aide d'un lecteur d'écran.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Comment ça marche, comment "voit-on" un site sans le voir ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Quels sont les problèmes rencontrés par les utilisateurs de lecteurs d'écrans et surtout, comment faciliter cette navigation et éviter de faire un site inutilisable pour certains.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Durant ce talk, on écouteras des sites web, on parlera de sémantique, d'accès rapide, de landmarks, d'alternatives aux images, de tableaux, d'Aria, de formulaires, de liens et de boutons (spoiler : un div n'est pas un bouton).",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "On parlera aussi un peu de SEO : l'aveugle le plus célèbre au monde n'est il pas Google ?",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Un talk a écouter les yeux fermés.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "francois_xavier_lair",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot wolfy 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "Wolfy - de 2000 à 20 000 joueurs connectés",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 10h15 - 45 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Wolfy est un jeu de loup-garou en ligne, fait par des fans du genre. Nous avons voulu remettre au goût du jour ce jeu en utilisant les dernières technologies (Docker, Kubernetes, NextJS, microservice...)",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Lors du premier confinement, tous les écoliers se sont retrouvés confinés chez eux. Pour garder le contact entre eux, l'un des moyens a été le jeu vidéo. Wolfy a vu son trafic multiplié par 10 dans les premiers jours du confinement.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Venez suivre nos nuits blanches et les différents problèmes de performance, de charge, de DDOS et de saturation réseau que nous avons dû affronter lié à cette augmentation exceptionnelle de joueurs.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "kevin_jean",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;
+
+exports[`session page snapshot yagni_kiss_and_dry 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "style": {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          "type": "text",
+          "value": "YAGNI, KISS, and DRY: The Secret Recipe For Better Software Design",
+        },
+        {
+          "type": "text",
+          "value": "Vendredi, 16 juin 2023 11h15 - 20 minutes",
+        },
+        {
+          "type": "text",
+          "value": "grande_salle",
+        },
+      ],
+      "direction": "vertical",
+      "type": "flex",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": ""Every line of code we don't write is dollars we didn't spend, and time on the calendar we get back for free" -Tim Evans-Ariyeh.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "In today’s world, software are growing radically. Building software that is easy to maintain, understand, and reuse is the ultimate dream of any company.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Also, because a simple product that does a single thing well is better than a complex product that does many things poorly, concepts like YAGNI, KISS and DRY are important to help you design, build, and maintain a good and success.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "This talk will show how to apply these concepts to your team. We will show the best practices for designing good software.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Come and discover the magic recipe for designing better software and how to achieve it.",
+            },
+          ],
+          "type": "text",
+          "value": "",
+        },
+      ],
+      "direction": "vertical",
+      "spacing": 8,
+      "type": "flex",
+    },
+    {
+      "name": "pages.agenda::speaker",
+      "props": {
+        "speaker": "maha_alsayasneh",
+      },
+      "type": "view",
+    },
+  ],
+  "crossAxisAlignment": "stretch",
+  "direction": "vertical",
+  "spacing": 16,
+  "type": "flex",
+}
+`;

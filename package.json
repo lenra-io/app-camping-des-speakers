@@ -8,7 +8,7 @@
     "start": "app-lenra",
     "index": "app-lenra index",
     "generate": "node generate.js",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "Lenra",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@moox/markdown-to-json": "^1.0.0",
     "camping-des-speakers": "github:RdvSpeakers/camping-des-speakers-website",
-    "front-matter": "^4.0.2"
+    "front-matter": "^4.0.2",
+    "jest": "^29.5.0"
   }
 }

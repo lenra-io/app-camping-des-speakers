@@ -7,6 +7,7 @@ export const views = {
 			"speaker": "pages.agenda::speaker"
 		}, toJSON: () => "pages.agenda"},
 		"map": "pages.map",
+		"session": "pages.session",
 		"speakers": "pages.speakers"
 	}
 };

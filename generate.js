@@ -5,11 +5,15 @@ import fm from 'front-matter';
 import * as mdjs from "@moox/markdown-to-json";
 
 const require = createRequire(import.meta.url);
-
+const generatedTypes = {
+    "sessions": "Session",
+    "speakers": "Speaker",
+    "sponsors": "Sponsor"
+};
 const campingPath = path.dirname(require.resolve("camping-des-speakers/package.json"));
 
 // save the data to src/camping-data.json
-await fs.writeFile(path.join("src", "camping-data.js"), await generateDataFile("sessions", "speakers", "sponsors"));
+await fs.writeFile(path.join("src", "camping-data.js"), await generateDataFile(Object.keys(generatedTypes)));
 
 // copy the camping-des-speakers/img directory recursively to src/resources
 await copyDirectoryRecursively(path.join(campingPath, "img"), path.join("src", "resources"));
@@ -17,12 +21,15 @@ await copyDirectoryRecursively(path.join(campingPath, "img"), path.join("src", "
 
 /**
  * Load the directories files and return
- * @param  {...string} directories the directories to load
+ * @param  {string[]} directories the directories to load
  * @returns
  */
-async function generateDataFile(...directories) {
+async function generateDataFile(directories) {
     const promises = directories.map(async directory => {
-        return `export const ${directory} = ${JSON.stringify(await loadContentDirectoryMap(directory), null, 2)}`
+        return `/**
+* @type {{[key: string]: ${generatedTypes[directory]}}}
+*/
+export const ${directory} = ${JSON.stringify(await loadContentDirectoryMap(directory), null, 2)}`
     });
 
     return (await Promise.all(promises)).join("\n\n");

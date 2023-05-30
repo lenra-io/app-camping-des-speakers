@@ -1,8 +1,8 @@
-import { Container, Flex, Flexible, Image, padding, Text, View } from "@lenra/components";
+import { Actionable, Container, Flex, Flexible, Image, padding, Text, View } from "@lenra/components";
 import { sessions, speakers } from "../../camping-data.js";
-import { views } from "../../index.gen.js";
+import { listeners, views } from "../../index.gen.js";
 
-const days = ["Jeudi, 15 juin 2023", "Vendredi, 16 juin 2023"];
+export const days = ["Jeudi, 15 juin 2023", "Vendredi, 16 juin 2023"];
 
 export default function (_data, _props) {
     const sortedSessions = Object.values(sessions).sort((a, b) => {
@@ -17,56 +17,60 @@ export default function (_data, _props) {
     let currentDay = null;
     let currentTime = null;
     return Flex(
-            sortedSessions.flatMap((session) => {
-                const elements = [];
-                if (session.attributes.day !== currentDay) {
-                    currentDay = session.attributes.day;
-                    elements.push(
-                        Text(days[currentDay])
-                            .style({
-                                fontSize: 24,
-                            })
-                    );
-                }
-                if (session.attributes.time !== currentTime) {
-                    currentTime = session.attributes.time;
-                    elements.push(
-                        Text(currentTime)
-                            .style({
-                                fontSize: 20,
-                            })
-                    );
-                }
+        sortedSessions.flatMap((session) => {
+            const elements = [];
+            if (session.attributes.day !== currentDay) {
+                currentDay = session.attributes.day;
                 elements.push(
-                    Container.card(
-                        Flex([
-                            Text(session.attributes.title)
-                                .style({
-                                    fontSize: 24,
-                                    fontWeight: "bold",
-                                }),
-                            Flex(
-                                session.attributes.speakers
-                                    .filter(speaker => speaker in speakers || console.log(speaker))
-                                    .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
-                            )
-                                .direction("vertical"),
-                            Flex([
-                                Text(`${session.attributes.time} - ${session.attributes.duration}`),
-                                Text(session.attributes.room),
-                            ])
-                                .direction("vertical"),
-                        ])
-                            .direction("vertical")
-                            .spacing(16)
-                    )
+                    Text(days[currentDay])
+                        .style({
+                            fontSize: 24,
+                        })
                 );
-                return elements;
-            })
+            }
+            if (session.attributes.time !== currentTime) {
+                currentTime = session.attributes.time;
+                elements.push(
+                    Text(currentTime)
+                        .style({
+                            fontSize: 20,
+                        })
+                );
+            }
+            elements.push(sessionCard(session));
+            return elements;
+        })
+    )
+        .direction("vertical")
+        .crossAxisAlignment("stretch")
+        .spacing(16)
+}
+
+function sessionCard(session) {
+    return Actionable(
+        Container.card(
+            Flex([
+                Text(session.attributes.title)
+                    .style({
+                        fontSize: 24,
+                        fontWeight: "bold",
+                    }),
+                Flex(
+                    session.attributes.speakers
+                        .filter(speaker => speaker in speakers)
+                        .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
+                )
+                    .direction("vertical"),
+                Flex([
+                    Text(`${session.attributes.time} - ${session.attributes.duration}`),
+                    Text(session.attributes.room),
+                ])
+                    .direction("vertical"),
+            ])
+                .direction("vertical")
+                .spacing(16)
         )
-            .direction("vertical")
-            .crossAxisAlignment("stretch")
-            .spacing(16)
+    ).onPressed("@lenra:navTo", { path: `/sessions/${session.attributes.key}` })
 }
 
 export function speaker(_data, props) {
