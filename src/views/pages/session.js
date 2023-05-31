@@ -1,7 +1,6 @@
 import { Actionable, Flex, Flexible, Text, View, Wrap } from "@lenra/components";
-import { sessions, speakers } from "../../camping-data.js";
+import { days, rooms, sessions, speakers } from "../../camping-data.js";
 import { views } from "../../index.gen.js";
-import { days } from "./agenda.js";
 import { buildContentChildren } from "../../utils/contentDescriber.js";
 
 export default function (_data, /* _props,  */{ context: { pathParams } }) {
@@ -27,8 +26,8 @@ function header(session) {
                 fontSize: 24,
                 fontWeight: "bold",
             }),
-        Text(`${days[session.attributes.day]} ${session.attributes.time} - ${session.attributes.duration}`),
-        Text(session.attributes.room),
+        Text(`${days[session.attributes.day].long} ${session.attributes.time} - ${session.attributes.duration}`),
+        Text(rooms[session.attributes.room].name),
     ])
         .direction("vertical")
 }

@@ -1,4 +1,40 @@
 /**
+* @type {Day[]}
+*/
+export const days = [
+  {
+    "long": "Jeudi, 15 juin 2023",
+    "short": "2023/06/15"
+  },
+  {
+    "long": "Vendredi, 16 juin 2023",
+    "short": "2023/06/16"
+  }
+]
+
+/**
+* @type {{[key: string]: Room}}
+*/
+export const rooms = {
+  "grande_salle": {
+    "id": 0,
+    "name": "Grande Salle"
+  },
+  "petite_salle": {
+    "id": 1,
+    "name": "Petite Salle"
+  },
+  "slideless": {
+    "id": 2,
+    "name": "Extérieur"
+  },
+  "autour_du_feu": {
+    "id": 3,
+    "name": "Autour du Feu"
+  }
+}
+
+/**
 * @type {{[key: string]: Session}}
 */
 export const sessions = {
@@ -1662,14 +1698,14 @@ export const sessions = {
           {
             "tag": "li",
             "children": [
-              "une table [AmericanDJ Pro Event table II](",
+              "une table ",
               {
                 "tag": "a",
                 "props": {
                   "href": "https://www.americandj.eu/fr/pro-event-table-ii-mb.html"
                 },
                 "children": [
-                  "https://www.americandj.eu/fr/pro-event-table-ii-mb.html"
+                  "AmericanDJ Pro Event table II"
                 ]
               }
             ]
@@ -3183,12 +3219,12 @@ export const speakers = {
         {
           "icon": "github",
           "link": "https://github.com/elainedb",
-          "name": "xx"
+          "name": "elainedb"
         },
         {
           "icon": "twitter",
           "link": "https://twitter.com/elainedbatista",
-          "name": null
+          "name": "elainedbatista"
         }
       ]
     },
@@ -3274,12 +3310,12 @@ export const speakers = {
         {
           "icon": "github",
           "link": "https://github.com/gmembre-zenika",
-          "name": "xx"
+          "name": "gmembre-zenika"
         },
         {
           "icon": "twitter",
           "link": "https://twitter.com/GuillaumeMembre",
-          "name": null
+          "name": "GuillaumeMembre"
         }
       ]
     },
