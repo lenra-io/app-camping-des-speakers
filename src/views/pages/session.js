@@ -50,7 +50,12 @@ function body(session) {
 function speakerList(session) {
     const cards = session.attributes.speakers
         .filter(speaker => speaker in speakers)
-        .map(speaker => View(views.pages.agenda.speaker).props({ speaker }));
+        .map(speaker =>
+            Actionable(
+                View(views.pages.agenda.speaker).props({ speaker })
+            )
+                .onPressed("@lenra:navTo", { path: `/speakers/${speaker}` })
+        );
     if (cards.length > 1)
         return [Wrap(cards).spacing(16)];
     return cards;

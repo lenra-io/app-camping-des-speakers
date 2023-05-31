@@ -8,6 +8,7 @@ export const views = {
 		}, toJSON: () => "pages.agenda"},
 		"map": "pages.map",
 		"session": "pages.session",
+		"speaker": "pages.speaker",
 		"speakers": "pages.speakers"
 	}
 };
