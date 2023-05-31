@@ -37,7 +37,7 @@
  * @property {string} key La clé du speaker
  * @property {string} name Le nom du speaker
  * @property {string} company L'entreprise du speaker
- * @property {string} photoUrl L'url de la photo du speaker
+ * @property {string} photoURL L'url de la photo du speaker
  * @property {Social[]} socials Les réseaux sociaux du speaker
  */
 

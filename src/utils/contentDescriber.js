@@ -1,4 +1,4 @@
-import { Flex, Flexible, Text, Wrap } from "@lenra/components";
+import { Actionable, Flex, Flexible, Text, Wrap } from "@lenra/components";
 import { LenraColors } from "@lenra/components/dist/colors.js";
 
 /**

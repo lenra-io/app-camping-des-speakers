@@ -1,7 +1,5 @@
-import { Actionable, Container, Flex, Flexible, Text, View, Wrap, colors } from "@lenra/components";
+import { Actionable, Container, Flex, Flexible, Image, Text, Wrap, colors } from "@lenra/components";
 import { sessions, speakers } from "../../camping-data.js";
-import { views } from "../../index.gen.js";
-import { days } from "./agenda.js";
 import { buildContentChildren } from "../../utils/contentDescriber.js";
 
 export default function (_data, /* _props,  */{ context: { pathParams } }) {
@@ -35,8 +33,22 @@ function header(speaker) {
                 fontWeight: "bold",
             }));
     }
-    return Flex(children)
+    const flex = Flex(children)
         .direction("vertical")
+    if (speaker.attributes.photoURL) {
+        return Wrap([
+            Image(speaker.attributes.photoURL)
+                .width(100)
+                .height(100),
+            flex
+        ])
+            .spacing(16)
+            .alignment("center")
+            .crossAxisAlignment("center")
+            .runAlignment("center")
+            .runSpacing(16);
+    }
+    return flex;
 }
 
 /**
@@ -76,6 +88,11 @@ function sessionList(speaker) {
         )
             .color(colors.Colors.black)
             .height(1),
+        Text("Séances")
+            .style({
+                fontSize: 20,
+                fontWeight: "bold",
+            }),
         Flex(elements)
             .spacing(16)
             .direction("vertical")
