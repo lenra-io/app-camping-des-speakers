@@ -1,5 +1,4 @@
 export const views = {
-	"layout": "layout",
 	"menu": "menu",
 	"navbar": "navbar",
 	"pages": {
