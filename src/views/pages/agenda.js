@@ -1,8 +1,6 @@
 import { Actionable, Container, Flex, Flexible, Image, padding, Text, View } from "@lenra/components";
-import { sessions, speakers } from "../../camping-data.js";
+import { days, rooms, sessions, speakers } from "../../camping-data.js";
 import { listeners, views } from "../../index.gen.js";
-
-export const days = ["Jeudi, 15 juin 2023", "Vendredi, 16 juin 2023"];
 
 export default function (_data, _props) {
     const sortedSessions = Object.values(sessions).sort((a, b) => {
@@ -22,7 +20,7 @@ export default function (_data, _props) {
             if (session.attributes.day !== currentDay) {
                 currentDay = session.attributes.day;
                 elements.push(
-                    Text(days[currentDay])
+                    Text(days[currentDay].long)
                         .style({
                             fontSize: 24,
                         })
@@ -63,7 +61,7 @@ function sessionCard(session) {
                     .direction("vertical"),
                 Flex([
                     Text(`${session.attributes.time} - ${session.attributes.duration}`),
-                    Text(session.attributes.room),
+                    Text(rooms[session.attributes.room].name),
                 ])
                     .direction("vertical"),
             ])

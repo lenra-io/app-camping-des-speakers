@@ -19,7 +19,7 @@ exports[`session page snapshot FrankenPHP 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -302,7 +302,7 @@ exports[`session page snapshot a_la_decouverte_du_developpement_mobile 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -512,7 +512,7 @@ exports[`session page snapshot apprenons_ensemble 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -612,7 +612,7 @@ exports[`session page snapshot astuces_pour_parler 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -712,7 +712,7 @@ exports[`session page snapshot avant_je_supprimai_des_bugs 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -809,7 +809,7 @@ exports[`session page snapshot bienvenue_dans_ma_zone_d_inconfort 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -896,7 +896,7 @@ exports[`session page snapshot cette_annee_retombez_amoureux_de_CSS 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -964,7 +964,7 @@ exports[`session page snapshot comment_gerer_des_journees_de_35h 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -1074,7 +1074,7 @@ exports[`session page snapshot comment_hacker_vos_applications_mobiles 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -1174,7 +1174,7 @@ exports[`session page snapshot construire_soi_meme_son_clavier_mecanique 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -1271,7 +1271,7 @@ exports[`session page snapshot corn_hole_2_turbo 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -1348,7 +1348,7 @@ exports[`session page snapshot creer_des_objets_3D_avec_du_code 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -1415,7 +1415,7 @@ exports[`session page snapshot creer_sa_propre_vm_avec_compilation_jit_pour_les_
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -1537,7 +1537,7 @@ exports[`session page snapshot d_un_orchestre_fige_a_un_joli_ballet 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -1702,7 +1702,7 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -1910,7 +1910,7 @@ exports[`session page snapshot dessines_moi_rust 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -1987,7 +1987,7 @@ exports[`session page snapshot dis_papa_c_est_quoi_impression_3D 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -2067,7 +2067,7 @@ exports[`session page snapshot do_not_track_me 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -2134,7 +2134,7 @@ exports[`session page snapshot escape_camp_part_1 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -2191,7 +2191,7 @@ exports[`session page snapshot escape_camp_part_2 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -2248,7 +2248,7 @@ exports[`session page snapshot esprit_de_famille 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -2325,7 +2325,7 @@ exports[`session page snapshot et_si_on_arretait_de_basher_les_esn 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -2369,7 +2369,7 @@ exports[`session page snapshot event_driven_qu_est_ce_donc 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -2436,7 +2436,7 @@ exports[`session page snapshot il_etait_une_fois_un_arbre_qui_parle 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -2513,7 +2513,7 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -2945,7 +2945,7 @@ exports[`session page snapshot intelligence_artificielle_expliquee_en_20_minutes
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -3061,7 +3061,7 @@ exports[`session page snapshot ivre_et_au_chomage 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -3105,7 +3105,7 @@ exports[`session page snapshot javascript_une_histoire 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -3182,7 +3182,7 @@ exports[`session page snapshot keynote_jeudi_matin 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -3242,7 +3242,7 @@ exports[`session page snapshot keynote_vendredi_matin 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -3302,7 +3302,7 @@ exports[`session page snapshot keynote_vendredi_soir 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -3339,7 +3339,7 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -3657,13 +3657,13 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                     "children": [
                       {
                         "type": "text",
-                        "value": "une table [AmericanDJ Pro Event table II](",
+                        "value": "une table ",
                       },
                       {
                         "children": [
                           {
                             "type": "text",
-                            "value": "https://www.americandj.eu/fr/pro-event-table-ii-mb.html",
+                            "value": "AmericanDJ Pro Event table II",
                           },
                         ],
                         "style": {
@@ -3738,7 +3738,7 @@ exports[`session page snapshot la_pull_request_de_l_horreur 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -3815,7 +3815,7 @@ exports[`session page snapshot le_guide_du_voyageur 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -3859,7 +3859,7 @@ exports[`session page snapshot les_7_vies_d_une_qa_analyst 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -3936,7 +3936,7 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -4467,7 +4467,7 @@ exports[`session page snapshot mini_golf_pour_une_accessibilite 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -4534,7 +4534,7 @@ exports[`session page snapshot mobkky_le_mob_applique_au_molkky 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -4615,7 +4615,7 @@ exports[`session page snapshot naviguer_et_coder_comment_on_fait 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -4662,7 +4662,7 @@ exports[`session page snapshot on_vit_deja_dans_un_monde_federe 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -4729,7 +4729,7 @@ exports[`session page snapshot passez_moins_de_temps_a_attendre_la_ci 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -4819,7 +4819,7 @@ exports[`session page snapshot pour_eviter_le_dirty_recruiting 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -4906,7 +4906,7 @@ exports[`session page snapshot programmons_ensemble 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -4950,7 +4950,7 @@ exports[`session page snapshot recits_d_epouvante_mlops 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -5047,7 +5047,7 @@ exports[`session page snapshot revivez_la_cryptographie_de_nos_ancetres 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -5212,7 +5212,7 @@ exports[`session page snapshot sous_le_capot 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -5256,7 +5256,7 @@ exports[`session page snapshot speech_to_text 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -5402,7 +5402,7 @@ exports[`session page snapshot the_developer_portal 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -5499,7 +5499,7 @@ exports[`session page snapshot un_scrum_master_en_or 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -5576,7 +5576,7 @@ exports[`session page snapshot vite_une_nouvelle_ere_de_tooling_front 1`] = `
         },
         {
           "type": "text",
-          "value": "petite_salle",
+          "value": "Petite Salle",
         },
       ],
       "direction": "vertical",
@@ -5676,7 +5676,7 @@ exports[`session page snapshot vous_pouvez_venir 1`] = `
         },
         {
           "type": "text",
-          "value": "slideless",
+          "value": "Extérieur",
         },
       ],
       "direction": "vertical",
@@ -5793,7 +5793,7 @@ exports[`session page snapshot wolfy 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",
@@ -5870,7 +5870,7 @@ exports[`session page snapshot yagni_kiss_and_dry 1`] = `
         },
         {
           "type": "text",
-          "value": "grande_salle",
+          "value": "Grande Salle",
         },
       ],
       "direction": "vertical",

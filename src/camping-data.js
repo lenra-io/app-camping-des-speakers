@@ -1,4 +1,40 @@
 /**
+* @type {Day[]}
+*/
+export const days = [
+  {
+    "long": "Jeudi, 15 juin 2023",
+    "short": "2023/06/15"
+  },
+  {
+    "long": "Vendredi, 16 juin 2023",
+    "short": "2023/06/16"
+  }
+]
+
+/**
+* @type {{[key: string]: Room}}
+*/
+export const rooms = {
+  "grande_salle": {
+    "id": 0,
+    "name": "Grande Salle"
+  },
+  "petite_salle": {
+    "id": 1,
+    "name": "Petite Salle"
+  },
+  "slideless": {
+    "id": 2,
+    "name": "Extérieur"
+  },
+  "autour_du_feu": {
+    "id": 3,
+    "name": "Autour du Feu"
+  }
+}
+
+/**
 * @type {{[key: string]: Session}}
 */
 export const sessions = {
