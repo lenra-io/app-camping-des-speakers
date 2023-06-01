@@ -6,7 +6,14 @@ import { views } from "./index.gen.js";
 export const lenraRoutes = [
     {
         path: "/",
-        view: View(views.layout).props({ page: views.pages.agenda }).data(DataApi.collectionName(Favorite), {}),
+        view: View(views.layout).props({
+            page: views.pages.agenda,
+            find: {
+                coll: DataApi.collectionName(Favorite),
+                query: { user: "@me" },
+            }
+        })
+            .data(DataApi.collectionName(Favorite), {}),
     },
     {
         path: "/sessions/:key",

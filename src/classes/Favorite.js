@@ -3,12 +3,12 @@ import { Data } from "@lenra/app-server";
 export class Favorite extends Data {
     /**
      * 
-     * @param {string} session 
+     * @param {string[]} sessions 
      * @param {user} user 
      */
-    constructor(session, user) {
+    constructor(sessions, user) {
         super();
-        this.session = session;
+        this.sessions = sessions;
         this.user = user;
     }
 }

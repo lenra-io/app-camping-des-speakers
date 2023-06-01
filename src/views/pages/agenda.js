@@ -1,8 +1,14 @@
-import { Actionable, Container, Flex, Flexible, Image, padding, Text, View } from "@lenra/components";
+import { Actionable, Container, Flex, Text, View } from "@lenra/components";
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
-import { listeners, views } from "../../index.gen.js";
+import { Favorite } from "../../classes/Favorite.js";
+import { views } from "../../index.gen.js";
 
-export default function (_data, _props) {
+/**
+ * @param {Favorite[]} param0 
+ * @param {*} _props 
+ * @returns 
+ */
+export default function ([favorite], _props) {
     const sortedSessions = Object.values(sessions).sort((a, b) => {
         if (a.attributes.day !== b.attributes.day) {
             return a.attributes.day - b.attributes.day;
@@ -35,7 +41,7 @@ export default function (_data, _props) {
                         })
                 );
             }
-            elements.push(sessionCard(session, data));
+            elements.push(sessionCard(session, favorite?.sessions?.includes(session.attributes.key) ?? false));
             return elements;
         })
     )
@@ -44,23 +50,15 @@ export default function (_data, _props) {
         .spacing(16)
 }
 
-function sessionCard(session, favoriteSessions) {
-    console.log("favoriteSessions");
-    console.log(favoriteSessions);
-
-    let isFavorite = false;
-
-    favoriteSessions.map((favoriteSession) => {
-        if (favoriteSession.attributes.key == session.attributes.key) {
-            isFavorite = true;
-        }
-    });
-
-
+/**
+ * @param {Session} session 
+ * @param {boolean} isFavorite 
+ * @returns 
+ */
+function sessionCard(session, isFavorite) {
     return Actionable(
         Container.card(
             Flex([
-                Text(`favorite sessions : ${favoriteSessions}`),
                 Flex(
                     [
                         Text(session.attributes.title)
