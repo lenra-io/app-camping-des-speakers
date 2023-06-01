@@ -13,8 +13,9 @@ export const views = {
 	}
 };
 export const listeners = {
-	"addFavorite": "addFavorite",
 	"onEnvStart": "onEnvStart",
 	"onSessionStart": "onSessionStart",
-	"onUserFirstJoin": "onUserFirstJoin"
+	"onUserFirstJoin": "onUserFirstJoin",
+	"toggleFavorite": "toggleFavorite",
+	"toggleFavoriteFilter": "toggleFavoriteFilter"
 };

@@ -4,11 +4,13 @@ export class Favorite extends Data {
     /**
      * 
      * @param {string[]} sessions 
+     * @param {boolean} filter 
      * @param {user} user 
      */
-    constructor(sessions, user) {
+    constructor(sessions, user, filter = false) {
         super();
-        this.sessions = sessions;
         this.user = user;
+        this.sessions = sessions;
+        this.filter = filter;
     }
 }

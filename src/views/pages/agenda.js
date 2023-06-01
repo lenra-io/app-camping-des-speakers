@@ -1,4 +1,4 @@
-import { Actionable, Container, Flex, Text, View } from "@lenra/components";
+import { Actionable, colors, Container, Flex, Flexible, Icon, Image, padding, Text, Toggle, View } from "@lenra/components";
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
 import { Favorite } from "../../classes/Favorite.js";
 import { views } from "../../index.gen.js";
@@ -9,15 +9,17 @@ import { views } from "../../index.gen.js";
  * @returns 
  */
 export default function ([favorite], _props) {
-    const sortedSessions = Object.values(sessions).sort((a, b) => {
-        if (a.attributes.day !== b.attributes.day) {
-            return a.attributes.day - b.attributes.day;
-        }
-        if (a.attributes.time !== b.attributes.time) {
-            return a.attributes.time.localeCompare(b.attributes.time);
-        }
-        return a.attributes.title.localeCompare(b.attributes.title);
-    });
+    const sortedSessions = Object.values(sessions)
+        .filter(session => favorite?.filter ? favorite?.sessions?.includes(session.attributes.key) : true)
+        .sort((a, b) => {
+            if (a.attributes.day !== b.attributes.day) {
+                return a.attributes.day - b.attributes.day;
+            }
+            if (a.attributes.time !== b.attributes.time) {
+                return a.attributes.time.localeCompare(b.attributes.time);
+            }
+            return a.attributes.title.localeCompare(b.attributes.title);
+        });
     let currentDay = null;
     let currentTime = null;
     return Flex(
@@ -47,7 +49,7 @@ export default function ([favorite], _props) {
     )
         .direction("vertical")
         .crossAxisAlignment("stretch")
-        .spacing(16)
+        .spacing(32)
 }
 
 /**
@@ -59,29 +61,35 @@ function sessionCard(session, isFavorite) {
     return Actionable(
         Container.card(
             Flex([
-                Flex(
-                    [
-                        Text(session.attributes.title)
-                            .style({
-                                fontSize: 24,
-                                fontWeight: "bold",
-                            }),
-                        Actionable(Icon("favorite").color(isFavorite ? 0xFFFF0000 : 0xFF000000)).onPressed("addFavorite", { session: session.attributes.key }),
-                    ]
-                ).fillParent(true).mainAxisAlignment("spaceBetween"),
+                Text(session.attributes.title)
+                    .style({
+                        fontSize: 24,
+                        fontWeight: "bold",
+                    }),
                 Flex(
                     session.attributes.speakers
                         .filter(speaker => speaker in speakers)
                         .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
                 )
-                    .direction("vertical")
-                    .spacing(8),
-                Flex([
-                    Text(`${session.attributes.time} - ${session.attributes.duration}`)
-                    ,
-                    Text(rooms[session.attributes.room].name),
-                ])
                     .direction("vertical"),
+                Flex(
+                    [
+                        Flex([
+                            Text(`${session.attributes.time} - ${session.attributes.duration}`),
+                            Text(rooms[session.attributes.room].name),
+                        ])
+                            .direction("vertical"),
+                        Actionable(
+                            Icon("local_fire_department")
+                                .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
+                                .style(isFavorite ? "rounded" : "outlined")
+                        )
+                            .onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
+                    ]
+                )
+                    .fillParent(true)
+                    .mainAxisAlignment("spaceBetween")
+                    .crossAxisAlignment("end"),
             ])
                 .direction("vertical")
                 .spacing(16)
