@@ -1,6 +1,9 @@
 import { Container, Flex, colors, padding, Icon, Actionable } from "@lenra/components";
 import { views } from "../index.gen.js";
 
+/**
+ * @type {Array<{icon: import("@lenra/components/dist/component.js").IconName, path: string, pages: Array<string>}>
+ */
 const navButtons = [
   {
     icon: "calendar_today",
@@ -17,11 +20,11 @@ const navButtons = [
     path: "/map",
     pages: [views.pages.map],
   },
-  /* {
-    icon: "sun",
-    path: "/meteo",
+  {
+    icon: "wb_sunny",
+    path: "https://meteofrance.com/previsions-meteo-france/baden/56870",
     pages: [],
-  } */
+  }
 ];
 
 export default function (_data, { page }) {
