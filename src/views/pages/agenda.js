@@ -58,9 +58,11 @@ function sessionCard(session) {
                         .filter(speaker => speaker in speakers)
                         .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
                 )
-                    .direction("vertical"),
+                    .direction("vertical")
+                    .spacing(8),
                 Flex([
-                    Text(`${session.attributes.time} - ${session.attributes.duration}`),
+                    Text(`${session.attributes.time} - ${session.attributes.duration}`)
+                    ,
                     Text(rooms[session.attributes.room].name),
                 ])
                     .direction("vertical"),
@@ -78,11 +80,18 @@ export function speaker(_data, props) {
         return Text("Speaker not found");
     }
     return Flex([
-        // Image(speaker.attributes.photoURL),
+        Image(speaker.attributes.photoURL ?? "")
+            .width(40)
+            .height(40),
         Flex([
-            Text(speaker.attributes.name),
-            Text(speaker.attributes.company ?? ""),
+            Text(speaker.attributes.name)
+                .style({
+                    fontWeight: "bold",
+                }),
+            Text(speaker.attributes.company ?? "")
         ])
             .direction("vertical")
     ])
+        .spacing(16)
+        .crossAxisAlignment("center")
 }

@@ -56,7 +56,7 @@ function speakerList(session) {
             )
                 .onPressed("@lenra:navTo", { path: `/speakers/${speaker}` })
         );
-    if (cards.length > 1)
+    if (cards.length > 0)
         return [Wrap(cards).spacing(16)];
     return cards;
 }
