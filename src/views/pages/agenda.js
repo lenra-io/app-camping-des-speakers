@@ -1,7 +1,7 @@
 import { Actionable, colors, Container, Flex, Flexible, Icon, Image, padding, Text, Toggle, View } from "@lenra/components";
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
 import { Favorite } from "../../classes/Favorite.js";
-import { views } from "../../index.gen.js";
+import { listeners, views } from "../../index.gen.js";
 
 /**
  * @param {Favorite[]} param0 
@@ -22,31 +22,43 @@ export default function ([favorite], _props) {
         });
     let currentDay = null;
     let currentTime = null;
-    return Flex(
-        sortedSessions.flatMap((session) => {
-            const elements = [];
-            if (session.attributes.day !== currentDay) {
-                currentDay = session.attributes.day;
-                elements.push(
-                    Text(days[currentDay].long)
-                        .style({
-                            fontSize: 24,
-                        })
-                );
-            }
-            if (session.attributes.time !== currentTime) {
-                currentTime = session.attributes.time;
-                elements.push(
-                    Text(currentTime)
-                        .style({
-                            fontSize: 20,
-                        })
-                );
-            }
-            elements.push(sessionCard(session, favorite?.sessions?.includes(session.attributes.key) ?? false));
-            return elements;
-        })
-    )
+    return Flex([
+        Flex([
+            Text("Mes sessions favorites"),
+            Toggle(favorite?.filter ?? false)
+                .onPressed(listeners.toggleFavoriteFilter),
+        ])
+            .mainAxisAlignment("spaceBetween")
+            .crossAxisAlignment("center"),
+        Flex(
+            sortedSessions.flatMap((session) => {
+                const elements = [];
+                if (session.attributes.day !== currentDay) {
+                    currentDay = session.attributes.day;
+                    elements.push(
+                        Text(days[currentDay].long)
+                            .style({
+                                fontSize: 24,
+                            })
+                    );
+                }
+                if (session.attributes.time !== currentTime) {
+                    currentTime = session.attributes.time;
+                    elements.push(
+                        Text(currentTime)
+                            .style({
+                                fontSize: 20,
+                            })
+                    );
+                }
+                elements.push(sessionCard(session, favorite?.sessions?.includes(session.attributes.key) ?? false));
+                return elements;
+            })
+        )
+            .direction("vertical")
+            .crossAxisAlignment("stretch")
+            .spacing(16)
+    ])
         .direction("vertical")
         .crossAxisAlignment("stretch")
         .spacing(32)
