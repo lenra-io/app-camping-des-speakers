@@ -18,7 +18,7 @@ export const lenraRoutes = [
     },
     {
         path: "/speakers",
-        view: View(views.layout).props({ page: views.pages.speakers }),
+        view: View(views.layout).props({ page: views.pages.speakerList }),
     },
     {
         path: "/speakers/:key",

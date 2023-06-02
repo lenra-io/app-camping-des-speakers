@@ -12,7 +12,7 @@ export default function (_data, { page/* , context */ }, context) {
         Container(
           pageView
         )
-          .maxWidth(page === views.pages.speakers ? 1600 : 800)
+          .maxWidth(page === views.pages.speakerList ? 1600 : 800)
       ])
         .direction("vertical")
         .padding(padding.symmetric(32, 16))

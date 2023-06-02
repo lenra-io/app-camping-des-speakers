@@ -10,7 +10,7 @@ const navButtons = [
   {
     icon: "group",
     path: "/speakers",
-    pages: [views.pages.speakers, views.pages.speaker],
+    pages: [views.pages.speakerList, views.pages.speaker],
   },
   {
     icon: "map",

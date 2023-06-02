@@ -9,7 +9,7 @@ export const views = {
 		"map": "pages.map",
 		"session": "pages.session",
 		"speaker": "pages.speaker",
-		"speakers": "pages.speakers"
+		"speakerList": "pages.speakerList"
 	}
 };
 export const listeners = {
