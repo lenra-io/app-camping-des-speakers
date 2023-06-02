@@ -13,7 +13,7 @@ const navButtons = [
   {
     icon: "group",
     path: "/speakers",
-    pages: [views.pages.speakers],
+    pages: [views.pages.speakerList, views.pages.speaker],
   },
   {
     icon: "map",
@@ -39,7 +39,7 @@ export default function (_data, { page }) {
             .padding(padding.all(20))
             .color(pages.includes(page) ? colors.opacity(colors.Colors.white, 0.2) : colors.Colors.transparentMask)
         )
-        .onPressed("@lenra:navTo", { path })
+          .onPressed("@lenra:navTo", { path })
       )
     )
       .mainAxisAlignment("center")

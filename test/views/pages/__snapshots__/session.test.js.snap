@@ -198,18 +198,27 @@ exports[`session page snapshot FrankenPHP 1`] = `
                         "value": "support du temps réel avec support natif du protocole ",
                       },
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Mercure",
+                        "child": {
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Mercure",
+                            },
+                          ],
+                          "style": {
+                            "color": 4279872746,
+                            "decoration": "underline",
                           },
-                        ],
-                        "style": {
-                          "color": 4279872746,
-                          "decoration": "underline",
+                          "type": "text",
+                          "value": "",
                         },
-                        "type": "text",
-                        "value": "",
+                        "onPressed": {
+                          "action": "@lenra:navTo",
+                          "props": {
+                            "path": "https://mercure.rocks",
+                          },
+                        },
+                        "type": "actionable",
                       },
                       {
                         "type": "text",
@@ -269,11 +278,26 @@ exports[`session page snapshot FrankenPHP 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "kevin_dunglas",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "kevin_dunglas",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/kevin_dunglas",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -468,18 +492,36 @@ Avec l'aide de Robin, expert en développement mobile, nous aborderons les bonne
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "robin_caroff",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "robin_caroff",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/robin_caroff",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "cyril_hue",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "cyril_hue",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/cyril_hue",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -568,18 +610,36 @@ exports[`session page snapshot apprenons_ensemble 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "marion_valentin",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "marion_valentin",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/marion_valentin",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "yvonnick_frin",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "yvonnick_frin",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/yvonnick_frin",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -668,18 +728,36 @@ exports[`session page snapshot astuces_pour_parler 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "willy_malvault",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "willy_malvault",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/willy_malvault",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "sylvain_coudert",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "sylvain_coudert",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/sylvain_coudert",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -776,11 +854,26 @@ exports[`session page snapshot avant_je_supprimai_des_bugs 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "florian_roulet",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "florian_roulet",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/florian_roulet",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -863,11 +956,26 @@ exports[`session page snapshot bienvenue_dans_ma_zone_d_inconfort 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "noemie_delrue",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "noemie_delrue",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/noemie_delrue",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -931,11 +1039,26 @@ En 2023, j'ai décidé de me pencher sur les nouveautés de css et j'ai remarqu�
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "olivier_leplus",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "olivier_leplus",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/olivier_leplus",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1041,11 +1164,26 @@ exports[`session page snapshot comment_gerer_des_journees_de_35h 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "sylvain_gougouzian",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "sylvain_gougouzian",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/sylvain_gougouzian",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1130,18 +1268,36 @@ exports[`session page snapshot comment_hacker_vos_applications_mobiles 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "julien_jimenez",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "julien_jimenez",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/julien_jimenez",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "amelie_avignon",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "amelie_avignon",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/amelie_avignon",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -1238,11 +1394,26 @@ exports[`session page snapshot construire_soi_meme_son_clavier_mecanique 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "benjamin_legrand",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "benjamin_legrand",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/benjamin_legrand",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1315,11 +1486,26 @@ exports[`session page snapshot corn_hole_2_turbo 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "paul_roye",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "paul_roye",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/paul_roye",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1382,11 +1568,26 @@ exports[`session page snapshot creer_des_objets_3D_avec_du_code 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "yohan_lasorsa",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "yohan_lasorsa",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/yohan_lasorsa",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1450,18 +1651,27 @@ exports[`session page snapshot creer_sa_propre_vm_avec_compilation_jit_pour_les_
               "value": "Dans ce talk nous mettrons en œuvre et en live notre propre machine virtuelle avec JIT intégrée pour une calculatrice ",
             },
             {
-              "children": [
-                {
-                  "type": "text",
-                  "value": "RPN",
+              "child": {
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "RPN",
+                  },
+                ],
+                "style": {
+                  "color": 4279872746,
+                  "decoration": "underline",
                 },
-              ],
-              "style": {
-                "color": 4279872746,
-                "decoration": "underline",
+                "type": "text",
+                "value": "",
               },
-              "type": "text",
-              "value": "",
+              "onPressed": {
+                "action": "@lenra:navTo",
+                "props": {
+                  "path": "https://en.wikipedia.org/wiki/Reverse_Polish_notation",
+                },
+              },
+              "type": "actionable",
             },
             {
               "type": "text",
@@ -1504,11 +1714,26 @@ exports[`session page snapshot creer_sa_propre_vm_avec_compilation_jit_pour_les_
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "olivier_poncet",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "olivier_poncet",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/olivier_poncet",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1658,18 +1883,36 @@ exports[`session page snapshot d_un_orchestre_fige_a_un_joli_ballet 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "marie_laure_momplot",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "marie_laure_momplot",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/marie_laure_momplot",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "sebastien_viale",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "sebastien_viale",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/sebastien_viale",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -1877,11 +2120,26 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "patrice_de_saint_steban",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "patrice_de_saint_steban",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/patrice_de_saint_steban",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1954,11 +2212,26 @@ exports[`session page snapshot dessines_moi_rust 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "yannick_guern",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "yannick_guern",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/yannick_guern",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2023,18 +2296,36 @@ exports[`session page snapshot dis_papa_c_est_quoi_impression_3D 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "yohan_lasorsa",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "yohan_lasorsa",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/yohan_lasorsa",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "wassim_chegham",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "wassim_chegham",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/wassim_chegham",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -2101,11 +2392,26 @@ exports[`session page snapshot do_not_track_me 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "cedric_gatay",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "cedric_gatay",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/cedric_gatay",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2147,18 +2453,36 @@ exports[`session page snapshot escape_camp_part_1 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "gregory_bevan",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "gregory_bevan",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/gregory_bevan",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "william_bartlett",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "william_bartlett",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/william_bartlett",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -2204,18 +2528,36 @@ exports[`session page snapshot escape_camp_part_2 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "gregory_bevan",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "gregory_bevan",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/gregory_bevan",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "william_bartlett",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "william_bartlett",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/william_bartlett",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -2292,11 +2634,26 @@ exports[`session page snapshot esprit_de_famille 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "mathieu_passenaud",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "mathieu_passenaud",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/mathieu_passenaud",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2336,11 +2693,26 @@ exports[`session page snapshot et_si_on_arretait_de_basher_les_esn 1`] = `
       "value": "Les ESN, des marchands de viande qui n'ont aucune considération pour leurs collaborateurs et arnaquent leurs clients ? C'est en tout cas l'image que véhiculent souvent les sociétés de service dans le milieu des développeurs. Pourtant ça fait 25 ans que je bosse dans une ESN et je n'ai jamais eu ce ressenti. Même s'il n y a pas de fumée sans feu, est-ce qu'on peut faire de ces clichés une généralité ? Ai-je eu de la chance ? Ou alors le milieu des ESN n'est pas aussi pourri qu'on le dit ? Je vous propose mon retour d'expérience sur mes années d'ESN, les difficultés qu'on peut vivre dans une ESN, mais aussi les opportunités qu'elles offrent, en particulier en début de carrière.",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "olivier_thierry",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "olivier_thierry",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/olivier_thierry",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2403,11 +2775,26 @@ exports[`session page snapshot event_driven_qu_est_ce_donc 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "celine_louvet",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "celine_louvet",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/celine_louvet",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2480,11 +2867,26 @@ exports[`session page snapshot il_etait_une_fois_un_arbre_qui_parle 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "paul_pinault",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "paul_pinault",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/paul_pinault",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2912,11 +3314,26 @@ Mais ces vecteurs de réflexion, communication et compréhension semblent parfoi
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "virginie_ferey",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "virginie_ferey",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/virginie_ferey",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3028,11 +3445,26 @@ La grande IA va-t-elle gouverner le monde ?",
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "stephane_philippart",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "stephane_philippart",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/stephane_philippart",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3072,11 +3504,26 @@ exports[`session page snapshot ivre_et_au_chomage 1`] = `
       "value": "REX sur l'écriture d'un premier livre : comment s'est arrivé ? pourquoi j'ai accepté ? par quelles étapes de dépression suis-je passée ? Je vais parler des relations avec l'équipe éditoriale, des délais, des étapes de la réalisation d'un livre du jour 1 avec les premières lignes jusqu'à la livraison. Je ne m'arrête pas là, on va parler de marketing, publicité, impression, sortie officielle du livre et pourquoi je ne referai plus ça.",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "agnes_cardin",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "agnes_cardin",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/agnes_cardin",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3149,11 +3596,26 @@ exports[`session page snapshot javascript_une_histoire 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "jordane_grenat",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "jordane_grenat",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/jordane_grenat",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3512,18 +3974,27 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                         "value": "deux ",
                       },
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Pioneer CDJ-3000",
+                        "child": {
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Pioneer CDJ-3000",
+                            },
+                          ],
+                          "style": {
+                            "color": 4279872746,
+                            "decoration": "underline",
                           },
-                        ],
-                        "style": {
-                          "color": 4279872746,
-                          "decoration": "underline",
+                          "type": "text",
+                          "value": "",
                         },
-                        "type": "text",
-                        "value": "",
+                        "onPressed": {
+                          "action": "@lenra:navTo",
+                          "props": {
+                            "path": "https://www.pioneerdj.com/fr-fr/product/player/cdj-3000/black/overview/",
+                          },
+                        },
+                        "type": "actionable",
                       },
                     ],
                     "type": "flex",
@@ -3548,36 +4019,54 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                         "value": "une ",
                       },
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Pioneer DJM-900 Nexus 2 White",
+                        "child": {
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Pioneer DJM-900 Nexus 2 White",
+                            },
+                          ],
+                          "style": {
+                            "color": 4279872746,
+                            "decoration": "underline",
                           },
-                        ],
-                        "style": {
-                          "color": 4279872746,
-                          "decoration": "underline",
+                          "type": "text",
+                          "value": "",
                         },
-                        "type": "text",
-                        "value": "",
+                        "onPressed": {
+                          "action": "@lenra:navTo",
+                          "props": {
+                            "path": "https://www.pioneerdj.com/fr-fr/product/mixer/archive/djm-900nxs2/white/overview/",
+                          },
+                        },
+                        "type": "actionable",
                       },
                       {
                         "type": "text",
                         "value": " ou une ",
                       },
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Pioneer DJM-V10LF",
+                        "child": {
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Pioneer DJM-V10LF",
+                            },
+                          ],
+                          "style": {
+                            "color": 4279872746,
+                            "decoration": "underline",
                           },
-                        ],
-                        "style": {
-                          "color": 4279872746,
-                          "decoration": "underline",
+                          "type": "text",
+                          "value": "",
                         },
-                        "type": "text",
-                        "value": "",
+                        "onPressed": {
+                          "action": "@lenra:navTo",
+                          "props": {
+                            "path": "https://www.pioneerdj.com/fr-fr/product/mixer/djm-v10-lf/black/overview/",
+                          },
+                        },
+                        "type": "actionable",
                       },
                     ],
                     "type": "flex",
@@ -3602,18 +4091,27 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                         "value": "une enceinte amplifiée ",
                       },
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "FBT - X-Pro 112MA",
+                        "child": {
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "FBT - X-Pro 112MA",
+                            },
+                          ],
+                          "style": {
+                            "color": 4279872746,
+                            "decoration": "underline",
                           },
-                        ],
-                        "style": {
-                          "color": 4279872746,
-                          "decoration": "underline",
+                          "type": "text",
+                          "value": "",
                         },
-                        "type": "text",
-                        "value": "",
+                        "onPressed": {
+                          "action": "@lenra:navTo",
+                          "props": {
+                            "path": "https://www.fbt.it/en/products/x-pro/x-pro-112ma/",
+                          },
+                        },
+                        "type": "actionable",
                       },
                     ],
                     "type": "flex",
@@ -3660,18 +4158,27 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                         "value": "une table ",
                       },
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "AmericanDJ Pro Event table II",
+                        "child": {
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "AmericanDJ Pro Event table II",
+                            },
+                          ],
+                          "style": {
+                            "color": 4279872746,
+                            "decoration": "underline",
                           },
-                        ],
-                        "style": {
-                          "color": 4279872746,
-                          "decoration": "underline",
+                          "type": "text",
+                          "value": "",
                         },
-                        "type": "text",
-                        "value": "",
+                        "onPressed": {
+                          "action": "@lenra:navTo",
+                          "props": {
+                            "path": "https://www.americandj.eu/fr/pro-event-table-ii-mb.html",
+                          },
+                        },
+                        "type": "actionable",
                       },
                     ],
                     "type": "flex",
@@ -3705,11 +4212,26 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "david_pilato",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "david_pilato",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/david_pilato",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3782,11 +4304,26 @@ exports[`session page snapshot la_pull_request_de_l_horreur 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "jean_francois_greffier",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "jean_francois_greffier",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/jean_francois_greffier",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3826,11 +4363,26 @@ exports[`session page snapshot le_guide_du_voyageur 1`] = `
       "value": "Vous connaissez sûrement ce sigle, mais savez-vous ce qui se cache derrière chaque lettre ? Ce n'est pas facile d'expliquer dans les détails toutes ces définitions, mais des concepts basiques acceptés dans la communauté sont souvent méconnus. Identité sexuelle, orientation sexuelle, sexe biologique, expression de l'identité sexuelle: je vous propose d'expliquer de manière générale les différentes possibilités derrière ces concepts.",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "elaine_dias_batista",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "elaine_dias_batista",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/elaine_dias_batista",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3903,11 +4455,26 @@ exports[`session page snapshot les_7_vies_d_une_qa_analyst 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "audrey_moulins",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "audrey_moulins",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/audrey_moulins",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -4434,11 +5001,26 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "maxime_deroullers",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "maxime_deroullers",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/maxime_deroullers",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -4501,11 +5083,26 @@ exports[`session page snapshot mini_golf_pour_une_accessibilite 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "herve_boisgontier",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "herve_boisgontier",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/herve_boisgontier",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -4571,18 +5168,36 @@ Cette analogie nous permettra d'appréhender les avantages et inconvénients de 
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "benoit_masson",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "benoit_masson",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/benoit_masson",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "gwendal_leclerc",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "gwendal_leclerc",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/gwendal_leclerc",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -4629,11 +5244,26 @@ Quand on est dans un milieu humide et pas stable.
 Je passe plusieur mois par an sur mon bateau, et dans ce talk je vais vous raconter comment je me suis organisée pour concilier voile et travail.",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "aleth_gueguen",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "aleth_gueguen",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/aleth_gueguen",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -4696,11 +5326,26 @@ exports[`session page snapshot on_vit_deja_dans_un_monde_federe 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "anthony_pena",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "anthony_pena",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/anthony_pena",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -4775,18 +5420,36 @@ exports[`session page snapshot passez_moins_de_temps_a_attendre_la_ci 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "jean_phi_baconnais",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "jean_phi_baconnais",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/jean_phi_baconnais",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "guillaume_membre",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "guillaume_membre",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/guillaume_membre",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -4873,11 +5536,26 @@ exports[`session page snapshot pour_eviter_le_dirty_recruiting 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "shirley_almosni_chiche",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "shirley_almosni_chiche",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/shirley_almosni_chiche",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -4917,11 +5595,26 @@ exports[`session page snapshot programmons_ensemble 1`] = `
       "value": "Après avoir vu l’application du logiciel dans la gestion du moteur de voiture il y a quelques temps... continuons le démontage et allons explorer les antres de la boîte de vitesse automatique jusqu’à faire un prototype de boîte pilotée à variation continue avec un arduino et quelques légos ! Ce type de boite de vitesse s'applique au milieu des travaux public, agricole, mais aussi voitures hybrides Toyota ou même des vélos électriques.",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "mathieu_passenaud",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "mathieu_passenaud",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/mathieu_passenaud",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5014,11 +5707,26 @@ exports[`session page snapshot recits_d_epouvante_mlops 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "yuliana_khorolich",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "yuliana_khorolich",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/yuliana_khorolich",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5168,18 +5876,36 @@ exports[`session page snapshot revivez_la_cryptographie_de_nos_ancetres 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "willy_malvault",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "willy_malvault",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/willy_malvault",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "virginie_casavecchia",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "virginie_casavecchia",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/virginie_casavecchia",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -5223,11 +5949,26 @@ exports[`session page snapshot sous_le_capot 1`] = `
       "value": "Hey ! Dis moi, tu sais comment ça fonctionne un navigateur web toi ? Le moteur de rendu, concrètement, il fait quoi ? Ça doit être sacrément compliqué de tout dessiner à l'écran non ? Allez, regardons ça ensemble !",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "anthony_le_goas",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "anthony_le_goas",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/anthony_le_goas",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5342,18 +6083,27 @@ exports[`session page snapshot speech_to_text 1`] = `
               "value": "Vous découvrirez également une application de Speech to Text, réalisée avec ",
             },
             {
-              "children": [
-                {
-                  "type": "text",
-                  "value": "Streamlit",
+              "child": {
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Streamlit",
+                  },
+                ],
+                "style": {
+                  "color": 4279872746,
+                  "decoration": "underline",
                 },
-              ],
-              "style": {
-                "color": 4279872746,
-                "decoration": "underline",
+                "type": "text",
+                "value": "",
               },
-              "type": "text",
-              "value": "",
+              "onPressed": {
+                "action": "@lenra:navTo",
+                "props": {
+                  "path": "https://streamlit.io/",
+                },
+              },
+              "type": "actionable",
             },
             {
               "type": "text",
@@ -5369,11 +6119,26 @@ exports[`session page snapshot speech_to_text 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "mathieu_busquet",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "mathieu_busquet",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/mathieu_busquet",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5466,11 +6231,26 @@ exports[`session page snapshot the_developer_portal 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "maha_alsayasneh",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "maha_alsayasneh",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/maha_alsayasneh",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5543,11 +6323,26 @@ exports[`session page snapshot un_scrum_master_en_or 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "laurie_coquillat",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "laurie_coquillat",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/laurie_coquillat",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5632,18 +6427,36 @@ exports[`session page snapshot vite_une_nouvelle_ere_de_tooling_front 1`] = `
     {
       "children": [
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "yann_thomas_le_moigne",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "yann_thomas_le_moigne",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/yann_thomas_le_moigne",
+            },
+          },
+          "type": "actionable",
         },
         {
-          "name": "pages.agenda::speaker",
-          "props": {
-            "speaker": "christophe_jolivet",
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "christophe_jolivet",
+            },
+            "type": "view",
           },
-          "type": "view",
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/christophe_jolivet",
+            },
+          },
+          "type": "actionable",
         },
       ],
       "spacing": 16,
@@ -5760,11 +6573,26 @@ exports[`session page snapshot vous_pouvez_venir 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "francois_xavier_lair",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "francois_xavier_lair",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/francois_xavier_lair",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5837,11 +6665,26 @@ exports[`session page snapshot wolfy 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "kevin_jean",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "kevin_jean",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/kevin_jean",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5934,11 +6777,26 @@ exports[`session page snapshot yagni_kiss_and_dry 1`] = `
       "type": "flex",
     },
     {
-      "name": "pages.agenda::speaker",
-      "props": {
-        "speaker": "maha_alsayasneh",
-      },
-      "type": "view",
+      "children": [
+        {
+          "child": {
+            "name": "pages.agenda::speaker",
+            "props": {
+              "speaker": "maha_alsayasneh",
+            },
+            "type": "view",
+          },
+          "onPressed": {
+            "action": "@lenra:navTo",
+            "props": {
+              "path": "/speakers/maha_alsayasneh",
+            },
+          },
+          "type": "actionable",
+        },
+      ],
+      "spacing": 16,
+      "type": "wrap",
     },
   ],
   "crossAxisAlignment": "stretch",

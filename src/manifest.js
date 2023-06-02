@@ -9,16 +9,26 @@ export const lenraRoutes = [
     {
         path: "/sessions/:key",
         view: View(views.layout)
-            .props({ 
+            .props({
                 page: views.pages.session,
-             })
+            })
             .context({
                 "pathParams": true
             }),
     },
     {
         path: "/speakers",
-        view: View(views.layout).props({ page: views.pages.speakers }),
+        view: View(views.layout).props({ page: views.pages.speakerList }),
+    },
+    {
+        path: "/speakers/:key",
+        view: View(views.layout)
+            .props({
+                page: views.pages.speaker,
+            })
+            .context({
+                "pathParams": true
+            }),
     },
     {
         path: "/map",

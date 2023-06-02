@@ -1,12 +1,12 @@
 import { sessions, speakers } from "../../../src/camping-data.js";
-import { default as buildSession } from "../../../src/views/pages/session.js";
+import { default as buildSpeaker } from "../../../src/views/pages/speaker.js";
 
 // const schema = "https://raw.githubusercontent.com/lenra-io/components-api/beta/api/component.schema.json";
 
-describe("session page", () => {
+describe("speaker page", () => {
     describe("snapshot", () => {
-        test.each(Object.keys(sessions))("%s", key => {
-            const component = buildSession([], { context: { pathParams: { key } } });
+        test.each(Object.keys(speakers))("%s", key => {
+            const component = buildSpeaker([], { context: { pathParams: { key } } });
             expect(component.toJSON()).toMatchSnapshot();
         });
     });
