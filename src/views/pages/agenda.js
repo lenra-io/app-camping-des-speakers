@@ -1,50 +1,75 @@
-import { Actionable, Container, Flex, Flexible, Image, padding, Text, View } from "@lenra/components";
+import { Actionable, colors, Container, Flex, Flexible, Icon, Image, padding, Text, Toggle, View } from "@lenra/components";
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
+import { Favorite } from "../../classes/Favorite.js";
 import { listeners, views } from "../../index.gen.js";
 
-export default function (_data, _props) {
-    const sortedSessions = Object.values(sessions).sort((a, b) => {
-        if (a.attributes.day !== b.attributes.day) {
-            return a.attributes.day - b.attributes.day;
-        }
-        if (a.attributes.time !== b.attributes.time) {
-            return a.attributes.time.localeCompare(b.attributes.time);
-        }
-        return a.attributes.title.localeCompare(b.attributes.title);
-    });
+/**
+ * @param {Favorite[]} param0 
+ * @param {*} _props 
+ * @returns 
+ */
+export default function ([favorite], _props) {
+    const sortedSessions = Object.values(sessions)
+        .filter(session => favorite?.filter ? favorite?.sessions?.includes(session.attributes.key) : true)
+        .sort((a, b) => {
+            if (a.attributes.day !== b.attributes.day) {
+                return a.attributes.day - b.attributes.day;
+            }
+            if (a.attributes.time !== b.attributes.time) {
+                return a.attributes.time.localeCompare(b.attributes.time);
+            }
+            return a.attributes.title.localeCompare(b.attributes.title);
+        });
     let currentDay = null;
     let currentTime = null;
-    return Flex(
-        sortedSessions.flatMap((session) => {
-            const elements = [];
-            if (session.attributes.day !== currentDay) {
-                currentDay = session.attributes.day;
-                elements.push(
-                    Text(days[currentDay].long)
-                        .style({
-                            fontSize: 24,
-                        })
-                );
-            }
-            if (session.attributes.time !== currentTime) {
-                currentTime = session.attributes.time;
-                elements.push(
-                    Text(currentTime)
-                        .style({
-                            fontSize: 20,
-                        })
-                );
-            }
-            elements.push(sessionCard(session));
-            return elements;
-        })
-    )
+    return Flex([
+        Flex([
+            Text("Mes sessions favorites"),
+            Toggle(favorite?.filter ?? false)
+                .onPressed(listeners.toggleFavoriteFilter),
+        ])
+            .mainAxisAlignment("spaceBetween")
+            .crossAxisAlignment("center"),
+        Flex(
+            sortedSessions.flatMap((session) => {
+                const elements = [];
+                if (session.attributes.day !== currentDay) {
+                    currentDay = session.attributes.day;
+                    elements.push(
+                        Text(days[currentDay].long)
+                            .style({
+                                fontSize: 24,
+                            })
+                    );
+                }
+                if (session.attributes.time !== currentTime) {
+                    currentTime = session.attributes.time;
+                    elements.push(
+                        Text(currentTime)
+                            .style({
+                                fontSize: 20,
+                            })
+                    );
+                }
+                elements.push(sessionCard(session, favorite?.sessions?.includes(session.attributes.key) ?? false));
+                return elements;
+            })
+        )
+            .direction("vertical")
+            .crossAxisAlignment("stretch")
+            .spacing(16)
+    ])
         .direction("vertical")
         .crossAxisAlignment("stretch")
-        .spacing(16)
+        .spacing(32)
 }
 
-function sessionCard(session) {
+/**
+ * @param {Session} session 
+ * @param {boolean} isFavorite 
+ * @returns 
+ */
+function sessionCard(session, isFavorite) {
     return Actionable(
         Container.card(
             Flex([
@@ -58,14 +83,25 @@ function sessionCard(session) {
                         .filter(speaker => speaker in speakers)
                         .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
                 )
-                    .direction("vertical")
-                    .spacing(8),
-                Flex([
-                    Text(`${session.attributes.time} - ${session.attributes.duration}`)
-                    ,
-                    Text(rooms[session.attributes.room].name),
-                ])
                     .direction("vertical"),
+                Flex(
+                    [
+                        Flex([
+                            Text(`${session.attributes.time} - ${session.attributes.duration}`),
+                            Text(rooms[session.attributes.room].name),
+                        ])
+                            .direction("vertical"),
+                        Actionable(
+                            Icon("local_fire_department")
+                                .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
+                                .style(isFavorite ? "rounded" : "outlined")
+                        )
+                            .onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
+                    ]
+                )
+                    .fillParent(true)
+                    .mainAxisAlignment("spaceBetween")
+                    .crossAxisAlignment("end"),
             ])
                 .direction("vertical")
                 .spacing(16)

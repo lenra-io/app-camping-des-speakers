@@ -15,5 +15,7 @@ export const views = {
 export const listeners = {
 	"onEnvStart": "onEnvStart",
 	"onSessionStart": "onSessionStart",
-	"onUserFirstJoin": "onUserFirstJoin"
+	"onUserFirstJoin": "onUserFirstJoin",
+	"toggleFavorite": "toggleFavorite",
+	"toggleFavoriteFilter": "toggleFavoriteFilter"
 };
