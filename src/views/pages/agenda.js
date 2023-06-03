@@ -108,7 +108,7 @@ function sessionCard(session, isFavorite) {
                                             .style("rounded")
                                     ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
                                 ]
-                            ).direction("vertical"),
+                            ).spacing(8),
                     ]
                 )
                     .fillParent(true)
