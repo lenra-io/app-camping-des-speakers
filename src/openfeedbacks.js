@@ -34,5 +34,22 @@ export const openfeedbacks = {
   "ivre_et_au_chomage": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/b5p4i70CkZITptgbncA3",
   "les_7_vies_d_une_qa_analyst": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/cb51m7ezLrNA0Z8c9Cyo",
   "FrankenPHP": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/ivtZFdYVkOKV2AKAra6V",
-  "sous_le_capot": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/tv3AjDQ68CjKzJ2vZXpu"
+  "sous_le_capot": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/tv3AjDQ68CjKzJ2vZXpu",
+  "astuces_pour_parler": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/1Mdb9pDSF762rn2cnOmJ",
+  "escape_camp_part_1": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/IlrUX0uq2wKSZ68M8Zbd",
+  "et_si_on_arretait_de_basher_les_esn": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/XvdSUbIxv4P3la7gqLGT",
+  "passez_moins_de_temps_a_attendre_la_ci": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/Yg5GDgRoYZvLdzxEwEh8",
+  "programmons_ensemble":"https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/mRDXnlSWhbi6rlRXCr7W",
+  "dis_papa_c_est_quoi_impression_3D": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/ooapxX5MSmyPIlkSyhZY",
+  "maitrise_ton_apprentissage": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/v5GA7B22rm635z7ejjzO",
+  "yagni_kiss_and_dry": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/00y0OQ5oiPocfOpsCiYE",
+  "cette_annee_retombez_amoureux_de_CSS": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/1dds5Nadspxf0BKxzbB0",
+  "wolfy": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/lt56pyvfts3HXV4oXUI2", 
+  "vite_une_nouvelle_ere_de_tooling_front": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/RIGv9yJGOyk5yUhgVEk8",
+  "comment_gerer_des_journees_de_35h": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/T62PjshxGvgrQ6EPcWMv", 
+  "creer_sa_propre_vm_avec_compilation_jit_pour_les_nuls": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/eOM2rDa4o3RA9D6W2V0C", 
+  "speech_to_text": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/q4JmxBMtc3j85NAsCdcx",
+  "escape_camp_part_2": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/46nmW7uQ7j3AjJa70PDN",
+  "keynote_vendredi_soir": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/ELMyhOkyz6pmvU8GXqMt",
+  "keynote_vendredi_matin": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/AoIXs1Z7HK4w02wVQJqy"
 };
