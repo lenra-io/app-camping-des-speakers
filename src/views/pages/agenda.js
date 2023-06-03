@@ -95,9 +95,12 @@ function sessionCard(session, isFavorite) {
                             Flex(
                                 [
                                     Actionable(
-                                        Icon("local_fire_department")
-                                            .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
-                                            .style(isFavorite ? "rounded" : "outlined")
+                                        Container(
+                                            Icon("local_fire_department")
+                                                .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
+                                                .style(isFavorite ? "rounded" : "outlined")
+                                        )
+                                            .padding(padding.symmetric(16, 8))
                                     ).onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
                                     Actionable(
                                         Icon("forum")
