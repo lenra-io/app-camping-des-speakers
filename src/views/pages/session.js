@@ -1,7 +1,8 @@
-import { Actionable, Flex, Flexible, Text, View, Wrap } from "@lenra/components";
+import { Actionable, Container, Flex, Icon, Text, View, Wrap, colors, padding } from "@lenra/components";
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
 import { views } from "../../index.gen.js";
 import { buildContentChildren } from "../../utils/contentDescriber.js";
+import { openfeedbacks } from "../../openfeedbacks.js";
 
 export default function (_data, /* _props,  */{ context: { pathParams } }) {
     const session = sessions[pathParams.key];
@@ -9,6 +10,14 @@ export default function (_data, /* _props,  */{ context: { pathParams } }) {
         header(session),
         ...body(session),
         ...speakerList(session),
+        Actionable(
+            Container(
+                Icon("forum")
+                    .color(colors.Colors.black)
+                    .style("rounded")
+            )
+                .padding(padding.symmetric(16, 8))
+        ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
     ])
         .direction("vertical")
         .spacing(16)

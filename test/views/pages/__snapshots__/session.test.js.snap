@@ -299,6 +299,30 @@ exports[`session page snapshot FrankenPHP 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/ivtZFdYVkOKV2AKAra6V",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -527,6 +551,30 @@ Avec l'aide de Robin, expert en développement mobile, nous aborderons les bonne
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/r0T8dpcqSh3TTZB16kbS",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -644,6 +692,30 @@ exports[`session page snapshot apprenons_ensemble 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/SeQxd4lYfrxRFUrsy6CN",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -763,6 +835,30 @@ exports[`session page snapshot astuces_pour_parler 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/1Mdb9pDSF762rn2cnOmJ",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -875,6 +971,30 @@ exports[`session page snapshot avant_je_supprimai_des_bugs 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/ujEFnU88nGa9WtyAfH6m",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -977,6 +1097,30 @@ exports[`session page snapshot bienvenue_dans_ma_zone_d_inconfort 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/iUlTdaw6fdjBn8rNeX6J",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -1059,6 +1203,30 @@ En 2023, j'ai décidé de me pencher sur les nouveautés de css et j'ai remarqu�
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/1dds5Nadspxf0BKxzbB0",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1185,6 +1353,30 @@ exports[`session page snapshot comment_gerer_des_journees_de_35h 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/T62PjshxGvgrQ6EPcWMv",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -1303,6 +1495,30 @@ exports[`session page snapshot comment_hacker_vos_applications_mobiles 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/D20sCMnCosZbXVpAW0UY",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -1415,6 +1631,30 @@ exports[`session page snapshot construire_soi_meme_son_clavier_mecanique 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/dGsAppCLuZEcEoJC8wDL",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -1507,6 +1747,30 @@ exports[`session page snapshot corn_hole_2_turbo 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/GCCeIdmI51ks1xgmUnAb",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -1588,6 +1852,30 @@ exports[`session page snapshot creer_des_objets_3D_avec_du_code 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/F9O3wzs3Ozcy85o8tA1R",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1734,6 +2022,30 @@ exports[`session page snapshot creer_sa_propre_vm_avec_compilation_jit_pour_les_
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/eOM2rDa4o3RA9D6W2V0C",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -1917,6 +2229,30 @@ exports[`session page snapshot d_un_orchestre_fige_a_un_joli_ballet 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/ClzTSd7EVr4Xk2JORJH2",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2141,6 +2477,30 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/bs3lWkIIecLILS6myXzI",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -2232,6 +2592,30 @@ exports[`session page snapshot dessines_moi_rust 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/2r8HzqvVuPvvTmyoYcaw",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2331,6 +2715,30 @@ exports[`session page snapshot dis_papa_c_est_quoi_impression_3D 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/ooapxX5MSmyPIlkSyhZY",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -2413,6 +2821,30 @@ exports[`session page snapshot do_not_track_me 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/er3gOYwdeNYhxYyvagy9",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -2488,6 +2920,30 @@ exports[`session page snapshot escape_camp_part_1 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/IlrUX0uq2wKSZ68M8Zbd",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -2562,6 +3018,30 @@ exports[`session page snapshot escape_camp_part_2 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/46nmW7uQ7j3AjJa70PDN",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2655,6 +3135,30 @@ exports[`session page snapshot esprit_de_famille 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/WCZHpv6LP44b6zDqaoOH",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -2713,6 +3217,30 @@ exports[`session page snapshot et_si_on_arretait_de_basher_les_esn 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/XvdSUbIxv4P3la7gqLGT",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2795,6 +3323,30 @@ exports[`session page snapshot event_driven_qu_est_ce_donc 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/hb3tHXpRWQ7VX3mpTRAA",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -2887,6 +3439,30 @@ exports[`session page snapshot il_etait_une_fois_un_arbre_qui_parle 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/nMWG2SnTVYe7knR1nI0b",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3335,6 +3911,30 @@ Mais ces vecteurs de réflexion, communication et compréhension semblent parfoi
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/RD9AzFTXlAdwmgYRRAQW",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -3466,6 +4066,30 @@ La grande IA va-t-elle gouverner le monde ?",
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/3wCEYJZ26BOlFf11IN2W",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -3524,6 +4148,30 @@ exports[`session page snapshot ivre_et_au_chomage 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/b5p4i70CkZITptgbncA3",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3617,6 +4265,30 @@ exports[`session page snapshot javascript_une_histoire 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/pXwMGMSK8wpMIMoYSayU",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -3676,6 +4348,30 @@ exports[`session page snapshot keynote_jeudi_matin 1`] = `
       "direction": "vertical",
       "spacing": 8,
       "type": "flex",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/96yF0z9sXKy6rMKEWxzY",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -3737,6 +4433,30 @@ exports[`session page snapshot keynote_vendredi_matin 1`] = `
       "spacing": 8,
       "type": "flex",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/AoIXs1Z7HK4w02wVQJqy",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -3773,6 +4493,30 @@ exports[`session page snapshot keynote_vendredi_soir 1`] = `
     {
       "type": "text",
       "value": "Keynote de fin des organisateurs",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/ELMyhOkyz6pmvU8GXqMt",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -4233,6 +4977,30 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/19A5DYzQiX9KGabiRZIK",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -4325,6 +5093,30 @@ exports[`session page snapshot la_pull_request_de_l_horreur 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/MwwBXttfFJu536CUNnnj",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -4383,6 +5175,30 @@ exports[`session page snapshot le_guide_du_voyageur 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/gZd0mh3pY9Xz6Gm6ZdPb",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -4475,6 +5291,30 @@ exports[`session page snapshot les_7_vies_d_une_qa_analyst 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/cb51m7ezLrNA0Z8c9Cyo",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5022,6 +5862,30 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/v5GA7B22rm635z7ejjzO",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -5103,6 +5967,30 @@ exports[`session page snapshot mini_golf_pour_une_accessibilite 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/qMkXhNHmZodluBZ28qzs",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5203,6 +6091,30 @@ Cette analogie nous permettra d'appréhender les avantages et inconvénients de 
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/LJpjuxKkN21A7R9ZK5Gh",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -5264,6 +6176,30 @@ Je passe plusieur mois par an sur mon bateau, et dans ce talk je vais vous racon
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/68Z2WwVSJ9oP1OfXXyeJ",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5346,6 +6282,30 @@ exports[`session page snapshot on_vit_deja_dans_un_monde_federe 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/2TBNNk9w1gEofQwDufBw",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5455,6 +6415,30 @@ exports[`session page snapshot passez_moins_de_temps_a_attendre_la_ci 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/Yg5GDgRoYZvLdzxEwEh8",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -5557,6 +6541,30 @@ exports[`session page snapshot pour_eviter_le_dirty_recruiting 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/VvZ7IMEHBES2mxu7aUut",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -5615,6 +6623,30 @@ exports[`session page snapshot programmons_ensemble 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/mRDXnlSWhbi6rlRXCr7W",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5727,6 +6759,30 @@ exports[`session page snapshot recits_d_epouvante_mlops 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/KhncUojNDXT7UoYXKKkU",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -5911,6 +6967,30 @@ exports[`session page snapshot revivez_la_cryptographie_de_nos_ancetres 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/aFeNTZTqEjW9A6k1Wi9j",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -5969,6 +7049,30 @@ exports[`session page snapshot sous_le_capot 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/tv3AjDQ68CjKzJ2vZXpu",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -6140,6 +7244,30 @@ exports[`session page snapshot speech_to_text 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/q4JmxBMtc3j85NAsCdcx",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -6252,6 +7380,30 @@ exports[`session page snapshot the_developer_portal 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/iCPztz0B0cnDrSjh0W75",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -6343,6 +7495,30 @@ exports[`session page snapshot un_scrum_master_en_or 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/kiMZpmyJDksQC0mMuMtu",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -6461,6 +7637,30 @@ exports[`session page snapshot vite_une_nouvelle_ere_de_tooling_front 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/RIGv9yJGOyk5yUhgVEk8",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -6594,6 +7794,30 @@ exports[`session page snapshot vous_pouvez_venir 1`] = `
       "spacing": 16,
       "type": "wrap",
     },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-15/61uJyxeCpCUfLVZm047f",
+        },
+      },
+      "type": "actionable",
+    },
   ],
   "crossAxisAlignment": "stretch",
   "direction": "vertical",
@@ -6685,6 +7909,30 @@ exports[`session page snapshot wolfy 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/lt56pyvfts3HXV4oXUI2",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
@@ -6797,6 +8045,30 @@ exports[`session page snapshot yagni_kiss_and_dry 1`] = `
       ],
       "spacing": 16,
       "type": "wrap",
+    },
+    {
+      "child": {
+        "child": {
+          "color": 4278190080,
+          "style": "rounded",
+          "type": "icon",
+          "value": "forum",
+        },
+        "padding": {
+          "bottom": 8,
+          "left": 16,
+          "right": 16,
+          "top": 8,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "https://openfeedback.io/tY2sBMJlCOeyH0kdoCIu/2023-06-16/00y0OQ5oiPocfOpsCiYE",
+        },
+      },
+      "type": "actionable",
     },
   ],
   "crossAxisAlignment": "stretch",
