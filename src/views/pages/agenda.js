@@ -103,9 +103,12 @@ function sessionCard(session, isFavorite) {
                                             .padding(padding.symmetric(16, 8))
                                     ).onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
                                     Actionable(
-                                        Icon("forum")
-                                            .color(colors.Colors.black)
-                                            .style("rounded")
+                                        Container(
+                                            Icon("forum")
+                                                .color(colors.Colors.black)
+                                                .style("rounded")
+                                        )
+                                            .padding(padding.symmetric(16, 8))
                                     ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
                                 ]
                             ).spacing(8),
