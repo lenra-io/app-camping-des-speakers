@@ -2,6 +2,7 @@ import { Actionable, colors, Container, Flex, Flexible, Icon, Image, padding, Te
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
 import { Favorite } from "../../classes/Favorite.js";
 import { listeners, views } from "../../index.gen.js";
+import { openfeedbacks } from "../../openfeedbacks.js";
 
 /**
  * @param {Favorite[]} param0 
@@ -91,12 +92,20 @@ function sessionCard(session, isFavorite) {
                             Text(rooms[session.attributes.room].name),
                         ])
                             .direction("vertical"),
-                        Actionable(
-                            Icon("local_fire_department")
-                                .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
-                                .style(isFavorite ? "rounded" : "outlined")
-                        )
-                            .onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
+                            Flex(
+                                [
+                                    Actionable(
+                                        Icon("local_fire_department")
+                                            .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
+                                            .style(isFavorite ? "rounded" : "outlined")
+                                    ).onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
+                                    Actionable(
+                                        Icon("forum")
+                                            .color(colors.Colors.black)
+                                            .style("rounded")
+                                    ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
+                                ]
+                            ).direction("vertical"),
                     ]
                 )
                     .fillParent(true)
