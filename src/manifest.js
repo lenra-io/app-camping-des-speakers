@@ -20,6 +20,10 @@ export const lenraRoutes = [
         view: View(views.layout)
             .props({
                 page: views.pages.session,
+                find: {
+                    coll: DataApi.collectionName(Favorite),
+                    query: { user: "@me" },
+                }
             })
             .context({
                 "pathParams": true
@@ -27,7 +31,7 @@ export const lenraRoutes = [
     },
     {
         path: "/speakers",
-        view: View(views.layout).props({ page: views.pages.speakerList }),
+        view: View(views.layout).props({ page: views.pages.speakerList, maxWidth: 1600 }),
     },
     {
         path: "/speakers/:key",
@@ -41,6 +45,6 @@ export const lenraRoutes = [
     },
     {
         path: "/map",
-        view: View(views.layout).props({ page: views.pages.map }),
+        view: View(views.layout).props({ page: views.pages.map, maxWidth: 1600 }),
     }
 ]

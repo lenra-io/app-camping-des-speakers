@@ -1,7 +1,8 @@
 import { Container, Flex, Flexible, padding, View } from "@lenra/components";
 import { views } from "../index.gen.js";
 
-export default function (_data, { page/* , context */, find }, context) {
+export default function (_data, { page/* , context */, find, maxWidth }, context) {
+  if (!maxWidth) maxWidth = 800;
   const pageView = View(page);
   // if (context) pageView.context(context);
   if (context) pageView.props({ context });
@@ -13,7 +14,7 @@ export default function (_data, { page/* , context */, find }, context) {
         Container(
           pageView
         )
-          .maxWidth(page === views.pages.speakerList ? 1600 : 800)
+          .maxWidth(maxWidth)
       ])
         .direction("vertical")
         .padding(padding.symmetric(32, 16))

@@ -4,7 +4,7 @@ export const views = {
 	"navbar": "navbar",
 	"pages": {
 		"agenda": {...{
-			"speaker": "pages.agenda::speaker"
+			"speakerCard": "pages.agenda::speakerCard"
 		}, toJSON: () => "pages.agenda"},
 		"map": "pages.map",
 		"session": "pages.session",

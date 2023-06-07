@@ -58,7 +58,7 @@
  * @typedef {Object} SponsorAttributes
  * @property {string} key La clé du sponsor
  * @property {string} title Le nom du sponsor
- * @property {string} logoUrl L'url du logo du sponsor
+ * @property {string} logoURL L'url du logo du sponsor
  * @property {string} url L'url du site web du sponsor
  * @property {number} category Le niveau du sponsor
  * @property {Social[]} socials Les réseaux sociaux du sponsor
