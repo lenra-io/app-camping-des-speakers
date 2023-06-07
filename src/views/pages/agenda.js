@@ -82,7 +82,8 @@ function sessionCard(session, isFavorite) {
                 Flex(
                     session.attributes.speakers
                         .filter(speaker => speaker in speakers)
-                        .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
+                        .map(speaker => speakers[speaker])
+                        .map(speakerCard)
                 )
                     .direction("vertical"),
                 Flex(
@@ -124,8 +125,7 @@ function sessionCard(session, isFavorite) {
     ).onPressed("@lenra:navTo", { path: `/sessions/${session.attributes.key}` })
 }
 
-export function speaker(_data, props) {
-    const speaker = speakers[props.speaker];
+export function speakerCard(speaker) {
     if (!speaker) {
         console.log("Speaker not found", props.speaker);
         return Text("Speaker not found");

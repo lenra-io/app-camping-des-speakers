@@ -3,6 +3,7 @@ import { days, rooms, sessions, speakers } from "../../camping-data.js";
 import { views } from "../../index.gen.js";
 import { buildContentChildren } from "../../utils/contentDescriber.js";
 import { openfeedbacks } from "../../openfeedbacks.js";
+import { speakerCard } from "./agenda.js";
 
 export default function (_data, /* _props,  */{ context: { pathParams } }) {
     const session = sessions[pathParams.key];
@@ -59,11 +60,12 @@ function body(session) {
 function speakerList(session) {
     const cards = session.attributes.speakers
         .filter(speaker => speaker in speakers)
+        .map(speaker => speakers[speaker])
         .map(speaker =>
             Actionable(
-                View(views.pages.agenda.speaker).props({ speaker })
+                speakerCard(speaker)
             )
-                .onPressed("@lenra:navTo", { path: `/speakers/${speaker}` })
+                .onPressed("@lenra:navTo", { path: `/speakers/${speaker.attributes.key}` })
         );
     if (cards.length > 0)
         return [Wrap(cards).spacing(16)];
