@@ -82,9 +82,11 @@ function sessionCard(session, isFavorite) {
                 Flex(
                     session.attributes.speakers
                         .filter(speaker => speaker in speakers)
-                        .map(speaker => View(views.pages.agenda.speaker).props({ speaker }))
+                        .map(speaker => speakers[speaker])
+                        .map(speakerCard)
                 )
-                    .direction("vertical"),
+                    .direction("vertical")
+                    .spacing(4),
                 Flex(
                     [
                         Flex([
@@ -92,26 +94,26 @@ function sessionCard(session, isFavorite) {
                             Text(rooms[session.attributes.room].name),
                         ])
                             .direction("vertical"),
-                            Flex(
-                                [
-                                    Actionable(
-                                        Container(
-                                            Icon("local_fire_department")
-                                                .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
-                                                .style(isFavorite ? "rounded" : "outlined")
-                                        )
-                                            .padding(padding.symmetric(16, 8))
-                                    ).onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
-                                    Actionable(
-                                        Container(
-                                            Icon("forum")
-                                                .color(colors.Colors.black)
-                                                .style("rounded")
-                                        )
-                                            .padding(padding.symmetric(16, 8))
-                                    ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
-                                ]
-                            ).spacing(8),
+                        Flex(
+                            [
+                                Actionable(
+                                    Container(
+                                        Icon("forum")
+                                            .color(colors.Colors.black)
+                                            .style("rounded")
+                                    )
+                                        .padding(padding.symmetric(16, 8))
+                                ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
+                                Actionable(
+                                    Container(
+                                        Icon("local_fire_department")
+                                            .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
+                                            .style(isFavorite ? "rounded" : "outlined")
+                                    )
+                                        .padding(padding.symmetric(16, 8))
+                                ).onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
+                            ]
+                        ).spacing(8),
                     ]
                 )
                     .fillParent(true)
@@ -124,8 +126,7 @@ function sessionCard(session, isFavorite) {
     ).onPressed("@lenra:navTo", { path: `/sessions/${session.attributes.key}` })
 }
 
-export function speaker(_data, props) {
-    const speaker = speakers[props.speaker];
+export function speakerCard(speaker) {
     if (!speaker) {
         console.log("Speaker not found", props.speaker);
         return Text("Speaker not found");

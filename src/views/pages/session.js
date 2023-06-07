@@ -1,23 +1,48 @@
 import { Actionable, Container, Flex, Icon, Text, View, Wrap, colors, padding } from "@lenra/components";
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
-import { views } from "../../index.gen.js";
+import { listeners, views } from "../../index.gen.js";
 import { buildContentChildren } from "../../utils/contentDescriber.js";
 import { openfeedbacks } from "../../openfeedbacks.js";
+import { speakerCard } from "./agenda.js";
 
-export default function (_data, /* _props,  */{ context: { pathParams } }) {
+export default function ([favorite], /* _props,  */{ context: { pathParams } }) {
     const session = sessions[pathParams.key];
+    const isFavorite = favorite?.sessions?.includes(session.attributes.key) ?? false;
     return Flex([
         header(session),
         ...body(session),
         ...speakerList(session),
-        Actionable(
-            Container(
-                Icon("forum")
-                    .color(colors.Colors.black)
-                    .style("rounded")
-            )
-                .padding(padding.symmetric(16, 8))
-        ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
+        Flex([
+            Actionable(
+                Container(
+                    Flex([
+                        Icon("local_fire_department")
+                            .color(isFavorite ? colors.LenraColors.yellowPulse : colors.Colors.black)
+                            .style(isFavorite ? "rounded" : "outlined"),
+                        Text(isFavorite ? "Retirer des favoris" : "Ajouter aux favoris")
+                    ])
+                        .spacing(16)
+                )
+                    .alignment("center")
+                    // .maxWidth(120)
+                    .padding(padding.symmetric(16, 8))
+            ).onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
+            Actionable(
+                Container(
+                    Flex([
+                        Icon("forum")
+                            .color(colors.Colors.black)
+                            .style("rounded"),
+                        Text("Feedback")
+                    ])
+                        .spacing(16)
+                )
+                    .alignment("center")
+                    // .maxWidth(120)
+                    .padding(padding.symmetric(16, 8))
+            ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
+        ])
+            .spacing(16),
     ])
         .direction("vertical")
         .spacing(16)
@@ -59,11 +84,12 @@ function body(session) {
 function speakerList(session) {
     const cards = session.attributes.speakers
         .filter(speaker => speaker in speakers)
+        .map(speaker => speakers[speaker])
         .map(speaker =>
             Actionable(
-                View(views.pages.agenda.speaker).props({ speaker })
+                speakerCard(speaker)
             )
-                .onPressed("@lenra:navTo", { path: `/speakers/${speaker}` })
+                .onPressed("@lenra:navTo", { path: `/speakers/${speaker.attributes.key}` })
         );
     if (cards.length > 0)
         return [Wrap(cards).spacing(16)];
