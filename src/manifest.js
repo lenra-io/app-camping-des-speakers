@@ -45,6 +45,6 @@ export const lenraRoutes = [
     },
     {
         path: "/map",
-        view: View(views.layout).props({ page: views.pages.map, maxWidth: 1600 }),
+        view: View(views.layout).props({ page: views.pages.map, maxWidth: 1044 }),
     }
 ]

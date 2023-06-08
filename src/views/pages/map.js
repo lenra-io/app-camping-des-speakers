@@ -1,4 +1,4 @@
-import { Actionable, Container, Flex, Flexible, Image, Text, Wrap } from "@lenra/components";
+import { Actionable, Container, Flex, Flexible, Image, padding, Text, Wrap } from "@lenra/components";
 import { sponsors } from "../../camping-data.js";
 
 const sponsorsValues = Object.values(sponsors);
@@ -32,13 +32,11 @@ function renderCategory({ category, sponsors }) {
                     fontWeight: "bold",
                 })
         ])
-            .fillParent(true)
-            .mainAxisAlignment("center")
             .crossAxisAlignment("center"),
         Wrap(
             sponsors.map(sponsorCard)
         )
-            .spacing(16)
+            .spacing(32)
             .alignment("start")
             .crossAxisAlignment("center")
             .runAlignment("center")
@@ -57,11 +55,14 @@ function sponsorCard(sponsor) {
                         fontSize: 24,
                         fontWeight: "bold",
                     }),
-                Image(sponsor.attributes.logoURL)
-                    .width(276)
-                    .height(251)
-                    .fit("contain")
-                    .filterQuality("high")
+                Container(
+                    Image(sponsor.attributes.logoURL)
+                        .fit("contain")
+                        .filterQuality("high")
+                        .width(220)
+                        .height(220)
+                )
+                    .padding(padding.symmetric(32, 16))
             ])
                 .direction("vertical")
                 .crossAxisAlignment("start")
