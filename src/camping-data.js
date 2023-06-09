@@ -2288,7 +2288,7 @@ export const sessions = {
       ],
       "type": "autour_du_feu",
       "day": 0,
-      "time": "17h40",
+      "time": "21h30",
       "duration": "15 minutes",
       "room": "slideless"
     },
@@ -2759,6 +2759,66 @@ export const sessions = {
     ]
   }
 }
+
+
+/**
+ * @type {Array<string>}
+ */
+export const sessionsSortedKeys = [
+  "keynote_jeudi_matin",
+  "avant_je_supprimai_des_bugs",
+  "comment_hacker_vos_applications_mobiles",
+  "construire_soi_meme_son_clavier_mecanique",
+  "mobkky_le_mob_applique_au_molkky",
+  "do_not_track_me",
+  "corn_hole_2_turbo",
+  "revivez_la_cryptographie_de_nos_ancetres",
+  "vous_pouvez_venir",
+  "event_driven_qu_est_ce_donc",
+  "FrankenPHP",
+  "il_etait_une_fois_un_arbre_qui_parle",
+  "le_guide_du_voyageur",
+  "de_la_tablette_d_argile_a_ChatGPT",
+  "d_un_orchestre_fige_a_un_joli_ballet",
+  "imager_materialiser_sa_pensee",
+  "mini_golf_pour_une_accessibilite",
+  "pour_eviter_le_dirty_recruiting",
+  "bienvenue_dans_ma_zone_d_inconfort",
+  "on_vit_deja_dans_un_monde_federe",
+  "sous_le_capot",
+  "un_scrum_master_en_or",
+  "intelligence_artificielle_expliquee_en_20_minutes",
+  "naviguer_et_coder_comment_on_fait",
+  "a_la_decouverte_du_developpement_mobile",
+  "apprenons_ensemble",
+  "javascript_une_histoire",
+  "the_developer_portal",
+  "creer_des_objets_3D_avec_du_code",
+  "esprit_de_famille",
+  "ivre_et_au_chomage",
+  "dessines_moi_rust",
+  "l_art_du_DeeJaying_par_la_pratique",
+  "la_pull_request_de_l_horreur",
+  "les_7_vies_d_une_qa_analyst",
+  "recits_d_epouvante_mlops",
+  "keynote_vendredi_matin",
+  "creer_sa_propre_vm_avec_compilation_jit_pour_les_nuls",
+  "dis_papa_c_est_quoi_impression_3D",
+  "maitrise_ton_apprentissage",
+  "wolfy",
+  "et_si_on_arretait_de_basher_les_esn",
+  "programmons_ensemble",
+  "speech_to_text",
+  "yagni_kiss_and_dry",
+  "cette_annee_retombez_amoureux_de_CSS",
+  "escape_camp_part_1",
+  "passez_moins_de_temps_a_attendre_la_ci",
+  "vite_une_nouvelle_ere_de_tooling_front",
+  "astuces_pour_parler",
+  "escape_camp_part_2",
+  "comment_gerer_des_journees_de_35h",
+  "keynote_vendredi_soir"
+]
 
 /**
 * @type {{[key: string]: Speaker}}
@@ -4935,6 +4995,69 @@ export const speakers = {
   }
 }
 
+
+/**
+ * @type {Array<string>}
+ */
+export const speakersSortedKeys = [
+  "agnes_cardin",
+  "aleth_gueguen",
+  "amelie_avignon",
+  "anthony_le_goas",
+  "anthony_pena",
+  "audrey_moulins",
+  "benjamin_legrand",
+  "benoit_masson",
+  "cedric_gatay",
+  "celine_louvet",
+  "christophe_jolivet",
+  "cyril_hue",
+  "david_pilato",
+  "elaine_dias_batista",
+  "florian_roulet",
+  "francois_xavier_lair",
+  "gregory_bevan",
+  "guillaume_membre",
+  "gwendal_leclerc",
+  "herve_boisgontier",
+  "jean_francois_greffier",
+  "jean_phi_baconnais",
+  "jordane_grenat",
+  "julien_jimenez",
+  "kevin_dunglas",
+  "kevin_jean",
+  "laurie_coquillat",
+  "maha_alsayasneh",
+  "marie_laure_momplot",
+  "marion_valentin",
+  "mathieu_busquet",
+  "mathieu_passenaud",
+  "maxime_deroullers",
+  "noemie_delrue",
+  "olivier_leplus",
+  "olivier_poncet",
+  "olivier_thierry",
+  "patrice_de_saint_steban",
+  "paul_pinault",
+  "paul_roye",
+  "robin_caroff",
+  "sebastien_viale",
+  "shirley_almosni_chiche",
+  "stephane_philippart",
+  "sylvain_coudert",
+  "sylvain_gougouzian",
+  "virginie_casavecchia",
+  "virginie_ferey",
+  "wassim_chegham",
+  "william_bartlett",
+  "willy_malvault",
+  "yann_thomas_le_moigne",
+  "yannick_guern",
+  "yohan_lasorsa",
+  "yuliana_khorolich",
+  "yvonnick_frin"
+]
+
 /**
 * @type {{[key: string]: Sponsor}}
 */
@@ -5001,6 +5124,17 @@ export const sponsors = {
     },
     "children": []
   },
+  "jseguillon": {
+    "attributes": {
+      "key": "jseguillon",
+      "title": "jseguillon",
+      "category": 512,
+      "logoURL": "logos/512-jseguillon.png",
+      "url": "https://jseguillon.netlify.app/",
+      "socials": []
+    },
+    "children": []
+  },
   "leboncoin": {
     "attributes": {
       "key": "leboncoin",
@@ -5041,6 +5175,17 @@ export const sponsors = {
       "category": 2048,
       "logoURL": "logos/2048-mgdis.png",
       "url": "https://mgdis.fr/",
+      "socials": []
+    },
+    "children": []
+  },
+  "michelin": {
+    "attributes": {
+      "key": "michelin",
+      "title": "Michelin",
+      "category": 512,
+      "logoURL": "logos/512-michelin.png",
+      "url": "https://www.michelin.fr/",
       "socials": []
     },
     "children": []
@@ -5101,3 +5246,41 @@ export const sponsors = {
     "children": []
   }
 }
+
+
+/**
+ * @type {{ category: number, sponsorKeys: string[]}[]}
+ */
+export const sponsorsCatorgories = [
+  {
+    "category": 4096,
+    "sponsorKeys": [
+      "lunatech",
+      "ovhcloud"
+    ]
+  },
+  {
+    "category": 2048,
+    "sponsorKeys": [
+      "asi",
+      "bearstudio",
+      "cesi",
+      "elastic",
+      "lenra",
+      "mgdis"
+    ]
+  },
+  {
+    "category": 512,
+    "sponsorKeys": [
+      "ikobox",
+      "jseguillon",
+      "leboncoin",
+      "michelin",
+      "please-open-it",
+      "serli",
+      "worldline",
+      "zenika"
+    ]
+  }
+]

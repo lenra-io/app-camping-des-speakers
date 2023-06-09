@@ -8,7 +8,7 @@ const navButtons = [
   {
     icon: "calendar_today",
     path: "/",
-    pages: [views.pages.agenda, views.pages.session],
+    pages: [views.pages.agenda.toJSON(), views.pages.session],
   },
   {
     icon: "group",

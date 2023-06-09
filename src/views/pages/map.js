@@ -1,15 +1,5 @@
 import { Actionable, Container, Flex, Flexible, Image, padding, Text, Wrap } from "@lenra/components";
-import { sponsors } from "../../camping-data.js";
-
-const sponsorsValues = Object.values(sponsors);
-const sponsorsCatorgories =
-    [4096, 2048, 512]
-        .map(category => ({
-            category,
-            sponsors: sponsorsValues
-                .filter(sponsor => sponsor.attributes.category === category)
-                .sort((a, b) => a.attributes.title.localeCompare(b.attributes.title))
-        }));
+import { sponsors, sponsorsCatorgories } from "../../camping-data.js";
 
 export default function (_data, _props) {
     return Flex(
@@ -19,22 +9,26 @@ export default function (_data, _props) {
         .spacing(32)
 }
 
-function renderCategory({ category, sponsors }) {
+function renderCategory({ category, sponsorKeys }) {
     return Flex([
         Flex([
             Image(`sponsor_${category}.png`)
-                .width(150)
+                .width(120)
                 .fit("contain")
                 .filterQuality("high"),
-            Text(`Sponsors ${category}`)
-                .style({
-                    fontSize: 40,
-                    fontWeight: "bold",
-                })
+            Flexible(
+                Text(`Sponsors ${category}`)
+                    .style({
+                        fontSize: 32,
+                        fontWeight: "bold",
+                    })
+            )
         ])
             .crossAxisAlignment("center"),
         Wrap(
-            sponsors.map(sponsorCard)
+            sponsorKeys
+                .map(key => sponsors[key])
+                .map(sponsorCard)
         )
             .spacing(32)
             .alignment("start")
