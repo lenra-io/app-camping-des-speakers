@@ -47,9 +47,8 @@ arianeStyle.textBaseStyle = {
   height: arianeStyle.heightMultiplier,
 };
 
-function filAriane(page, context) {
+export function filAriane(page, context) {
   const globalPath = pagePath(page, context);
-  if (!globalPath) return null;
   const pathElements = globalPath.split("/").filter(e => e !== "");
   // Si on est sur la page d'accueil ou qu'on n'est pas dans l'arbre de l'agenda, on ajoute un élément vide pour avoir un lien vers la page d'accueil
   if (!globalPath.startsWith("/sessions")) pathElements.unshift("");
