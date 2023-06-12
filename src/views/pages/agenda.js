@@ -1,5 +1,5 @@
 import { Actionable, colors, Container, Flex, Flexible, Icon, Image, padding, Text, Toggle, View } from "@lenra/components";
-import { days, rooms, sessions, speakers } from "../../camping-data.js";
+import { days, rooms, sessions, sessionsSortedKeys, speakers } from "../../camping-data.js";
 import { Favorite } from "../../classes/Favorite.js";
 import { listeners, views } from "../../index.gen.js";
 import { openfeedbacks } from "../../openfeedbacks.js";
@@ -10,17 +10,17 @@ import { openfeedbacks } from "../../openfeedbacks.js";
  * @returns 
  */
 export default function ([favorite], _props) {
-    const sortedSessions = Object.values(sessions)
-        .filter(session => favorite?.filter ? favorite?.sessions?.includes(session.attributes.key) : true)
-        .sort((a, b) => {
-            if (a.attributes.day !== b.attributes.day) {
-                return a.attributes.day - b.attributes.day;
-            }
-            if (a.attributes.time !== b.attributes.time) {
-                return a.attributes.time.localeCompare(b.attributes.time);
-            }
-            return a.attributes.title.localeCompare(b.attributes.title);
-        });
+    console.time("filter");
+    let sessionsFilteredSortedKeys = sessionsSortedKeys;
+    if (favorite?.filter) {
+        if (favorite?.sessions?.length > 0) {
+            sessionsFilteredSortedKeys = sessionsFilteredSortedKeys.filter(session => favorite?.filter ? favorite?.sessions?.includes(session) : true);
+        }
+        else {
+            sessionsFilteredSortedKeys = [];
+        }
+    }
+    console.timeEnd("filter");
     let currentDay = null;
     let currentTime = null;
     return Flex([
@@ -32,29 +32,31 @@ export default function ([favorite], _props) {
             .mainAxisAlignment("spaceBetween")
             .crossAxisAlignment("center"),
         Flex(
-            sortedSessions.flatMap((session) => {
-                const elements = [];
-                if (session.attributes.day !== currentDay) {
-                    currentDay = session.attributes.day;
-                    elements.push(
-                        Text(days[currentDay].long)
-                            .style({
-                                fontSize: 24,
-                            })
-                    );
-                }
-                if (session.attributes.time !== currentTime) {
-                    currentTime = session.attributes.time;
-                    elements.push(
-                        Text(currentTime)
-                            .style({
-                                fontSize: 20,
-                            })
-                    );
-                }
-                elements.push(sessionCard(session, favorite?.sessions?.includes(session.attributes.key) ?? false));
-                return elements;
-            })
+            sessionsFilteredSortedKeys
+                .map(session => sessions[session])
+                .flatMap(session => {
+                    const elements = [];
+                    if (session.attributes.day !== currentDay) {
+                        currentDay = session.attributes.day;
+                        elements.push(
+                            Text(days[currentDay].long)
+                                .style({
+                                    fontSize: 24,
+                                })
+                        );
+                    }
+                    if (session.attributes.time !== currentTime) {
+                        currentTime = session.attributes.time;
+                        elements.push(
+                            Text(currentTime)
+                                .style({
+                                    fontSize: 20,
+                                })
+                        );
+                    }
+                    elements.push(sessionCard(session, favorite?.sessions?.includes(session.attributes.key) ?? false));
+                    return elements;
+                })
         )
             .direction("vertical")
             .crossAxisAlignment("stretch")

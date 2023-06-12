@@ -33,10 +33,60 @@ await copyDirectoryRecursively(path.join(campingPath, "img"), path.join("src", "
  */
 async function generateDataFile(directories) {
     const promises = directories.map(async directory => {
+        const data = await loadContentDirectoryMap(directory);
+        let additionalData = "";
+        if (directory === "sessions") {
+            const sortedKeys = Object.values(data)
+                .sort((a, b) => {
+                    if (a.attributes.day !== b.attributes.day) {
+                        return a.attributes.day - b.attributes.day;
+                    }
+                    if (a.attributes.time !== b.attributes.time) {
+                        return a.attributes.time.localeCompare(b.attributes.time);
+                    }
+                    return a.attributes.title.localeCompare(b.attributes.title);
+                })
+                .map(session => session.attributes.key);
+            additionalData = `
+/**
+ * @type {Array<string>}
+ */
+export const sessionsSortedKeys = ${JSON.stringify(sortedKeys, null, 2)}`;
+        }
+        else if (directory === "speakers") {
+            const sortedKeys = Object.values(data)
+                .sort((a, b) => a.attributes.name.localeCompare(b.attributes.name))
+                .map(speaker => speaker.attributes.key);
+            additionalData = `
+/**
+ * @type {Array<string>}
+ */
+export const speakersSortedKeys = ${JSON.stringify(sortedKeys, null, 2)}`;
+        }
+        else if (directory === "sponsors") {
+            const sponsorsValues = Object.values(data);
+            const sponsorsCatorgories =
+                [4096, 2048, 512]
+                    .map(category => ({
+                        category,
+                        sponsorKeys: sponsorsValues
+                            .filter(sponsor => sponsor.attributes.category === category)
+                            .sort((a, b) => a.attributes.title.localeCompare(b.attributes.title))
+                            .map(sponsor => sponsor.attributes.key)
+                    }));
+            additionalData = `
+/**
+ * @type {{ category: number, sponsorKeys: string[]}[]}
+ */
+export const sponsorsCatorgories = ${JSON.stringify(sponsorsCatorgories, null, 2)}`;
+        }
+
         return `/**
 * @type {${generatedTypes[directory]}}
 */
-export const ${directory} = ${JSON.stringify(await loadContentDirectoryMap(directory), null, 2)}`
+export const ${directory} = ${JSON.stringify(data, null, 2)}
+
+${additionalData}`;
     });
 
     const parts = [
