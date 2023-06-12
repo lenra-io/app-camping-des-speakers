@@ -14,31 +14,32 @@ export function buildContentChildren(children) {
             return Text(child);
         }
         if (!("children" in child)) return null;
+        const childrenElements = buildContentChildren(child.children);
         switch (child.tag) {
             case "h1":
                 return Text("")
-                    .children(buildContentChildren(child.children))
+                    .children(childrenElements)
                     .style({
                         fontSize: 24,
                         fontWeight: "bold",
                     });
             case "h2":
                 return Text("")
-                    .children(buildContentChildren(child.children))
+                    .children(childrenElements)
                     .style({
                         fontSize: 20,
                         fontWeight: "bold",
                     });
             case "h3":
                 return Text("")
-                    .children(buildContentChildren(child.children))
+                    .children(childrenElements)
                     .style({
                         fontSize: 18,
                         fontWeight: "bold",
                     });
             case "h4":
                 return Text("")
-                    .children(buildContentChildren(child.children))
+                    .children(childrenElements)
                     .style({
                         fontSize: 16,
                         fontWeight: "bold",
@@ -46,22 +47,22 @@ export function buildContentChildren(children) {
             case "p":
             case "span":
                 return Text("")
-                    .children(buildContentChildren(child.children));
+                    .children(childrenElements);
             case "strong":
                 return Text("")
-                    .children(buildContentChildren(child.children))
+                    .children(childrenElements)
                     .style({
                         fontWeight: "bold",
                     });
             case "em":
                 return Text("")
-                    .children(buildContentChildren(child.children))
+                    .children(childrenElements)
                     .style({
                         fontStyle: "italic",
                     });
             case "code":
                 return Text("")
-                    .children(buildContentChildren(child.children))
+                    .children(childrenElements)
                     .style({
                         fontFamily: "monospace",
                         // TODO: not managed yet
@@ -69,21 +70,24 @@ export function buildContentChildren(children) {
                         // color: Colors.white,
                     });
             case "ul":
-                return Flex(buildContentChildren(child.children))
+                return Flex(childrenElements)
                     .direction("vertical")
                     .padding({ left: 8 });
             case "li":
                 return Flex([
                     Text("•"),
-                    Flexible(Flex(buildContentChildren(child.children)))
+                    Flexible(
+                        childrenElements.length == 1
+                            ? childrenElements[0]
+                            : Wrap(childrenElements)
+                    )
                 ])
                     .spacing(8);
             case "a":
-                const children = buildContentChildren(child.children);
-                if (children.length === 0) return null;
+                if (childrenElements.length === 0) return null;
                 return Actionable(
                     Text("")
-                        .children(children)
+                        .children(childrenElements)
                         .style({
                             color: LenraColors.bluePulse,
                             decoration: "underline"
@@ -92,7 +96,7 @@ export function buildContentChildren(children) {
                     .onPressed("@lenra:navTo", { path: child.props.href });
             default:
                 console.warn("Unknown tag", child.tag);
-                return Wrap(buildContentChildren(child.children));
+                return Wrap(childrenElements);
         }
     })
         .filter(child => child !== null);

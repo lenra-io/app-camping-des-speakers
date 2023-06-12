@@ -6402,13 +6402,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Je traîne mes guêtres toutes les semaines dans un HackerSpace, où je retrouve une bande de copains dont les centres d'intérêts sont très variés. Un ami a commencé à me parler d'algorithmes de compression, je vais creuser le sujet pour moi-même et probablement me faire une note de synthèse qui pourrait se transformer en présentation.",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Je traîne mes guêtres toutes les semaines dans un HackerSpace, où je retrouve une bande de copains dont les centres d'intérêts sont très variés. Un ami a commencé à me parler d'algorithmes de compression, je vais creuser le sujet pour moi-même et probablement me faire une note de synthèse qui pourrait se transformer en présentation.",
                   },
                   "type": "flexible",
                 },
@@ -6424,13 +6419,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "J'aime que les choses fonctionnent : je m'implique pour ça, en étant bénévole là où ça me semble pertinent selon mes disponibilités mentales et temporelles. En ce moment c'est présidence d'une AMAP, participation au CA d'une crèche associative, et une proposition de participation logistique à DevoxxFR",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "J'aime que les choses fonctionnent : je m'implique pour ça, en étant bénévole là où ça me semble pertinent selon mes disponibilités mentales et temporelles. En ce moment c'est présidence d'une AMAP, participation au CA d'une crèche associative, et une proposition de participation logistique à DevoxxFR",
                   },
                   "type": "flexible",
                 },
@@ -6469,13 +6459,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Les Lego, les jeux de construction en général, les puzzles, les jeux de société et les jeux de rôles.",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Les Lego, les jeux de construction en général, les puzzles, les jeux de société et les jeux de rôles.",
                   },
                   "type": "flexible",
                 },
@@ -6491,13 +6476,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Voler (en parapente, par exemple, ou bien par procuration en faisant voler un cerf-volant), et faire du vélo (dans les descentes qui vont vite, c'est un peu comme voler :-) !)",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Voler (en parapente, par exemple, ou bien par procuration en faisant voler un cerf-volant), et faire du vélo (dans les descentes qui vont vite, c'est un peu comme voler :-) !)",
                   },
                   "type": "flexible",
                 },
@@ -6513,13 +6493,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Découvrir : je suis curieuse, dès qu'une opportunité s'offre à moi j'essaie de la saisir : participer à un jeu de rôle grandeur nature, aller voir un match de foot, de hockey sur glace, un concert de Métal, faire une présentation lors d'une conférence, etc. ;-)",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Découvrir : je suis curieuse, dès qu'une opportunité s'offre à moi j'essaie de la saisir : participer à un jeu de rôle grandeur nature, aller voir un match de foot, de hockey sur glace, un concert de Métal, faire une présentation lors d'une conférence, etc. ;-)",
                   },
                   "type": "flexible",
                 },
@@ -6535,13 +6510,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "L'humour, les jeux de mots pourris. Je pratique l'auto-dérision, c'est essentiel ! Par exemple, là, je ne sais pas quoi renseigner côté perso qui ne soit pas encore plus cliché que ce qui précède, donc je vais m'arrêter là.",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "L'humour, les jeux de mots pourris. Je pratique l'auto-dérision, c'est essentiel ! Par exemple, là, je ne sais pas quoi renseigner côté perso qui ne soit pas encore plus cliché que ce qui précède, donc je vais m'arrêter là.",
                   },
                   "type": "flexible",
                 },
@@ -6629,13 +6599,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Un bac pro \\"Production graphique\\" à 30 ans",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Un bac pro \\"Production graphique\\" à 30 ans",
                   },
                   "type": "flexible",
                 },
@@ -6651,13 +6616,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Un titre RNCP niveau 5 \\"Technicien Systèmes et Administration Réseaux\\" en alternance à 40 ans",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Un titre RNCP niveau 5 \\"Technicien Systèmes et Administration Réseaux\\" en alternance à 40 ans",
                   },
                   "type": "flexible",
                 },
@@ -6673,13 +6633,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Un master ou un titre d'ingénieur, à 50 ans ? Un doctorat à 60 ans ? ;-)",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Un master ou un titre d'ingénieur, à 50 ans ? Un doctorat à 60 ans ? ;-)",
                   },
                   "type": "flexible",
                 },
@@ -6695,13 +6650,8 @@ exports[`speaker page snapshot virginie_ferey 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Beaucoup d'auto-formation, avec tout ce que ça implique d'errances mais aussi de découvertes !",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Beaucoup d'auto-formation, avec tout ce que ça implique d'errances mais aussi de découvertes !",
                   },
                   "type": "flexible",
                 },

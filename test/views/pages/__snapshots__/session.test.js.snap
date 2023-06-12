@@ -87,13 +87,8 @@ exports[`session page snapshot FrankenPHP 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "support natif de HTTP/2 et de HTTP/3",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "support natif de HTTP/2 et de HTTP/3",
                   },
                   "type": "flexible",
                 },
@@ -109,13 +104,8 @@ exports[`session page snapshot FrankenPHP 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "génération et renouvèlement automatique des certificats TLS grâce à Let's Encrypt ou à ZeroSSL",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "génération et renouvèlement automatique des certificats TLS grâce à Let's Encrypt ou à ZeroSSL",
                   },
                   "type": "flexible",
                 },
@@ -131,13 +121,8 @@ exports[`session page snapshot FrankenPHP 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "support des Early Hints (qui viennent également d'être implémentés par Chrome)",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "support des Early Hints (qui viennent également d'être implémentés par Chrome)",
                   },
                   "type": "flexible",
                 },
@@ -176,7 +161,7 @@ exports[`session page snapshot FrankenPHP 1`] = `
                         "value": " de PHP et de diviser par trois (ou plus) les temps de réponse comparé à PHP-FPM",
                       },
                     ],
-                    "type": "flex",
+                    "type": "wrap",
                   },
                   "type": "flexible",
                 },
@@ -225,7 +210,7 @@ exports[`session page snapshot FrankenPHP 1`] = `
                         "value": ", une alternative aux WebSockets basée sur les SSE",
                       },
                     ],
-                    "type": "flex",
+                    "type": "wrap",
                   },
                   "type": "flexible",
                 },
@@ -241,13 +226,8 @@ exports[`session page snapshot FrankenPHP 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "images Docker légères, simples d'utilisation et faites pour la prod (compatibles avec Kubernetes)",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "images Docker légères, simples d'utilisation et faites pour la prod (compatibles avec Kubernetes)",
                   },
                   "type": "flexible",
                 },
@@ -453,13 +433,8 @@ exports[`session page snapshot a_la_decouverte_du_developpement_mobile 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Comment déployer son code sur un téléphone ?",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Comment déployer son code sur un téléphone ?",
                   },
                   "type": "flexible",
                 },
@@ -475,13 +450,8 @@ exports[`session page snapshot a_la_decouverte_du_developpement_mobile 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Comment distribuer son application sur un magasin ?",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Comment distribuer son application sur un magasin ?",
                   },
                   "type": "flexible",
                 },
@@ -497,13 +467,8 @@ exports[`session page snapshot a_la_decouverte_du_developpement_mobile 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Combien ça coûte ?",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Combien ça coûte ?",
                   },
                   "type": "flexible",
                 },
@@ -519,13 +484,8 @@ exports[`session page snapshot a_la_decouverte_du_developpement_mobile 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Combien de temps ça prend ?",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Combien de temps ça prend ?",
                   },
                   "type": "flexible",
                 },
@@ -541,13 +501,8 @@ exports[`session page snapshot a_la_decouverte_du_developpement_mobile 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "etc",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "etc",
                   },
                   "type": "flexible",
                 },
@@ -3189,13 +3144,8 @@ exports[`session page snapshot d_un_orchestre_fige_a_un_joli_ballet 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "la coordination harmonieuse de plus de 200 micro services kafka streams sur kubernetes tanzu,",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "la coordination harmonieuse de plus de 200 micro services kafka streams sur kubernetes tanzu,",
                   },
                   "type": "flexible",
                 },
@@ -3211,13 +3161,8 @@ exports[`session page snapshot d_un_orchestre_fige_a_un_joli_ballet 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "l'utilisation de 250 objets kafka connects pour discuter avec nos applications legacies,",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "l'utilisation de 250 objets kafka connects pour discuter avec nos applications legacies,",
                   },
                   "type": "flexible",
                 },
@@ -3233,13 +3178,8 @@ exports[`session page snapshot d_un_orchestre_fige_a_un_joli_ballet 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "les points d'attention à garder en tête lors du passage d'un écosystème cadencé dans une base de données à un logiciel "event management" basé sur 1000 topics kafka",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "les points d'attention à garder en tête lors du passage d'un écosystème cadencé dans une base de données à un logiciel "event management" basé sur 1000 topics kafka",
                   },
                   "type": "flexible",
                 },
@@ -3474,13 +3414,8 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Comment partager de l'information sans avoir inventé l'écriture ?",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Comment partager de l'information sans avoir inventé l'écriture ?",
                   },
                   "type": "flexible",
                 },
@@ -3496,13 +3431,8 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Est-ce que vous savez comment vous servir d'un papyrus ? ",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Est-ce que vous savez comment vous servir d'un papyrus ? ",
                   },
                   "type": "flexible",
                 },
@@ -3518,13 +3448,8 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Qu'est-ce qu'un codex ? Et qu'est-ce que cela a révolutionné ? ",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Qu'est-ce qu'un codex ? Et qu'est-ce que cela a révolutionné ? ",
                   },
                   "type": "flexible",
                 },
@@ -3540,13 +3465,8 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Connaissez vous les personnes qui ont été les plus terrifiés par l'apparition de l'imprimerie ? ou d'internet ? ",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Connaissez vous les personnes qui ont été les plus terrifiés par l'apparition de l'imprimerie ? ou d'internet ? ",
                   },
                   "type": "flexible",
                 },
@@ -3562,13 +3482,8 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Est-ce qu'il a fallu attendre ChatGPT et l'internet pour avoir des fake news ?",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Est-ce qu'il a fallu attendre ChatGPT et l'internet pour avoir des fake news ?",
                   },
                   "type": "flexible",
                 },
@@ -3584,13 +3499,8 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Est-ce que l'IA va finir par contrôler le monde ?",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Est-ce que l'IA va finir par contrôler le monde ?",
                   },
                   "type": "flexible",
                 },
@@ -5509,17 +5419,12 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                   "child": {
                     "children": [
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Venez décomplexer votre coup de crayon en jouant à une version « maison » du Gartic Phone.",
-                          },
-                        ],
                         "type": "text",
-                        "value": "",
+                        "value": "Venez décomplexer votre coup de crayon en jouant à une version « maison » du Gartic Phone.",
                       },
                     ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "",
                   },
                   "type": "flexible",
                 },
@@ -5537,17 +5442,12 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                   "child": {
                     "children": [
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Venez réfléchir à la façon dont vous vous représentez les choses, à travers la présentation et l’évocation de différents sujets par des biais inhabituels.",
-                          },
-                        ],
                         "type": "text",
-                        "value": "",
+                        "value": "Venez réfléchir à la façon dont vous vous représentez les choses, à travers la présentation et l’évocation de différents sujets par des biais inhabituels.",
                       },
                     ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "",
                   },
                   "type": "flexible",
                 },
@@ -5596,13 +5496,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Pour comprendre, analyser, mémoriser des concepts nouveaux,",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Pour comprendre, analyser, mémoriser des concepts nouveaux,",
                   },
                   "type": "flexible",
                 },
@@ -5618,13 +5513,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Pour reformuler une pensée, une idée,",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Pour reformuler une pensée, une idée,",
                   },
                   "type": "flexible",
                 },
@@ -5640,13 +5530,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Pour communiquer sur un projet,",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Pour communiquer sur un projet,",
                   },
                   "type": "flexible",
                 },
@@ -5662,13 +5547,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Pour transmettre des informations,",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Pour transmettre des informations,",
                   },
                   "type": "flexible",
                 },
@@ -5684,13 +5564,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "...",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "...",
                   },
                   "type": "flexible",
                 },
@@ -5749,13 +5624,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Les raisons d’une décision, d’un choix technique,",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Les raisons d’une décision, d’un choix technique,",
                   },
                   "type": "flexible",
                 },
@@ -5771,13 +5641,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Le mécanisme de raisonnement qui sous-tend un fonctionnement, ",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Le mécanisme de raisonnement qui sous-tend un fonctionnement, ",
                   },
                   "type": "flexible",
                 },
@@ -5793,13 +5658,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "La formulation d’une demande, ",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "La formulation d’une demande, ",
                   },
                   "type": "flexible",
                 },
@@ -5815,13 +5675,8 @@ exports[`session page snapshot imager_materialiser_sa_pensee 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "...",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "...",
                   },
                   "type": "flexible",
                 },
@@ -7013,13 +6868,8 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "L'ajustement des BPM (Battements Par Minute)",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "L'ajustement des BPM (Battements Par Minute)",
                   },
                   "type": "flexible",
                 },
@@ -7035,13 +6885,8 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "L'ajustement des harmoniques",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "L'ajustement des harmoniques",
                   },
                   "type": "flexible",
                 },
@@ -7057,13 +6902,8 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Les égalisateurs de fréquence",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Les égalisateurs de fréquence",
                   },
                   "type": "flexible",
                 },
@@ -7079,13 +6919,8 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Les Cue Points",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Les Cue Points",
                   },
                   "type": "flexible",
                 },
@@ -7101,13 +6936,8 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Les boucles",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "Les boucles",
                   },
                   "type": "flexible",
                 },
@@ -7181,7 +7011,7 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                         "type": "actionable",
                       },
                     ],
-                    "type": "flex",
+                    "type": "wrap",
                   },
                   "type": "flexible",
                 },
@@ -7253,7 +7083,7 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                         "type": "actionable",
                       },
                     ],
-                    "type": "flex",
+                    "type": "wrap",
                   },
                   "type": "flexible",
                 },
@@ -7298,7 +7128,7 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                         "type": "actionable",
                       },
                     ],
-                    "type": "flex",
+                    "type": "wrap",
                   },
                   "type": "flexible",
                 },
@@ -7314,13 +7144,8 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                 },
                 {
                   "child": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "un enregistreur",
-                      },
-                    ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "un enregistreur",
                   },
                   "type": "flexible",
                 },
@@ -7365,7 +7190,7 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
                         "type": "actionable",
                       },
                     ],
-                    "type": "flex",
+                    "type": "wrap",
                   },
                   "type": "flexible",
                 },
@@ -8248,67 +8073,25 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
                   "child": {
                     "children": [
                       {
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "établir des ",
-                          },
-                          {
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "objectifs en lien avec tes valeurs et les atteindre",
-                              },
-                            ],
-                            "style": {
-                              "fontWeight": "bold",
-                            },
-                            "type": "text",
-                            "value": "",
-                          },
-                        ],
                         "type": "text",
-                        "value": "",
+                        "value": "établir des ",
                       },
-                    ],
-                    "type": "flex",
-                  },
-                  "type": "flexible",
-                },
-              ],
-              "spacing": 8,
-              "type": "flex",
-            },
-            {
-              "children": [
-                {
-                  "type": "text",
-                  "value": "•",
-                },
-                {
-                  "child": {
-                    "children": [
                       {
                         "children": [
                           {
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "créer ta roadmap d’apprentissage",
-                              },
-                            ],
-                            "style": {
-                              "fontWeight": "bold",
-                            },
                             "type": "text",
-                            "value": "",
+                            "value": "objectifs en lien avec tes valeurs et les atteindre",
                           },
                         ],
+                        "style": {
+                          "fontWeight": "bold",
+                        },
                         "type": "text",
                         "value": "",
                       },
                     ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "",
                   },
                   "type": "flexible",
                 },
@@ -8329,31 +8112,18 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
                         "children": [
                           {
                             "type": "text",
-                            "value": "développer des ",
-                          },
-                          {
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "routines efficaces",
-                              },
-                            ],
-                            "style": {
-                              "fontWeight": "bold",
-                            },
-                            "type": "text",
-                            "value": "",
-                          },
-                          {
-                            "type": "text",
-                            "value": " ",
+                            "value": "créer ta roadmap d’apprentissage",
                           },
                         ],
+                        "style": {
+                          "fontWeight": "bold",
+                        },
                         "type": "text",
                         "value": "",
                       },
                     ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "",
                   },
                   "type": "flexible",
                 },
@@ -8371,71 +8141,29 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
                   "child": {
                     "children": [
                       {
-                        "children": [
-                          {
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "automatiser les process",
-                              },
-                            ],
-                            "style": {
-                              "fontWeight": "bold",
-                            },
-                            "type": "text",
-                            "value": "",
-                          },
-                          {
-                            "type": "text",
-                            "value": " (mon côté DevOps 🤷) pour se concentrer sur l’essentiel",
-                          },
-                        ],
                         "type": "text",
-                        "value": "",
+                        "value": "développer des ",
                       },
-                    ],
-                    "type": "flex",
-                  },
-                  "type": "flexible",
-                },
-              ],
-              "spacing": 8,
-              "type": "flex",
-            },
-            {
-              "children": [
-                {
-                  "type": "text",
-                  "value": "•",
-                },
-                {
-                  "child": {
-                    "children": [
                       {
                         "children": [
                           {
                             "type": "text",
-                            "value": "faire une ",
-                          },
-                          {
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "veille sans effort",
-                              },
-                            ],
-                            "style": {
-                              "fontWeight": "bold",
-                            },
-                            "type": "text",
-                            "value": "",
+                            "value": "routines efficaces",
                           },
                         ],
+                        "style": {
+                          "fontWeight": "bold",
+                        },
                         "type": "text",
                         "value": "",
                       },
+                      {
+                        "type": "text",
+                        "value": " ",
+                      },
                     ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "",
                   },
                   "type": "flexible",
                 },
@@ -8456,27 +8184,94 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
                         "children": [
                           {
                             "type": "text",
-                            "value": "créer un système de mémorisation et de récupération de l'information, aussi appelé ",
-                          },
-                          {
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "second cerveau",
-                              },
-                            ],
-                            "style": {
-                              "fontWeight": "bold",
-                            },
-                            "type": "text",
-                            "value": "",
+                            "value": "automatiser les process",
                           },
                         ],
+                        "style": {
+                          "fontWeight": "bold",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                      {
+                        "type": "text",
+                        "value": " (mon côté DevOps 🤷) pour se concentrer sur l’essentiel",
+                      },
+                    ],
+                    "type": "text",
+                    "value": "",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "faire une ",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "veille sans effort",
+                          },
+                        ],
+                        "style": {
+                          "fontWeight": "bold",
+                        },
                         "type": "text",
                         "value": "",
                       },
                     ],
-                    "type": "flex",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "type": "flexible",
+                },
+              ],
+              "spacing": 8,
+              "type": "flex",
+            },
+            {
+              "children": [
+                {
+                  "type": "text",
+                  "value": "•",
+                },
+                {
+                  "child": {
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "créer un système de mémorisation et de récupération de l'information, aussi appelé ",
+                      },
+                      {
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "second cerveau",
+                          },
+                        ],
+                        "style": {
+                          "fontWeight": "bold",
+                        },
+                        "type": "text",
+                        "value": "",
+                      },
+                    ],
+                    "type": "text",
+                    "value": "",
                   },
                   "type": "flexible",
                 },
@@ -8560,7 +8355,7 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
                         "value": "",
                       },
                     ],
-                    "type": "flex",
+                    "type": "wrap",
                   },
                   "type": "flexible",
                 },
