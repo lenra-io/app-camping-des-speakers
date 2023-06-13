@@ -7,7 +7,7 @@ import { Note } from "../classes/Note.js";
  * @param {import("@lenra/app-server").Api} api 
  */
 export async function saveNote(props, event, api) {
-    if(props._id) {
+    if (props._id) {
         props.note = event.value.note;
         return api.data.updateDoc(props);
     }
@@ -23,5 +23,7 @@ export async function saveNote(props, event, api) {
  */
 export async function deleteNote(props, event, api) {
     console.log(props);
-    return api.data.deleteDoc(props);
+    let note = await api.data.getDoc(Note, props._id);
+
+    return api.data.deleteDoc(note);
 }
