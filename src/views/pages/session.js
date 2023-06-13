@@ -1,9 +1,11 @@
-import { Actionable, Container, Flex, Icon, Text, View, Wrap, colors, padding } from "@lenra/components";
+import { Actionable, Container, Flex, Icon, Text, TextField, View, Wrap, colors, padding } from "@lenra/components";
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
 import { listeners, views } from "../../index.gen.js";
 import { buildContentChildren } from "../../utils/contentDescriber.js";
 import { openfeedbacks } from "../../openfeedbacks.js";
 import { speakerCard } from "./agenda.js";
+import { DataApi } from "@lenra/app-server";
+import { Note } from "../../classes/Note.js";
 
 export default function ([favorite], /* _props,  */{ context: { pathParams } }) {
     const session = sessions[pathParams.key];
@@ -43,6 +45,7 @@ export default function ([favorite], /* _props,  */{ context: { pathParams } }) 
             ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
         ])
             .spacing(16),
+        View('personnalNotes').data(DataApi.collectionName(Note), {}),
     ])
         .direction("vertical")
         .spacing(16)

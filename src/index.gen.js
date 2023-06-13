@@ -1,5 +1,7 @@
 export const views = {
-	"layout": "layout",
+	"layout": {...{
+		"filAriane": "layout::filAriane"
+	}, toJSON: () => "layout"},
 	"menu": "menu",
 	"navbar": "navbar",
 	"pages": {
@@ -10,12 +12,14 @@ export const views = {
 		"session": "pages.session",
 		"speaker": "pages.speaker",
 		"speakerList": "pages.speakerList"
-	}
+	},
+	"personnalNotes": "personnalNotes"
 };
 export const listeners = {
 	"onEnvStart": "onEnvStart",
 	"onSessionStart": "onSessionStart",
 	"onUserFirstJoin": "onUserFirstJoin",
+	"saveNote": "saveNote",
 	"toggleFavorite": "toggleFavorite",
 	"toggleFavoriteFilter": "toggleFavoriteFilter"
 };
