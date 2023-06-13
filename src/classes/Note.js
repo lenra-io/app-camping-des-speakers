@@ -4,13 +4,13 @@ export class Note extends Data {
     /**
      * 
      * @param {string} session
-     * @param {string[]} notes 
+     * @param {string} note 
      * @param {user} user 
      */
-    constructor(session, user, notes) {
+    constructor(session, user, note) {
         super();
         this.user = user;
         this.session = session;
-        this.notes = notes;
+        this.note = note;
     }
 }

@@ -1,4 +1,4 @@
-import { Button, Container, Flex, Form, Text, TextField, border, borderRadius, padding } from "@lenra/components";
+import { Actionable, Button, Container, Flex, Form, Icon, Text, TextField, padding, Flexible } from "@lenra/components";
 
 export default function (data, _props) {
     return Flex([
@@ -8,18 +8,33 @@ export default function (data, _props) {
         }),
         Form(
             Flex([
-                TextField('').maxLines(200).name('note'),
+                Container(TextField('').maxLines(200).name('note').style({
+                    decoration: {
+                        border: {
+                            type: "outline",
+                            borderSide: {}
+
+                        }
+                    }
+                })),
                 Button('Enregistrer').submit(true),
-            ]).direction('vertical').spacing(16)
+            ]).direction('vertical').spacing(16).crossAxisAlignment('center'),
         ).onSubmit('saveNote'),
-        ...(data.length > 0 ? data[0].notes.map(note => {
-            return Container(Text(note)).padding(padding.all(8)).border({
-                "top": { "width": 1 },
-                "left": { "width": 1 },
-                "bottom": { "width": 1 },
-                "right": { "width": 1 },
-            }).borderRadius(borderRadius.all(8));
-        }) : []),
+        Container().border({ top: { width: 1 }, }).maxWidth(800),
+        Container(Flex([
+            ...((data.length > 0 ? data.reverse().map(note => {
+                return [
+                    Flex([
+                        Flexible(Container(Text(note.note)).padding(padding.all(8))),
+                        Flex([
+                            Actionable(Icon('edit')).onPressed('toggleEditNote', {id: note._id}),
+                            Actionable(Icon("delete")).onPressed('deleteNote', note),
+                        ]).direction('vertical').spacing(8),
+                    ]),
+                    Container().border({ top: { width: 1, color: 0x66000000 }, }).maxWidth(800),
+                ];
+            }) : []).flat()),
+        ]).direction('vertical').spacing(16))
     ]).direction('vertical').spacing(16)
 }
 

@@ -16,6 +16,7 @@ export const views = {
 	"personnalNotes": "personnalNotes"
 };
 export const listeners = {
+	"deleteNote": "deleteNote",
 	"onEnvStart": "onEnvStart",
 	"onSessionStart": "onSessionStart",
 	"onUserFirstJoin": "onUserFirstJoin",
