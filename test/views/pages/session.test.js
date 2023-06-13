@@ -12,7 +12,6 @@ describe("session page", () => {
         });
 
         test.each(Object.values(sessions))("%o", session => {
-            console.log(session)
             expect(openfeedbacks[session.attributes.key]).not.toBeUndefined();
         })
     });

@@ -1,0 +1,10029 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fil d'Ariane snapshot agenda 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Agenda",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot map 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Map",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session FrankenPHP 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "FrankenPHP, un serveur d'application moderne pour PHP écrit en Go",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session a_la_decouverte_du_developpement_mobile 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "À la découverte du développement mobile, sans les maux de tête",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session apprenons_ensemble 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Apprenons ensemble grâce aux bookclubs",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session astuces_pour_parler 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "🗣️ Zut ! J'aurais du dire ça ! 🙊 Astuces pour parler avec aisance en public 🎙️",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session avant_je_supprimai_des_bugs 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Avant, je supprimai des bugs, maintenant j'élève des abeilles",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session bienvenue_dans_ma_zone_d_inconfort 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Bienvenue dans ma zone d'inconfort",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session cette_annee_retombez_amoureux_de_CSS 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Cette année, retombez amoureux de CSS ❤️",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session comment_gerer_des_journees_de_35h 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Comment gérer des journées de 35h ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session comment_hacker_vos_applications_mobiles 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Comment hacker vos applications mobiles ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session construire_soi_meme_son_clavier_mecanique 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Construire soi-même son clavier mécanique, idée bizarre ou idée de génie ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session corn_hole_2_turbo 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Corn Hole 2 Turbo : De l'arduino pour l'apéro !",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session creer_des_objets_3D_avec_du_code 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Créer des objets 3D avec du code, grâce à OpenSCAD",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session creer_sa_propre_vm_avec_compilation_jit_pour_les_nuls 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Créer sa propre VM avec compilation JIT pour les nuls",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session d_un_orchestre_fige_a_un_joli_ballet 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "D'un orchestre figé à un joli ballet aka comment on a propulsé notre monolith dans un pas de danse endiablé 😈",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session de_la_tablette_d_argile_a_ChatGPT 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "De la tablette d'argile à ChatGPT : la passionnante histoire de la diffusion du savoir",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session dessines_moi_rust 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Dessines-moi Rust ✏🦀",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session dis_papa_c_est_quoi_impression_3D 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Dis papa, c'est quoi l'impression 3D ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session do_not_track_me 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "#DoNotTrackMe 📺📱",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session escape_camp_part_1 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Escape Camp 🏃🏕️",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session escape_camp_part_2 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Escape Camp 🏃🏕️",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session esprit_de_famille 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Esprit de famille, méthodes, rapport à l'argent, ambitions - l'héritage d'une famille d'entrepreneurs depuis 100 ans",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session et_si_on_arretait_de_basher_les_esn 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Et si on arrêtait de basher les ESN ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session event_driven_qu_est_ce_donc 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Event Driven, qu'est-ce donc ?! Un nouveau buzzword ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session il_etait_une_fois_un_arbre_qui_parle 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Il était une fois un arbre qui parle",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session imager_materialiser_sa_pensee 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Imager, matérialiser sa pensée",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session intelligence_artificielle_expliquee_en_20_minutes 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "L'intelligence artificielle expliquée en 20 minutes !",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session ivre_et_au_chomage 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Ivre et au chômage, elle décide d'écrire un livre sur le Scala en plein Covid",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session javascript_une_histoire 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "JavaScript : une histoire d'amour 💔",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session keynote_jeudi_matin 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Keynote d'ouverture et Marché aux poissons",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session keynote_vendredi_matin 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Keynote surprise et Marché aux poissons",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session keynote_vendredi_soir 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Keynote d'Au revoir 😢",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session l_art_du_DeeJaying_par_la_pratique 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "L'art du DeeJaying par la pratique",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session la_pull_request_de_l_horreur 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "La Pull Request de l’horreur",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session le_guide_du_voyageur 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Le guide du voyageur LGBTQIA+",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session les_7_vies_d_une_qa_analyst 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Les 7 vies d'une QA Analyst en reconversion",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session maitrise_ton_apprentissage 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Maitrise ton apprentissage aussi bien que la cuisson de tes saucisses 🔥",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session mini_golf_pour_une_accessibilite 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Mini golf pour une accessibilité numérique maximale",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session mobkky_le_mob_applique_au_molkky 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Möbkky, le mob appliqué au Mölkky 🎳",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session naviguer_et_coder_comment_on_fait 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Naviguer et coder, comment on fait ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session on_vit_deja_dans_un_monde_federe 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "On vit déjà dans un monde fédéré !",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session passez_moins_de_temps_a_attendre_la_ci 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Passez moins de temps à attendre la CI et plus de temps au bord de la piscine",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session pour_eviter_le_dirty_recruiting 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Pour éviter le dirty recruiting, on ne laisse pas ses valeurs dans un coin",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session programmons_ensemble 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Programmons ensemble... une boite de vitesses",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session recits_d_epouvante_mlops 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Récits d'épouvante MLOps : Oseras-tu y faire face ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session revivez_la_cryptographie_de_nos_ancetres 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Revivez la cryptographie de nos ancêtres, de Lysandre de Sparte à Blaise de Vigenère",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session sous_le_capot 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Sous le capot des navigateurs web",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session speech_to_text 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Speech To Text: une opportunité pour améliorer votre productivité ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session the_developer_portal 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "The Developer Portal: Open the Gate to Productivity 🚀",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session un_scrum_master_en_or 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Un scrum master en or",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session vite_une_nouvelle_ere_de_tooling_front 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Vite, une nouvelle ère de tooling front ?",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session vous_pouvez_venir 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Vous pouvez venir à ce talk les yeux fermés",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session wolfy 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Wolfy - de 2000 à 20 000 joueurs connectés",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot session yagni_kiss_and_dry 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Agenda",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "YAGNI, KISS, and DRY: The Secret Recipe For Better Software Design",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker agnes_cardin 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Agnès Cardin",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker aleth_gueguen 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Aleth Gueguen",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker amelie_avignon 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Amélie Avignon",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker anthony_le_goas 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Anthony Le Goas",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker anthony_pena 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Anthony Pena",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker audrey_moulins 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Audrey Moulins",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker benjamin_legrand 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Benjamin Legrand",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker benoit_masson 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Benoît Masson",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker cedric_gatay 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Cedric Gatay",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker celine_louvet 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Céline Louvet",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker christophe_jolivet 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Christophe Jollivet",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker cyril_hue 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Cyril Hue",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker david_pilato 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "David Pilato",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker elaine_dias_batista 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Elaine Dias Batista",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker florian_roulet 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Florian Roulet",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker francois_xavier_lair 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "François-Xavier Lair",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker gregory_bevan 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Grégory Bévan",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker guillaume_membre 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Guillaume Membré",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker gwendal_leclerc 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Gwendal Leclerc",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker herve_boisgontier 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Hervé Boisgontier",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker jean_francois_greffier 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Jean-François Greffier",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker jean_phi_baconnais 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Jean-Phi Baconnais",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker jordane_grenat 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Jordane Grenat",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker julien_jimenez 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Julien Jimenez",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker kevin_dunglas 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Kévin Dunglas",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker kevin_jean 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Kevin Jean",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker laurie_coquillat 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Laurie Coquillat",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker maha_alsayasneh 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Maha ALSAYASNEH",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker marie_laure_momplot 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Marie-Laure Momplot",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker marion_valentin 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Marion Valentin",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker mathieu_busquet 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Mathieu Busquet",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker mathieu_passenaud 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Mathieu Passenaud",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker maxime_deroullers 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Maxime Deroullers",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker noemie_delrue 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Noémie Delrue",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker olivier_leplus 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Olivier Leplus",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker olivier_poncet 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Olivier PONCET",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker olivier_thierry 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Olivier THIERRY",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker patrice_de_saint_steban 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Patrice De Saint Steban",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker paul_pinault 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Paul Pinault",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker paul_roye 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Paul ROYE",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker robin_caroff 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Robin Caroff",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker sebastien_viale 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Sébastien Viale",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker shirley_almosni_chiche 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Shirley Almosni Chiche",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker stephane_philippart 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Stéphane Philippart",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker sylvain_coudert 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Sylvain Coudert",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker sylvain_gougouzian 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Sylvain Gougouzian",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker virginie_casavecchia 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Virginie CASAVECCHIA",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker virginie_ferey 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Virginie Ferey",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker wassim_chegham 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Wassim Chegham",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker william_bartlett 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "William Bartlett",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker willy_malvault 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Willy Malvault",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker yann_thomas_le_moigne 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Yann-Thomas Le Moigne",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker yannick_guern 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Yannick Guern",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker yohan_lasorsa 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Yohan Lasorsa",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker yuliana_khorolich 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Yulianna KHOROLICH",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speaker yvonnick_frin 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "child": {
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "height": 1.5,
+          },
+          "type": "text",
+          "value": "Speakers",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/speakers",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Yvonnick FRIN",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
+
+exports[`fil d'Ariane snapshot speakerList 1`] = `
+{
+  "children": [
+    {
+      "child": {
+        "child": {
+          "size": 24,
+          "type": "icon",
+          "value": "home",
+        },
+        "padding": {
+          "bottom": 4,
+          "left": 8,
+          "right": 8,
+          "top": 4,
+        },
+        "type": "container",
+      },
+      "onPressed": {
+        "action": "@lenra:navTo",
+        "props": {
+          "path": "/",
+        },
+      },
+      "type": "actionable",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": ">",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 0,
+        "right": 0,
+        "top": 4,
+      },
+      "type": "container",
+    },
+    {
+      "child": {
+        "style": {
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "height": 1.5,
+        },
+        "type": "text",
+        "value": "Speakers",
+      },
+      "padding": {
+        "bottom": 4,
+        "left": 8,
+        "right": 8,
+        "top": 4,
+      },
+      "type": "container",
+    },
+  ],
+  "type": "wrap",
+}
+`;
