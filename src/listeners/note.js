@@ -11,7 +11,7 @@ export async function saveNote(props, event, api) {
         props.note = event.value.note;
         return api.data.updateDoc(props);
     }
-
+    console.log(props)
     return api.data.createDoc(new Note(props.session, "@me", event.value.note));
 }
 
