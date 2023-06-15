@@ -8,7 +8,7 @@ import { Note } from '../classes/Note.js';
  * @param {*} _props 
  * @returns 
  */
-export default function (notes, _props) {
+export default function (notes, props) {
     const boxShadow = Container.card().toJSON().decoration.boxShadow;
     return Flex([
         Text('Notes personnelles').style({
@@ -34,7 +34,7 @@ export default function (notes, _props) {
             ])
                 .spacing(16)
                 .crossAxisAlignment('center'),
-        ).onSubmit('saveNote'),
+        ).onSubmit('saveNote', props),
         Flex(
             notes
                 .sort((a, b) => b.creationDate - a.creationDate)

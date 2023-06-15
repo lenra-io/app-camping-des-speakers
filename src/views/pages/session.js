@@ -45,7 +45,7 @@ export default function ([favorite], /* _props,  */{ context: { pathParams } }) 
             ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
         ])
             .spacing(16),
-        View(views.personnalNotes).data(DataApi.collectionName(Note), {user: "@me", session: session.attributes.key}),
+        View(views.personnalNotes).data(DataApi.collectionName(Note), { user: "@me", session: session.attributes.key }).props({ session: session.attributes.key }),
     ])
         .direction("vertical")
         .spacing(16)
