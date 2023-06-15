@@ -382,9 +382,15 @@ exports[`session page snapshot FrankenPHP 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "FrankenPHP",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "FrankenPHP",
+      },
       "type": "view",
     },
   ],
@@ -716,9 +722,15 @@ Avec l'aide de Robin, expert en développement mobile, nous aborderons les bonne
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "a_la_decouverte_du_developpement_mobile",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "a_la_decouverte_du_developpement_mobile",
+      },
       "type": "view",
     },
   ],
@@ -965,9 +977,15 @@ exports[`session page snapshot apprenons_ensemble 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "apprenons_ensemble",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "apprenons_ensemble",
+      },
       "type": "view",
     },
   ],
@@ -1214,9 +1232,15 @@ exports[`session page snapshot astuces_pour_parler 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "astuces_pour_parler",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "astuces_pour_parler",
+      },
       "type": "view",
     },
   ],
@@ -1434,9 +1458,15 @@ exports[`session page snapshot avant_je_supprimai_des_bugs 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "avant_je_supprimai_des_bugs",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "avant_je_supprimai_des_bugs",
+      },
       "type": "view",
     },
   ],
@@ -1644,9 +1674,15 @@ exports[`session page snapshot bienvenue_dans_ma_zone_d_inconfort 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "bienvenue_dans_ma_zone_d_inconfort",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "bienvenue_dans_ma_zone_d_inconfort",
+      },
       "type": "view",
     },
   ],
@@ -1835,9 +1871,15 @@ En 2023, j'ai décidé de me pencher sur les nouveautés de css et j'ai remarqu�
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "cette_annee_retombez_amoureux_de_CSS",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "cette_annee_retombez_amoureux_de_CSS",
+      },
       "type": "view",
     },
   ],
@@ -2068,9 +2110,15 @@ exports[`session page snapshot comment_gerer_des_journees_de_35h 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "comment_gerer_des_journees_de_35h",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "comment_gerer_des_journees_de_35h",
+      },
       "type": "view",
     },
   ],
@@ -2317,9 +2365,15 @@ exports[`session page snapshot comment_hacker_vos_applications_mobiles 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "comment_hacker_vos_applications_mobiles",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "comment_hacker_vos_applications_mobiles",
+      },
       "type": "view",
     },
   ],
@@ -2537,9 +2591,15 @@ exports[`session page snapshot construire_soi_meme_son_clavier_mecanique 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "construire_soi_meme_son_clavier_mecanique",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "construire_soi_meme_son_clavier_mecanique",
+      },
       "type": "view",
     },
   ],
@@ -2737,9 +2797,15 @@ exports[`session page snapshot corn_hole_2_turbo 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "corn_hole_2_turbo",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "corn_hole_2_turbo",
+      },
       "type": "view",
     },
   ],
@@ -2927,9 +2993,15 @@ exports[`session page snapshot creer_des_objets_3D_avec_du_code 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "creer_des_objets_3D_avec_du_code",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "creer_des_objets_3D_avec_du_code",
+      },
       "type": "view",
     },
   ],
@@ -3181,9 +3253,15 @@ exports[`session page snapshot creer_sa_propre_vm_avec_compilation_jit_pour_les_
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "creer_sa_propre_vm_avec_compilation_jit_pour_les_nuls",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "creer_sa_propre_vm_avec_compilation_jit_pour_les_nuls",
+      },
       "type": "view",
     },
   ],
@@ -3480,9 +3558,15 @@ exports[`session page snapshot d_un_orchestre_fige_a_un_joli_ballet 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "d_un_orchestre_fige_a_un_joli_ballet",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "d_un_orchestre_fige_a_un_joli_ballet",
+      },
       "type": "view",
     },
   ],
@@ -3781,9 +3865,15 @@ exports[`session page snapshot de_la_tablette_d_argile_a_ChatGPT 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "de_la_tablette_d_argile_a_ChatGPT",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "de_la_tablette_d_argile_a_ChatGPT",
+      },
       "type": "view",
     },
   ],
@@ -3981,9 +4071,15 @@ exports[`session page snapshot dessines_moi_rust 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "dessines_moi_rust",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "dessines_moi_rust",
+      },
       "type": "view",
     },
   ],
@@ -4210,9 +4306,15 @@ exports[`session page snapshot dis_papa_c_est_quoi_impression_3D 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "dis_papa_c_est_quoi_impression_3D",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "dis_papa_c_est_quoi_impression_3D",
+      },
       "type": "view",
     },
   ],
@@ -4400,9 +4502,15 @@ exports[`session page snapshot do_not_track_me 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "do_not_track_me",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "do_not_track_me",
+      },
       "type": "view",
     },
   ],
@@ -4606,9 +4714,15 @@ exports[`session page snapshot escape_camp_part_1 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "escape_camp_part_1",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "escape_camp_part_1",
+      },
       "type": "view",
     },
   ],
@@ -4812,9 +4926,15 @@ exports[`session page snapshot escape_camp_part_2 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "escape_camp_part_2",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "escape_camp_part_2",
+      },
       "type": "view",
     },
   ],
@@ -5012,9 +5132,15 @@ exports[`session page snapshot esprit_de_famille 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "esprit_de_famille",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "esprit_de_famille",
+      },
       "type": "view",
     },
   ],
@@ -5179,9 +5305,15 @@ exports[`session page snapshot et_si_on_arretait_de_basher_les_esn 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "et_si_on_arretait_de_basher_les_esn",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "et_si_on_arretait_de_basher_les_esn",
+      },
       "type": "view",
     },
   ],
@@ -5369,9 +5501,15 @@ exports[`session page snapshot event_driven_qu_est_ce_donc 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "event_driven_qu_est_ce_donc",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "event_driven_qu_est_ce_donc",
+      },
       "type": "view",
     },
   ],
@@ -5569,9 +5707,15 @@ exports[`session page snapshot il_etait_une_fois_un_arbre_qui_parle 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "il_etait_une_fois_un_arbre_qui_parle",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "il_etait_une_fois_un_arbre_qui_parle",
+      },
       "type": "view",
     },
   ],
@@ -6069,9 +6213,15 @@ Mais ces vecteurs de réflexion, communication et compréhension semblent parfoi
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "imager_materialiser_sa_pensee",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "imager_materialiser_sa_pensee",
+      },
       "type": "view",
     },
   ],
@@ -6308,9 +6458,15 @@ La grande IA va-t-elle gouverner le monde ?",
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "intelligence_artificielle_expliquee_en_20_minutes",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "intelligence_artificielle_expliquee_en_20_minutes",
+      },
       "type": "view",
     },
   ],
@@ -6475,9 +6631,15 @@ exports[`session page snapshot ivre_et_au_chomage 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "ivre_et_au_chomage",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "ivre_et_au_chomage",
+      },
       "type": "view",
     },
   ],
@@ -6675,9 +6837,15 @@ exports[`session page snapshot javascript_une_histoire 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "javascript_une_histoire",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "javascript_une_histoire",
+      },
       "type": "view",
     },
   ],
@@ -6820,9 +6988,15 @@ exports[`session page snapshot keynote_jeudi_matin 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "keynote_jeudi_matin",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "keynote_jeudi_matin",
+      },
       "type": "view",
     },
   ],
@@ -6965,9 +7139,15 @@ exports[`session page snapshot keynote_vendredi_matin 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "keynote_vendredi_matin",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "keynote_vendredi_matin",
+      },
       "type": "view",
     },
   ],
@@ -7087,9 +7267,15 @@ exports[`session page snapshot keynote_vendredi_soir 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "keynote_vendredi_soir",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "keynote_vendredi_soir",
+      },
       "type": "view",
     },
   ],
@@ -7624,9 +7810,15 @@ exports[`session page snapshot l_art_du_DeeJaying_par_la_pratique 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "l_art_du_DeeJaying_par_la_pratique",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "l_art_du_DeeJaying_par_la_pratique",
+      },
       "type": "view",
     },
   ],
@@ -7824,9 +8016,15 @@ exports[`session page snapshot la_pull_request_de_l_horreur 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "la_pull_request_de_l_horreur",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "la_pull_request_de_l_horreur",
+      },
       "type": "view",
     },
   ],
@@ -7991,9 +8189,15 @@ exports[`session page snapshot le_guide_du_voyageur 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "le_guide_du_voyageur",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "le_guide_du_voyageur",
+      },
       "type": "view",
     },
   ],
@@ -8191,9 +8395,15 @@ exports[`session page snapshot les_7_vies_d_une_qa_analyst 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "les_7_vies_d_une_qa_analyst",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "les_7_vies_d_une_qa_analyst",
+      },
       "type": "view",
     },
   ],
@@ -8815,9 +9025,15 @@ exports[`session page snapshot maitrise_ton_apprentissage 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "maitrise_ton_apprentissage",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "maitrise_ton_apprentissage",
+      },
       "type": "view",
     },
   ],
@@ -9005,9 +9221,15 @@ exports[`session page snapshot mini_golf_pour_une_accessibilite 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "mini_golf_pour_une_accessibilite",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "mini_golf_pour_une_accessibilite",
+      },
       "type": "view",
     },
   ],
@@ -9235,9 +9457,15 @@ Cette analogie nous permettra d'appréhender les avantages et inconvénients de 
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "mobkky_le_mob_applique_au_molkky",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "mobkky_le_mob_applique_au_molkky",
+      },
       "type": "view",
     },
   ],
@@ -9405,9 +9633,15 @@ Je passe plusieur mois par an sur mon bateau, et dans ce talk je vais vous racon
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "naviguer_et_coder_comment_on_fait",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "naviguer_et_coder_comment_on_fait",
+      },
       "type": "view",
     },
   ],
@@ -9595,9 +9829,15 @@ exports[`session page snapshot on_vit_deja_dans_un_monde_federe 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "on_vit_deja_dans_un_monde_federe",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "on_vit_deja_dans_un_monde_federe",
+      },
       "type": "view",
     },
   ],
@@ -9834,9 +10074,15 @@ exports[`session page snapshot passez_moins_de_temps_a_attendre_la_ci 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "passez_moins_de_temps_a_attendre_la_ci",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "passez_moins_de_temps_a_attendre_la_ci",
+      },
       "type": "view",
     },
   ],
@@ -10044,9 +10290,15 @@ exports[`session page snapshot pour_eviter_le_dirty_recruiting 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "pour_eviter_le_dirty_recruiting",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "pour_eviter_le_dirty_recruiting",
+      },
       "type": "view",
     },
   ],
@@ -10211,9 +10463,15 @@ exports[`session page snapshot programmons_ensemble 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "programmons_ensemble",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "programmons_ensemble",
+      },
       "type": "view",
     },
   ],
@@ -10431,9 +10689,15 @@ exports[`session page snapshot recits_d_epouvante_mlops 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "recits_d_epouvante_mlops",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "recits_d_epouvante_mlops",
+      },
       "type": "view",
     },
   ],
@@ -10745,9 +11009,15 @@ exports[`session page snapshot revivez_la_cryptographie_de_nos_ancetres 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "revivez_la_cryptographie_de_nos_ancetres",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "revivez_la_cryptographie_de_nos_ancetres",
+      },
       "type": "view",
     },
   ],
@@ -10912,9 +11182,15 @@ exports[`session page snapshot sous_le_capot 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "sous_le_capot",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "sous_le_capot",
+      },
       "type": "view",
     },
   ],
@@ -11190,9 +11466,15 @@ exports[`session page snapshot speech_to_text 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "speech_to_text",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "speech_to_text",
+      },
       "type": "view",
     },
   ],
@@ -11410,9 +11692,15 @@ exports[`session page snapshot the_developer_portal 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "the_developer_portal",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "the_developer_portal",
+      },
       "type": "view",
     },
   ],
@@ -11610,9 +11898,15 @@ exports[`session page snapshot un_scrum_master_en_or 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "un_scrum_master_en_or",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "un_scrum_master_en_or",
+      },
       "type": "view",
     },
   ],
@@ -11859,9 +12153,15 @@ exports[`session page snapshot vite_une_nouvelle_ere_de_tooling_front 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "vite_une_nouvelle_ere_de_tooling_front",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "vite_une_nouvelle_ere_de_tooling_front",
+      },
       "type": "view",
     },
   ],
@@ -12099,9 +12399,15 @@ exports[`session page snapshot vous_pouvez_venir 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "vous_pouvez_venir",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "vous_pouvez_venir",
+      },
       "type": "view",
     },
   ],
@@ -12299,9 +12605,15 @@ exports[`session page snapshot wolfy 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "wolfy",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "wolfy",
+      },
       "type": "view",
     },
   ],
@@ -12519,9 +12831,15 @@ exports[`session page snapshot yagni_kiss_and_dry 1`] = `
       "find": {
         "coll": "note",
         "projection": undefined,
-        "query": {},
+        "query": {
+          "session": "yagni_kiss_and_dry",
+          "user": "@me",
+        },
       },
       "name": "personnalNotes",
+      "props": {
+        "session": "yagni_kiss_and_dry",
+      },
       "type": "view",
     },
   ],
