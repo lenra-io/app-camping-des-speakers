@@ -1,4 +1,4 @@
-import { Actionable, Container, Flex, Flexible, Image, Text, Wrap, colors } from "@lenra/components";
+import { Actionable, Container, Flex, Flexible, Image, Text, Wrap, colors } from "@lenra/app";
 import { sessions, speakers } from "../../camping-data.js";
 import { buildContentChildren } from "../../utils/contentDescriber.js";
 

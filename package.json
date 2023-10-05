@@ -14,8 +14,7 @@
   "author": "Lenra",
   "license": "MIT",
   "dependencies": {
-    "@lenra/app-server": "^1.0.0-beta.3",
-    "@lenra/components": "^1.0.0-beta.7"
+    "@lenra/app": "^1.0.0"
   },
   "devDependencies": {
     "@moox/markdown-to-json": "^1.0.0",

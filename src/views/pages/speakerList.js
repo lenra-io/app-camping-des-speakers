@@ -1,4 +1,4 @@
-import { Actionable, Container, Flex, Image, Text, Wrap, borderRadius } from "@lenra/components";
+import { Actionable, Container, Flex, Image, Text, Wrap, borderRadius } from "@lenra/app";
 import { speakers, speakersSortedKeys } from "../../camping-data.js";
 
 export default function (_data, _props) {

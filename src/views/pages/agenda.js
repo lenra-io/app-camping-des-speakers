@@ -1,7 +1,6 @@
-import { Actionable, colors, Container, Flex, Flexible, Icon, Image, padding, Text, Toggle, View } from "@lenra/components";
+import { Actionable, colors, Container, Flex, Flexible, Icon, Image, padding, Text, Toggle, View } from "@lenra/app";
 import { days, rooms, sessions, sessionsSortedKeys, speakers } from "../../camping-data.js";
 import { Favorite } from "../../classes/Favorite.js";
-import { listeners, views } from "../../index.gen.js";
 import { openfeedbacks } from "../../openfeedbacks.js";
 
 /**
@@ -27,7 +26,7 @@ export default function ([favorite], _props) {
         Flex([
             Text("Mes sessions favorites"),
             Toggle(favorite?.filter ?? false)
-                .onPressed(listeners.toggleFavoriteFilter),
+                .onPressed("toggleFavoriteFilter"),
         ])
             .mainAxisAlignment("spaceBetween")
             .crossAxisAlignment("center"),
@@ -113,7 +112,7 @@ function sessionCard(session, isFavorite) {
                                             .style(isFavorite ? "rounded" : "outlined")
                                     )
                                         .padding(padding.symmetric(16, 8))
-                                ).onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
+                                ).onPressed("toggleFavorite", { session: session.attributes.key }),
                             ]
                         ).spacing(8),
                     ]

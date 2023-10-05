@@ -1,4 +1,4 @@
-import { Actionable, Container, Flex, Flexible, Image, padding, Text, Wrap } from "@lenra/components";
+import { Actionable, Container, Flex, Flexible, Image, padding, Text, Wrap } from "@lenra/app";
 import { sponsors, sponsorsCatorgories } from "../../camping-data.js";
 
 export default function (_data, _props) {

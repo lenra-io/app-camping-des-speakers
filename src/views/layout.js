@@ -1,5 +1,4 @@
-import { Actionable, Container, Flex, Flexible, Icon, padding, Text, View, Wrap } from "@lenra/components";
-import { views } from "../index.gen.js";
+import { Actionable, Container, Flex, Flexible, Icon, padding, Text, View, Wrap } from "@lenra/app";
 import { sessions, speakers } from "../camping-data.js";
 
 export default function (_data, { page/* , context */, find, maxWidth }, context) {
@@ -9,7 +8,7 @@ export default function (_data, { page/* , context */, find, maxWidth }, context
   if (context) pageView.props({ context });
   if (find) pageView.find(find);
   return Flex([
-    View(views.menu),
+    View("menu"),
     Flexible(
       Flex([
         Container(
@@ -28,7 +27,7 @@ export default function (_data, { page/* , context */, find, maxWidth }, context
         .crossAxisAlignment("center")
         .scroll(true)
     ),
-    View(views.navbar).props({ page }),
+    View("navbar").props({ page }),
   ])
     .direction("vertical")
     .crossAxisAlignment("stretch")
@@ -113,49 +112,49 @@ function getArianeElement(currentElement, index, pathElements, globalPath) {
 
 function pageName(page, context) {
   switch (page) {
-    case views.pages.agenda.toJSON():
+    case "pages.agenda":
       return "Agenda";
-    case views.pages.session:
+    case "pages.session":
       return sessions[context.pathParams.key].attributes.title;
-    case views.pages.speakerList:
+    case "pages.speakerList":
       return "Speakers";
-    case views.pages.speaker:
+    case "pages.speaker":
       return speakers[context.pathParams.key].attributes.name;
-    case views.pages.map:
+    case "pages.map":
       return "Map";
     default:
-      return null;
+      throw new Error(`Unknown page ${page}`);
   }
 }
 
 function pagePath(page, context) {
   switch (page) {
-    case views.pages.agenda.toJSON():
+    case "pages.agenda":
       return "/";
-    case views.pages.session:
+    case "pages.session":
       return `/sessions/${context.pathParams.key}`;
-    case views.pages.speakerList:
+    case "pages.speakerList":
       return "/speakers";
-    case views.pages.speaker:
+    case "pages.speaker":
       return `/speakers/${context.pathParams.key}`;
-    case views.pages.map:
+    case "pages.map":
       return "/map";
     default:
-      return null;
+      throw new Error(`Unknown page ${page}`);
   }
 }
 
 function pathToPage(path) {
   switch (path) {
     case "/":
-      return { page: views.pages.agenda.toJSON() };
+      return { page: "pages.agenda" };
     case "/speakers":
-      return { page: views.pages.speakerList };
+      return { page: "pages.speakerList" };
     case "/map":
-      return { page: views.pages.map };
+      return { page: "pages.map" };
     default:
-      if (path.startsWith("/sessions/")) return { page: views.pages.session, context: { pathParams: { key: path.split("/")[2] } } };
-      if (path.startsWith("/speakers/")) return { page: views.pages.speaker, context: { pathParams: { key: path.split("/")[2] } } };
+      if (path.startsWith("/sessions/")) return { page: "pages.session", context: { pathParams: { key: path.split("/")[2] } } };
+      if (path.startsWith("/speakers/")) return { page: "pages.speaker", context: { pathParams: { key: path.split("/")[2] } } };
       return null;
   }
 }

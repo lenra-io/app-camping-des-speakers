@@ -2,27 +2,29 @@ import { Note } from "../classes/Note.js";
 
 /**
  * 
- * @param {import("@lenra/app-server").props} props 
- * @param {import("@lenra/app-server").event} event 
- * @param {import("@lenra/app-server").Api} api 
+ * @param {import("@lenra/app").props} props 
+ * @param {import("@lenra/app").event} event 
+ * @param {import("@lenra/app").Api} api 
  */
 export async function saveNote(props, event, api) {
+    const collection = api.data.coll(Note);
     if (props._id) {
         props.note = event.value.note;
-        return api.data.updateDoc(props);
+        return collection.updateDoc(props);
     }
-    return api.data.createDoc(new Note(props.session, "@me", event.value.note));
+    return collection.createDoc(new Note(props.session, "@me", event.value.note));
 }
 
 /**
  * 
- * @param {import("@lenra/app-server").props} props 
- * @param {import("@lenra/app-server").event} event 
- * @param {import("@lenra/app-server").Api} api 
+ * @param {import("@lenra/app").props} props 
+ * @param {import("@lenra/app").event} event 
+ * @param {import("@lenra/app").Api} api 
  */
 export async function deleteNote(props, event, api) {
+    const collection = api.data.coll(Note);
     console.log(props);
-    let note = await api.data.getDoc(Note, props._id);
+    let note = await collection.getDoc(props._id);
 
-    return api.data.deleteDoc(note);
+    return collection.deleteDoc(note);
 }

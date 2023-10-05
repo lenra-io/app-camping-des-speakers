@@ -1,24 +1,23 @@
-import { Container, Flex, colors, padding, Icon, Actionable } from "@lenra/components";
-import { views } from "../index.gen.js";
+import { Container, Flex, colors, padding, Icon, Actionable } from "@lenra/app";
 
 /**
- * @type {Array<{icon: import("@lenra/components/dist/component.js").IconName, path: string, pages: Array<string>}>
+ * @type {Array<{icon: import("@lenra/app/dist/component.js").IconName, path: string, pages: Array<import("@lenra/app/dist/lib/gen/names.js").ViewName>}>
  */
 const navButtons = [
   {
     icon: "calendar_today",
     path: "/",
-    pages: [views.pages.agenda.toJSON(), views.pages.session],
+    pages: ["pages.agenda", "pages.session"],
   },
   {
     icon: "group",
     path: "/speakers",
-    pages: [views.pages.speakerList, views.pages.speaker],
+    pages: ["pages.speakerList", "pages.speaker"],
   },
   {
     icon: "map",
     path: "/map",
-    pages: [views.pages.map],
+    pages: ["pages.map"],
   },
   {
     icon: "wb_sunny",
