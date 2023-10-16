@@ -1,10 +1,9 @@
-import { Actionable, Container, Flex, Icon, Text, TextField, View, Wrap, colors, padding } from "@lenra/components";
+import { Actionable, Container, Flex, Icon, Text, TextField, View, Wrap, colors, padding } from "@lenra/app";
 import { days, rooms, sessions, speakers } from "../../camping-data.js";
-import { listeners, views } from "../../index.gen.js";
 import { buildContentChildren } from "../../utils/contentDescriber.js";
 import { openfeedbacks } from "../../openfeedbacks.js";
 import { speakerCard } from "./agenda.js";
-import { DataApi } from "@lenra/app-server";
+import { DataApi } from "@lenra/app";
 import { Note } from "../../classes/Note.js";
 
 export default function ([favorite], /* _props,  */{ context: { pathParams } }) {
@@ -28,7 +27,7 @@ export default function ([favorite], /* _props,  */{ context: { pathParams } }) 
                     .alignment("center")
                     // .maxWidth(120)
                     .padding(padding.symmetric(16, 8))
-            ).onPressed(listeners.toggleFavorite, { session: session.attributes.key }),
+            ).onPressed("toggleFavorite", { session: session.attributes.key }),
             Actionable(
                 Container(
                     Flex([
@@ -45,7 +44,7 @@ export default function ([favorite], /* _props,  */{ context: { pathParams } }) 
             ).onPressed("@lenra:navTo", { path: openfeedbacks[session.attributes.key] }),
         ])
             .spacing(16),
-        View(views.personnalNotes).data(DataApi.collectionName(Note), { user: "@me", session: session.attributes.key }).props({ session: session.attributes.key }),
+        View("personnalNotes").find(Note, { user: "@me", session: session.attributes.key }).props({ session: session.attributes.key }),
     ])
         .direction("vertical")
         .spacing(16)

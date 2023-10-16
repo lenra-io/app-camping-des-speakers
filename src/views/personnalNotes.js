@@ -1,6 +1,6 @@
-import { Actionable, Button, Container, Flex, Form, Icon, Text, TextField, padding, Flexible, colors } from "@lenra/components";
-import { LenraColors } from "@lenra/components/dist/colors.js";
+import { Button, Container, Flex, Form, Icon, Text, TextField, padding, Flexible, colors } from "@lenra/app";
 import { Note } from '../classes/Note.js';
+const { LenraColors } = colors;
 
 /**
  * 
